@@ -1,0 +1,5 @@
+Description,감시 프로그램 종료 시 한번 실행할 스크립트,
+ScanTime,1,False,False,
+Programm,BEGIN,
+
+Programm,END,

@@ -1,0 +1,9 @@
+Description,감시 프로그램 시작 시 한번 실행할 스크립트,
+ScanTime,1,False,False,
+Programm,BEGIN,
+$LOGIN.ID = "USER";
+$LOGIN.PW = "";
+@LogInUserPass($LOGIN.ID, $LOGIN.PW);
+
+@LoadModule("StartUp02_GC_FCA.modx");
+Programm,END,

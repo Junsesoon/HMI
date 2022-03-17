@@ -1,0 +1,1 @@
+SQL,Provider=SQLOLEDB;Data Source=ICHEON-METERING\SQLEXPRESS;User ID=sa;Password=1;Initial Catalog=ICHEON;,SQLServer,OleDb,False

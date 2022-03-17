@@ -1,0 +1,182 @@
+Description,,
+ScanTime,2,False,False,
+Data,int,alarm,40,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,int,gas_sel,1,"0,"
+Data,int,flag,1,"0,"
+Data,int,i,1,"0,"
+Programm,BEGIN,
+if ($GC_AUTO == 1)
+{
+	if (($FC_A.DIG.COMM_ERR == 1) || (($FC_A.DIG.COMM_ERR == 0) && ($FC_B.DIG.COMM_ERR == 0)))
+	{
+		//alarm[0] = $FC_A.RUN1.GC.TOTAL_OVERRANGE;
+		alarm[1] = $FC_A.DIG.GC_A_COMM_ERR;
+		alarm[2] = $FC_A.RUN1.GC.METHANE_H;
+		alarm[3] = $FC_A.RUN1.GC.ETHANE_H;
+		alarm[4] = $FC_A.RUN1.GC.PROPANE_H;
+		alarm[5] = $FC_A.RUN1.GC.I_BUTANE_H;
+		alarm[6] = $FC_A.RUN1.GC.N_BUTANE_H;
+		alarm[7] = $FC_A.RUN1.GC.I_PENTANE_H;
+		alarm[8] = $FC_A.RUN1.GC.N_PENTANE_H;
+		alarm[9] = $FC_A.RUN1.GC.NITROGEN_H;
+		alarm[10] = $FC_A.RUN1.GC.CO2_H;
+		alarm[11] = $FC_A.RUN1.GC.METHANE_L;
+		alarm[12] = $FC_A.RUN1.GC.ETHANE_L;
+		alarm[13] = $FC_A.RUN1.GC.PROPANE_L;
+		alarm[14] = $FC_A.RUN1.GC.I_BUTANE_L;
+		alarm[15] = $FC_A.RUN1.GC.N_BUTANE_L;
+		alarm[16] = $FC_A.RUN1.GC.I_PENTANE_L;
+		alarm[17] = $FC_A.RUN1.GC.N_PENTANE_L;
+		alarm[18] = $FC_A.RUN1.GC.NITROGEN_L;
+		alarm[19] = $FC_A.RUN1.GC.CO2_L;
+		alarm[20] = $FC_A.RUN1.GC.TOTAL_H;
+		alarm[21] = $FC_A.RUN1.GC.TOTAL_L;
+		alarm[22] = $FC_A.RUN1.GC.SCV_H;
+		alarm[23] = $FC_A.RUN1.GC.SCV_L;
+		//alarm[24] = $FC_A.DIG.RUN1.METER_COMM_ERR;
+		//alarm[25] = $FC_A.DIG.RUN2.METER_COMM_ERR;
+		//alarm[26] = $FC_A.DIG.RUN3.METER_COMM_ERR;
+		//alarm[27] = $FC_A.DIG.RUN4.METER_COMM_ERR;
+		//alarm[28] = $FC_A.DIG.GC_A_STATUS;
+		//alarm[29] = $FC_A.RUN1.GC.N_HEXANE_H;
+		//alarm[30] = $FC_A.RUN1.GC.N_HEXANE_L;
+		gas_sel = $FC_A.SEL.RUN1.COMP_SEL1_1;
+	}
+	elseif (($FC_B.DIG.COMM_ERR == 1) && ($FC_A.DIG.COMM_ERR == 0))
+	{
+		//alarm[0] = $FC_B.RUN1.GC.TOTAL_OVERRANGE;
+		alarm[1] = $FC_B.DIG.GC_A_COMM_ERR;
+		alarm[2] = $FC_B.RUN1.GC.METHANE_H;
+		alarm[3] = $FC_B.RUN1.GC.ETHANE_H;
+		alarm[4] = $FC_B.RUN1.GC.PROPANE_H;
+		alarm[5] = $FC_B.RUN1.GC.I_BUTANE_H;
+		alarm[6] = $FC_B.RUN1.GC.N_BUTANE_H;
+		alarm[7] = $FC_B.RUN1.GC.I_PENTANE_H;
+		alarm[8] = $FC_B.RUN1.GC.N_PENTANE_H;
+		alarm[9] = $FC_B.RUN1.GC.NITROGEN_H;
+		alarm[10] = $FC_B.RUN1.GC.CO2_H;
+		alarm[11] = $FC_B.RUN1.GC.METHANE_L;
+		alarm[12] = $FC_B.RUN1.GC.ETHANE_L;
+		alarm[13] = $FC_B.RUN1.GC.PROPANE_L;
+		alarm[14] = $FC_B.RUN1.GC.I_BUTANE_L;
+		alarm[15] = $FC_B.RUN1.GC.N_BUTANE_L;
+		alarm[16] = $FC_B.RUN1.GC.I_PENTANE_L;
+		alarm[17] = $FC_B.RUN1.GC.N_PENTANE_L;
+		alarm[18] = $FC_B.RUN1.GC.NITROGEN_L;
+		alarm[19] = $FC_B.RUN1.GC.CO2_L;
+		alarm[20] = $FC_B.RUN1.GC.TOTAL_H;
+		alarm[21] = $FC_B.RUN1.GC.TOTAL_L;
+		alarm[22] = $FC_B.RUN1.GC.SCV_H;
+		alarm[23] = $FC_B.RUN1.GC.SCV_L;
+		//alarm[24] = $FC_B.DIG.RUN1.METER_COMM_ERR;
+		//alarm[25] = $FC_B.DIG.RUN2.METER_COMM_ERR;
+		//alarm[26] = $FC_B.DIG.RUN3.METER_COMM_ERR;
+		//alarm[27] = $FC_B.DIG.RUN4.METER_COMM_ERR;
+		//alarm[28] = $FC_B.DIG.GC_A_STATUS;
+		//alarm[29] = $FC_A.RUN1.GC.N_HEXANE_H;
+		//alarm[30] = $FC_A.RUN1.GC.N_HEXANE_L;
+		gas_sel = $FC_B.SEL.RUN1.COMP_SEL1_1;
+	}
+
+	flag = 0;
+
+	for (i = 1; i <= 23; i = i + 1)
+	{
+		if (alarm[i] == 1)
+		{
+			flag = flag + 1;
+		}
+	}
+
+	if (flag >= 1)
+	{
+		if (gas_sel == 1)
+		{
+			$GC_A_SWITCH_GC = 0;
+			$GC_A_SWITCH_DEF = 1;
+
+			$FC_A.SEL.RUN1.COMP_SEL1_1 = 0;
+			$FC_A.SEL.RUN2.COMP_SEL1_2 = 0;
+			$FC_A.SEL.RUN3.COMP_SEL1_3 = 0;
+			$FC_A.SEL.RUN4.COMP_SEL1_4 = 0;
+
+			$FC_A.SEL.RUN1.HEAT_SEL1_1 = 5;
+			$FC_A.SEL.RUN2.HEAT_SEL1_2 = 5;
+			$FC_A.SEL.RUN3.HEAT_SEL1_3 = 5;
+			$FC_A.SEL.RUN4.HEAT_SEL1_4 = 5;
+
+			$FC_A.SEL.RUN1.SG_SEL1_1 = 6;
+			$FC_A.SEL.RUN2.SG_SEL1_2 = 6;
+			$FC_A.SEL.RUN3.SG_SEL1_3 = 6;
+			$FC_A.SEL.RUN4.SG_SEL1_4 = 6;
+
+			$FC_B.SEL.RUN1.COMP_SEL1_1 = 0;
+			$FC_B.SEL.RUN2.COMP_SEL1_2 = 0;
+			$FC_B.SEL.RUN3.COMP_SEL1_3 = 0;
+			$FC_B.SEL.RUN4.COMP_SEL1_4 = 0;
+
+			$FC_B.SEL.RUN1.HEAT_SEL1_1 = 5;
+			$FC_B.SEL.RUN2.HEAT_SEL1_2 = 5;
+			$FC_B.SEL.RUN3.HEAT_SEL1_3 = 5;
+			$FC_B.SEL.RUN4.HEAT_SEL1_4 = 5;
+
+			$FC_B.SEL.RUN1.SG_SEL1_1 = 6;
+			$FC_B.SEL.RUN2.SG_SEL1_2 = 6;
+			$FC_B.SEL.RUN3.SG_SEL1_3 = 6;
+			$FC_B.SEL.RUN4.SG_SEL1_4 = 6;
+		}
+
+	}
+	else
+	{
+		if (gas_sel == 0)
+		{
+			$GC_A_SWITCH_GC = 1;
+			$GC_A_SWITCH_DEF = 0;
+
+			$FC_A.SEL.RUN1.COMP_SEL1_1 = 1;
+			$FC_A.SEL.RUN2.COMP_SEL1_2 = 1;
+			$FC_A.SEL.RUN3.COMP_SEL1_3 = 1;
+			$FC_A.SEL.RUN4.COMP_SEL1_4 = 1;
+
+			$FC_A.SEL.RUN1.HEAT_SEL1_1 = 5;
+			$FC_A.SEL.RUN2.HEAT_SEL1_2 = 5;
+			$FC_A.SEL.RUN3.HEAT_SEL1_3 = 5;
+			$FC_A.SEL.RUN4.HEAT_SEL1_4 = 5;
+
+			$FC_A.SEL.RUN1.SG_SEL1_1 = 6;
+			$FC_A.SEL.RUN2.SG_SEL1_2 = 6;
+			$FC_A.SEL.RUN3.SG_SEL1_3 = 6;
+			$FC_A.SEL.RUN4.SG_SEL1_4 = 6;
+
+			$FC_B.SEL.RUN1.COMP_SEL1_1 = 1;
+			$FC_B.SEL.RUN2.COMP_SEL1_2 = 1;
+			$FC_B.SEL.RUN3.COMP_SEL1_3 = 1;
+			$FC_B.SEL.RUN4.COMP_SEL1_4 = 1;
+
+			$FC_B.SEL.RUN1.HEAT_SEL1_1 = 5;
+			$FC_B.SEL.RUN2.HEAT_SEL1_2 = 5;
+			$FC_B.SEL.RUN3.HEAT_SEL1_3 = 5;
+			$FC_B.SEL.RUN4.HEAT_SEL1_4 = 5;
+
+			$FC_B.SEL.RUN1.SG_SEL1_1 = 6;
+			$FC_B.SEL.RUN2.SG_SEL1_2 = 6;
+			$FC_B.SEL.RUN3.SG_SEL1_3 = 6;
+			$FC_B.SEL.RUN4.SG_SEL1_4 = 6;
+		}
+
+	}
+}
+else
+{
+	if ($GC_A_SWITCH_DEF == 1)
+	{
+		$GC_A_SWITCH_DEF = 0;
+	}
+
+	if ($GC_A_SWITCH_GC == 1)
+	{
+		$GC_A_SWITCH_GC = 0;
+	}
+}
+Programm,END,

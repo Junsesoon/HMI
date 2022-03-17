@@ -1,0 +1,11 @@
+Description,,
+ScanTime,1,False,False,
+Data,string,date,1,"0,"
+Data,string,time,1,"0,"
+Programm,BEGIN,
+@sprintf(date, "20%02d-%02d-%02d", $FC_A.YEAR, $FC_A.MONTH, $FC_A.DAY);
+@sprintf(time, "%02d:%02d:%02d", $FC_A.HOUR, $FC_A.MINUTES, $FC_A.SECOND);
+
+$FC_A.DATE = date;
+$FC_A.TIME = time;
+Programm,END,

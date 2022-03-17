@@ -1,0 +1,37 @@
+Description,,
+ScanTime,1,False,False,
+Data,string,changetag,1,"0,"
+Data,int,i,1,"0,"
+Data,string,tagname,1,"0,"
+Data,string,sort1,1,"0,"
+Data,string,sort2,1,"0,"
+Data,string,fc1,1,"0,"
+Data,string,fc2,1,"0,"
+Programm,BEGIN,
+fc1 = "FC_B";
+fc2 = "FC_A";
+sort1 = "MIN";
+sort2 = "PROPANE";
+
+@sprintf(changetag, "%s.RUN1.%s.%s", fc1, sort1, sort2);
+
+for (i = 2; i <= 4; i = i + 1)
+{
+	@sprintf(tagname, "%s.RUN%d.%s.%s", fc1, i, sort1, sort2);
+
+	if (@GetTagValue(changetag) != @GetTagValue(tagname))
+	{
+		@SetTagValue(tagname, @GetTagValue(changetag));
+	}
+}
+
+for (i = 1; i <= 4; i = i + 1)
+{
+	@sprintf(tagname, "%s.RUN%d.%s.%s", fc2, i, sort1, sort2);
+
+	if (@GetTagValue(changetag) != @GetTagValue(tagname))
+	{
+		@SetTagValue(tagname, @GetTagValue(changetag));
+	}
+}
+Programm,END,

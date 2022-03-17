@@ -1,0 +1,199 @@
+Description,Monthly Report Insert Data,
+ScanTime,60,False,False,
+Data,int,year,1,"0,"
+Data,int,month,1,"0,"
+Data,int,day,1,"0,"
+Data,int,hour,1,"0,"
+Data,int,min,1,"0,"
+Data,string,sql_year,1,"0,"
+Data,string,sql_date,1,"0,"
+Data,string,sql_insert,1,"0,"
+Data,string,sql_insert2,1,"0,"
+Data,int,ROUND_DOWN,15,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,REAL_NUM,15,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,REAL_NUM_SUM,15,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,string,MON_TAG,15,"0,,,,,,,,,,,,,,,"
+Data,double,MON_TAG_REAL,15,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,ROUND_DOWN3,25,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,REAL_NUM3,25,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,REAL_NUM_SUM3,25,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,string,MON_TAG3,25,"0,,,,,,,,,,,,,,,,,,,,,,,,,"
+Data,double,MON_TAG_REAL3,25,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,int,i,1,"0,"
+Data,int,k,1,"0,"
+Data,string,buf_query,1,"0,"
+Data,string,connection_id,1,"0,"
+Data,int,count,1,"0,"
+Programm,BEGIN,
+year = @GetDateYear();
+month = @GetDateMon();
+day = @GetDateDay();
+hour = @GetTimeHour();
+min = @GetTimeMin();
+
+if ((((day == 1) && (hour == 0) && (min >= 2)) || ((day == 1) && (hour > 0)) || (day > 1)) && (($REPORT.SCRIPT.MONTHLY.YEAR != year) || ($REPORT.SCRIPT.MONTHLY.MONTH != month)))
+{
+
+	@TimeMinusMon(year,month);
+
+	@sprintf(sql_year, "%04d", year);
+
+	@sprintf(sql_date, "%04d-%02d", year, month);
+
+	@sprintf(buf_query,"SELECT * FROM FCA_MONTHLY WHERE YEAR = '%s' AND DATE = '%s'", sql_year, sql_date);
+	connection_id = @DbDsOpen("SQL",buf_query);
+	count = @DbDsGetRowCount(connection_id);
+
+	@DbDsClose(connection_id);
+
+	if (count < 1)
+	{
+
+	@sprintf(buf_query,"SELECT * FROM FLOAT_1 WHERE NO = 3");
+	connection_id = @DbDsOpen("SQL",buf_query);
+
+	MON_TAG[0] = "FC_A.RUN1.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[0] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_VOL_1", 0));
+	MON_TAG[1] = "FC_A.RUN2.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[1] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_VOL_2", 0));
+	MON_TAG[2] = "FC_A.RUN3.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[2] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_VOL_3", 0));
+	MON_TAG[3] = "FC_A.RUN4.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[3] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_VOL_4", 0));
+	MON_TAG[4] = "FC_A.STN.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[4] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_VOL_S", 0));
+
+	MON_TAG[5] = "FC_B.RUN1.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[5] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_VOL_1", 0));
+	MON_TAG[6] = "FC_B.RUN2.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[6] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_VOL_2", 0));
+	MON_TAG[7] = "FC_B.RUN3.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[7] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_VOL_3", 0));
+	MON_TAG[8] = "FC_B.RUN4.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[8] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_VOL_4", 0));
+	MON_TAG[9] = "FC_B.STN.ACC.PRV.MON_VOL_FLOW";
+	MON_TAG_REAL[9] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_VOL_S", 0));
+
+
+	MON_TAG3[0] = "FC_A.RUN1.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[0] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_MASS_1", 0));
+	MON_TAG3[1] = "FC_A.RUN2.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[1] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_MASS_2", 0));
+	MON_TAG3[2] = "FC_A.RUN3.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[2] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_MASS_3", 0));
+	MON_TAG3[3] = "FC_A.RUN4.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[3] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_MASS_4", 0));
+	MON_TAG3[4] = "FC_A.STN.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[4] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_MASS_S", 0));
+
+	MON_TAG3[5] = "FC_B.RUN1.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[5] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_MASS_1", 0));
+	MON_TAG3[6] = "FC_B.RUN2.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[6] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_MASS_2", 0));
+	MON_TAG3[7] = "FC_B.RUN3.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[7] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_MASS_3", 0));
+	MON_TAG3[8] = "FC_B.RUN4.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[8] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_MASS_4", 0));
+	MON_TAG3[9] = "FC_B.STN.ACC.PRV.MON_MASS_FLOW";
+	MON_TAG_REAL3[9] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_MASS_S", 0));
+
+
+	MON_TAG3[10] = "FC_A.RUN1.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[10] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_ENE_1", 0));
+	MON_TAG3[11] = "FC_A.RUN2.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[11] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_ENE_2", 0));
+	MON_TAG3[12] = "FC_A.RUN3.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[12] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_ENE_3", 0));
+	MON_TAG3[13] = "FC_A.RUN4.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[13] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_ENE_4", 0));
+	MON_TAG3[14] = "FC_A.STN.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[14] = @atof(@DbDsGetRowData(connection_id, "A_HOUR_ENE_S", 0));
+
+	MON_TAG3[15] = "FC_B.RUN1.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[15] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_ENE_1", 0));
+	MON_TAG3[16] = "FC_B.RUN2.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[16] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_ENE_2", 0));
+	MON_TAG3[17] = "FC_B.RUN3.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[17] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_ENE_3", 0));
+	MON_TAG3[18] = "FC_B.RUN4.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[18] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_ENE_4", 0));
+	MON_TAG3[19] = "FC_B.STN.ACC.PRV.MON_ENE_FLOW";
+	MON_TAG_REAL3[19] = @atof(@DbDsGetRowData(connection_id, "B_HOUR_ENE_S", 0));
+
+	@DbDsClose(connection_id);
+
+	for (i = 0; i <= 9; i = i + 1)
+	{
+		ROUND_DOWN[i] = @MathFloor(@GetTagValue(MON_TAG[i]));
+		REAL_NUM[i] = @GetTagValue(MON_TAG[i]) - ROUND_DOWN[i];
+		REAL_NUM_SUM[i] = MON_TAG_REAL[i] + REAL_NUM[i];
+
+		if (REAL_NUM_SUM[i] >= 1)
+		{
+			MON_TAG_REAL[i] = REAL_NUM_SUM[i] - 1;
+			ROUND_DOWN[i] = ROUND_DOWN[i] + 1;
+		}
+		else
+		{
+			MON_TAG_REAL[i] = REAL_NUM_SUM[i];
+		}
+	}
+
+
+	for (k = 0; k <= 19; k = k + 1)
+	{
+		ROUND_DOWN3[k] = @MathFloor(@GetTagValue(MON_TAG3[k]) * 1000);
+		REAL_NUM3[k] = (@GetTagValue(MON_TAG3[k]) * 1000) - ROUND_DOWN3[k];
+		REAL_NUM_SUM3[k] = MON_TAG_REAL3[k] + REAL_NUM3[k];
+		
+		if (REAL_NUM_SUM3[k] >= 1)
+		{
+			MON_TAG_REAL3[k] = REAL_NUM_SUM3[k] - 1;
+			ROUND_DOWN3[k] = (ROUND_DOWN3[k] + 1) / 1000;
+		}
+		else
+		{
+			MON_TAG_REAL3[k] = REAL_NUM_SUM3[k];
+			ROUND_DOWN3[k] = ROUND_DOWN3[k] / 1000;
+		}
+	}
+
+	@sprintf(sql_insert,"INSERT INTO FCA_MONTHLY (YEAR,DATE,MONTH_VOL_1,MONTH_MASS_1,MONTH_ENE_1,MONTH_VOL_2,MONTH_MASS_2,MONTH_ENE_2,MONTH_VOL_3,MONTH_MASS_3,MONTH_ENE_3,MONTH_VOL_4,MONTH_MASS_4,MONTH_ENE_4,MONTH_VOL_TOT,MONTH_MASS_TOT,MONTH_ENE_TOT) VALUES('%s', '%s', %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f)", sql_year, sql_date, ROUND_DOWN[0], ROUND_DOWN3[0], ROUND_DOWN3[10], ROUND_DOWN[1], ROUND_DOWN3[1], ROUND_DOWN3[11], ROUND_DOWN[2], ROUND_DOWN3[2], ROUND_DOWN3[12], ROUND_DOWN[3], ROUND_DOWN3[3], ROUND_DOWN3[13], ROUND_DOWN[4], ROUND_DOWN3[4], ROUND_DOWN3[14]);
+	@sprintf(sql_insert2,"INSERT INTO FCB_MONTHLY (YEAR,DATE,MONTH_VOL_1,MONTH_MASS_1,MONTH_ENE_1,MONTH_VOL_2,MONTH_MASS_2,MONTH_ENE_2,MONTH_VOL_3,MONTH_MASS_3,MONTH_ENE_3,MONTH_VOL_4,MONTH_MASS_4,MONTH_ENE_4,MONTH_VOL_TOT,MONTH_MASS_TOT,MONTH_ENE_TOT) VALUES('%s', '%s', %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f)", sql_year, sql_date, ROUND_DOWN[5], ROUND_DOWN3[5], ROUND_DOWN3[15], ROUND_DOWN[6], ROUND_DOWN3[6], ROUND_DOWN3[16], ROUND_DOWN[7], ROUND_DOWN3[7], ROUND_DOWN3[17], ROUND_DOWN[8], ROUND_DOWN3[8], ROUND_DOWN3[18], ROUND_DOWN[9], ROUND_DOWN3[9], ROUND_DOWN3[19]);
+
+	@DbCommand("SQL", sql_insert);
+	@DbCommand("SQL", sql_insert2);
+
+	@sprintf(sql_insert,"UPDATE FLOAT_1 SET NO=3, A_HOUR_VOL_1=%f, A_HOUR_VOL_2=%f, A_HOUR_VOL_3=%f, A_HOUR_VOL_4=%f, A_HOUR_VOL_S=%f, B_HOUR_VOL_1=%f, B_HOUR_VOL_2=%f, B_HOUR_VOL_3=%f, B_HOUR_VOL_4=%f, B_HOUR_VOL_S=%f, A_HOUR_MASS_1=%f, A_HOUR_MASS_2=%f, A_HOUR_MASS_3=%f, A_HOUR_MASS_4=%f, A_HOUR_MASS_S=%f, B_HOUR_MASS_1=%f, B_HOUR_MASS_2=%f, B_HOUR_MASS_3=%f, B_HOUR_MASS_4=%f, B_HOUR_MASS_S=%f, A_HOUR_ENE_1=%f, A_HOUR_ENE_2=%f, A_HOUR_ENE_3=%f, A_HOUR_ENE_4=%f, A_HOUR_ENE_S=%f, B_HOUR_ENE_1=%f, B_HOUR_ENE_2=%f, B_HOUR_ENE_3=%f, B_HOUR_ENE_4=%f, B_HOUR_ENE_S=%f WHERE NO = 3", MON_TAG_REAL[0], MON_TAG_REAL[1], MON_TAG_REAL[2], MON_TAG_REAL[3], MON_TAG_REAL[4], MON_TAG_REAL[5], MON_TAG_REAL[6], MON_TAG_REAL[7], MON_TAG_REAL[8], MON_TAG_REAL[9], MON_TAG_REAL3[0], MON_TAG_REAL3[1], MON_TAG_REAL3[2], MON_TAG_REAL3[3], MON_TAG_REAL3[4], MON_TAG_REAL3[5], MON_TAG_REAL3[6], MON_TAG_REAL3[7], MON_TAG_REAL3[8], MON_TAG_REAL3[9], MON_TAG_REAL3[10], MON_TAG_REAL3[11], MON_TAG_REAL3[12], MON_TAG_REAL3[13], MON_TAG_REAL3[14], MON_TAG_REAL3[15], MON_TAG_REAL3[16], MON_TAG_REAL3[17], MON_TAG_REAL3[18], MON_TAG_REAL3[19]);
+	@DbCommand("SQL", sql_insert);
+
+	$REPORT.SCRIPT.MONTHLY.YEAR = @GetDateYear();
+	$REPORT.SCRIPT.MONTHLY.MONTH = @GetDateMon();
+
+
+	@sprintf(buf_query,"SELECT * FROM RPT_MONTHLY_SUM WHERE DATE = '%s'", sql_date);
+	connection_id = @DbDsOpen("SQL",buf_query);
+	count = @DbDsGetRowCount(connection_id);
+	@DbDsClose(connection_id);
+
+	if (count < 1)
+	{
+		@sprintf(sql_insert,"INSERT INTO RPT_MONTHLY_SUM (DATE,A_VOL_1,A_MASS_1,A_ENE_1,A_VOL_2,A_MASS_2,A_ENE_2,A_VOL_3,A_MASS_3,A_ENE_3,A_VOL_4,A_MASS_4,A_ENE_4,A_VOL_TOT,A_MASS_TOT,A_ENE_TOT,B_VOL_1,B_MASS_1,B_ENE_1,B_VOL_2,B_MASS_2,B_ENE_2,B_VOL_3,B_MASS_3,B_ENE_3,B_VOL_4,B_MASS_4,B_ENE_4,B_VOL_TOT,B_MASS_TOT,B_ENE_TOT) VALUES('%s', %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f, %f)", sql_date, ROUND_DOWN[0], ROUND_DOWN3[0], ROUND_DOWN3[10], ROUND_DOWN[1], ROUND_DOWN3[1], ROUND_DOWN3[11], ROUND_DOWN[2], ROUND_DOWN3[2], ROUND_DOWN3[12], ROUND_DOWN[3], ROUND_DOWN3[3], ROUND_DOWN3[13], ROUND_DOWN[4], ROUND_DOWN3[4], ROUND_DOWN3[14], ROUND_DOWN[5], ROUND_DOWN3[5], ROUND_DOWN3[15], ROUND_DOWN[6], ROUND_DOWN3[6], ROUND_DOWN3[16], ROUND_DOWN[7], ROUND_DOWN3[7], ROUND_DOWN3[17], ROUND_DOWN[8], ROUND_DOWN3[8], ROUND_DOWN3[18], ROUND_DOWN[9], ROUND_DOWN3[9], ROUND_DOWN3[19]);
+		@DbCommand("SQL", sql_insert);
+	}
+	else
+	{
+		@sprintf(sql_insert,"UPDATE RPT_MONTHLY_SUM SET A_VOL_1=%f, A_MASS_1=%f, A_ENE_1=%f, A_VOL_2=%f, A_MASS_2=%f, A_ENE_2=%f, A_VOL_3=%f, A_MASS_3=%f, A_ENE_3=%f, A_VOL_4=%f, A_MASS_4=%f, A_ENE_4=%f, A_VOL_TOT=%f, A_MASS_TOT=%f, A_ENE_TOT=%f, B_VOL_1=%f, B_MASS_1=%f, B_ENE_1=%f, B_VOL_2=%f, B_MASS_2=%f, B_ENE_2=%f, B_VOL_3=%f, B_MASS_3=%f, B_ENE_3=%f, B_VOL_4=%f, B_MASS_4=%f, B_ENE_4=%f, B_VOL_TOT=%f, B_MASS_TOT=%f, B_ENE_TOT=%f WHERE DATE = '%s'", ROUND_DOWN[0], ROUND_DOWN3[0], ROUND_DOWN3[10], ROUND_DOWN[1], ROUND_DOWN3[1], ROUND_DOWN3[11], ROUND_DOWN[2], ROUND_DOWN3[2], ROUND_DOWN3[12], ROUND_DOWN[3], ROUND_DOWN3[3], ROUND_DOWN3[13], ROUND_DOWN[4], ROUND_DOWN3[4], ROUND_DOWN3[14],ROUND_DOWN[5], ROUND_DOWN3[5], ROUND_DOWN3[15], ROUND_DOWN[6], ROUND_DOWN3[6], ROUND_DOWN3[16], ROUND_DOWN[7], ROUND_DOWN3[7], ROUND_DOWN3[17], ROUND_DOWN[8], ROUND_DOWN3[8], ROUND_DOWN3[18], ROUND_DOWN[9], ROUND_DOWN3[9], ROUND_DOWN3[19], sql_date);
+		@DbCommand("SQL", sql_insert);
+	}
+	}
+	else
+	{
+		return;
+	}
+}
+else
+{
+	return;
+}
+Programm,END,

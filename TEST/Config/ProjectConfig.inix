@@ -1,0 +1,13 @@
+﻿[Date Information]
+Last Used=2022-03-16 16:01:13
+[Information]
+Title=TEST
+[Config]
+Platform=0
+[RunMain_ControlBox]
+bUserControlBoxUseAnalogModule=False
+bUserControlBoxUseDigitalModule=False
+bUserControlBoxUseStringModule=False
+sUserControlBoxAnalogModule=
+sUserControlBoxDigitalModule=
+sUserControlBoxStringModule=

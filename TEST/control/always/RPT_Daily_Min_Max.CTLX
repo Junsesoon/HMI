@@ -1,0 +1,440 @@
+Description,Min Max Value Save,
+ScanTime,11,False,False,
+Data,int,year,1,"0,"
+Data,int,month,1,"0,"
+Data,int,day,1,"0,"
+Data,int,hour,1,"0,"
+Data,int,min,1,"0,"
+Data,int,sec,1,"0,"
+Data,double,COMP_VAL1,10,"0,0,0,0,0,0,0,0,0,0,"
+Data,double,MAX_VAL1,1,"0,"
+Data,int,MAX_INDEX1,1,"0,"
+Data,int,i,1,"0,"
+Data,double,VOL_TOT,10,"0,0,0,0,0,0,0,0,0,0,"
+Data,double,MASS_TOT,10,"0,0,0,0,0,0,0,0,0,0,"
+Data,double,ENE_TOT,10,"0,0,0,0,0,0,0,0,0,0,"
+Data,double,MIN_VAL1,1,"0,"
+Data,int,MIN_INDEX1,1,"0,"
+Data,string,DATE_SAVE,1,"0,"
+Data,string,MIN_MAX_DATE,1,"0,"
+Data,string,buf_query,1,"0,"
+Data,string,connection_id,1,"0,"
+Data,int,count,1,"0,"
+Data,string,sql_insert,1,"0,"
+Data,string,DB_MAX_DATE,20,"0,,,,,,,,,,,,,,,,,,,,"
+Data,double,DB_MAX_VOL,20,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,DB_MAX_MASS,20,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,DB_MAX_ENE,20,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,string,DB_MIN_DATE,20,"0,,,,,,,,,,,,,,,,,,,,"
+Data,double,DB_MIN_VOL,20,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,DB_MIN_MASS,20,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,DB_MIN_ENE,20,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,double,CURRENT_VOL,10,"0,0,0,0,0,0,0,0,0,0,"
+Data,double,CURRENT_MASS,10,"0,0,0,0,0,0,0,0,0,0,"
+Data,double,CURRENT_ENE,10,"0,0,0,0,0,0,0,0,0,0,"
+Data,string,TAG_TOT,1,"0,"
+Programm,BEGIN,
+year = @GetDateYear();
+month = @GetDateMon();
+day = @GetDateDay();
+hour = @GetTimeHour();
+min = @GetTimeMin();
+sec = @GetTimeSec();
+
+//if ((min != 59) || ((min == 59) && (sec >= 0) && (sec <= 56)))
+//{
+	//year = @GetDateYear();
+	//month = @GetDateMon();
+	//day = @GetDateDay();
+	//hour = @GetTimeHour();
+	//min = @GetTimeMin();
+	//sec = @GetTimeSec();
+
+	//@sprintf(DATE_SAVE,"%04d%02d%02d", year, month, day);
+
+/////////////////////////////////////////////////////////////////////FC-A/////////////////////////////////////////////////////////////////////
+
+	COMP_VAL1[1] = $FC_A.RUN1.VOL_FLOW;
+	COMP_VAL1[2] = $FC_A.RUN2.VOL_FLOW;
+	COMP_VAL1[3] = $FC_A.RUN3.VOL_FLOW;
+	COMP_VAL1[4] = $FC_A.RUN4.VOL_FLOW;
+
+	MAX_VAL1 = COMP_VAL1[1];
+	MAX_INDEX1 = 1;
+
+	for (i = 2; i <= 3; i = i + 1)
+	{
+		if (MAX_VAL1 < COMP_VAL1[i])
+		{
+			MAX_VAL1 = COMP_VAL1[i];
+			MAX_INDEX1 = i;
+		}
+	}
+
+	VOL_TOT[1] = MAX_VAL1;
+	@sprintf(TAG_TOT, "FC_A.RUN%d.MASS_FLOW", MAX_INDEX1);
+	MASS_TOT[1] = @GetTagValue(TAG_TOT);
+	@sprintf(TAG_TOT, "FC_A.RUN%d.ENE_FLOW", MAX_INDEX1);
+	ENE_TOT[1] = @GetTagValue(TAG_TOT);
+
+	MIN_VAL1 = COMP_VAL1[1];
+	MIN_INDEX1 = 1;
+
+	for (i = 2; i <= 3; i = i + 1)
+	{
+		if (MIN_VAL1 > COMP_VAL1[i])
+		{
+			MIN_VAL1 = COMP_VAL1[i];
+			MIN_INDEX1 = i;
+		}
+	}
+
+	VOL_TOT[2] = MIN_VAL1;
+	@sprintf(TAG_TOT, "FC_A.RUN%d.MASS_FLOW", MIN_INDEX1);
+	MASS_TOT[2] = @GetTagValue(TAG_TOT);
+	@sprintf(TAG_TOT, "FC_A.RUN%d.ENE_FLOW", MIN_INDEX1);
+	ENE_TOT[2] = @GetTagValue(TAG_TOT);
+
+	@sprintf(DATE_SAVE, "%04d%02d%02d", year, month, day);
+	@sprintf(MIN_MAX_DATE, "%04d-%02d-%02d %02d:%02d:%02d", year, month, day, hour, min, sec);
+	@sprintf(buf_query,"SELECT * FROM FCA_MIN_MAX WHERE TYPE = 0 AND DATE_SAVE = '%04d%02d%02d'", year, month, day);
+	connection_id = @DbDsOpen("SQL",buf_query);
+	count = @DbDsGetRowCount(connection_id);
+	
+	//if (count >= 1)
+	if (count < 1)
+	{
+		@DbDsClose(connection_id);
+
+		//TYPE(Day : 0, Month : 1, Year : 2)
+
+		@sprintf(sql_insert,"INSERT INTO FCA_MIN_MAX (TYPE,DATE_SAVE,DATE_MAX_1,MAX_VOL_1,MAX_MASS_1,MAX_ENE_1,DATE_MIN_1,MIN_VOL_1,MIN_MASS_1,MIN_ENE_1,DATE_MAX_2,MAX_VOL_2,MAX_MASS_2,MAX_ENE_2,DATE_MIN_2,MIN_VOL_2,MIN_MASS_2,MIN_ENE_2,DATE_MAX_3,MAX_VOL_3,MAX_MASS_3,MAX_ENE_3,DATE_MIN_3,MIN_VOL_3,MIN_MASS_3,MIN_ENE_3,DATE_MAX_4,MAX_VOL_4,MAX_MASS_4,MAX_ENE_4,DATE_MIN_4,MIN_VOL_4,MIN_MASS_4,MIN_ENE_4,DATE_MAX_TOT,MAX_VOL_TOT,MAX_MASS_TOT,MAX_ENE_TOT,DATE_MIN_TOT,MIN_VOL_TOT,MIN_MASS_TOT,MIN_ENE_TOT) VALUES(%d, '%s', '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f)", 0, DATE_SAVE, MIN_MAX_DATE, $FC_A.RUN1.VOL_FLOW, $FC_A.RUN1.MASS_FLOW, $FC_A.RUN1.ENE_FLOW, MIN_MAX_DATE, $FC_A.RUN1.VOL_FLOW, $FC_A.RUN1.MASS_FLOW, $FC_A.RUN1.ENE_FLOW, MIN_MAX_DATE, $FC_A.RUN2.VOL_FLOW, $FC_A.RUN2.MASS_FLOW, $FC_A.RUN2.ENE_FLOW, MIN_MAX_DATE, $FC_A.RUN2.VOL_FLOW, $FC_A.RUN2.MASS_FLOW, $FC_A.RUN2.ENE_FLOW, MIN_MAX_DATE, $FC_A.RUN3.VOL_FLOW, $FC_A.RUN3.MASS_FLOW, $FC_A.RUN3.ENE_FLOW, MIN_MAX_DATE, $FC_A.RUN3.VOL_FLOW, $FC_A.RUN3.MASS_FLOW, $FC_A.RUN3.ENE_FLOW, MIN_MAX_DATE, $FC_A.RUN4.VOL_FLOW, $FC_A.RUN4.MASS_FLOW, $FC_A.RUN4.ENE_FLOW, MIN_MAX_DATE, $FC_A.RUN4.VOL_FLOW, $FC_A.RUN4.MASS_FLOW, $FC_A.RUN4.ENE_FLOW, MIN_MAX_DATE, VOL_TOT[1], MASS_TOT[1], ENE_TOT[1], MIN_MAX_DATE, VOL_TOT[2], MASS_TOT[2], ENE_TOT[2]);
+		@DbCommand("SQL", sql_insert);
+	}
+	else
+	{
+		DB_MAX_DATE[1] = @DbDsGetRowData(connection_id, "DATE_MAX_1", 0);
+		DB_MAX_DATE[2] = @DbDsGetRowData(connection_id, "DATE_MAX_2", 0);
+		DB_MAX_DATE[3] = @DbDsGetRowData(connection_id, "DATE_MAX_3", 0);
+		DB_MAX_DATE[4] = @DbDsGetRowData(connection_id, "DATE_MAX_4", 0);
+		DB_MAX_DATE[5] = @DbDsGetRowData(connection_id, "DATE_MAX_TOT", 0);
+
+		DB_MAX_VOL[1] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_1", 0));
+		DB_MAX_VOL[2] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_2", 0));
+		DB_MAX_VOL[3] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_3", 0));
+		DB_MAX_VOL[4] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_4", 0));
+		DB_MAX_VOL[5] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_TOT", 0));
+
+		DB_MAX_MASS[1] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_1", 0));
+		DB_MAX_MASS[2] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_2", 0));
+		DB_MAX_MASS[3] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_3", 0));
+		DB_MAX_MASS[4] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_4", 0));
+		DB_MAX_MASS[5] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_TOT", 0));
+
+		DB_MAX_ENE[1] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_1", 0));
+		DB_MAX_ENE[2] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_2", 0));
+		DB_MAX_ENE[3] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_3", 0));
+		DB_MAX_ENE[4] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_4", 0));
+		DB_MAX_ENE[5] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_TOT", 0));
+
+		DB_MIN_DATE[1] = @DbDsGetRowData(connection_id, "DATE_MIN_1", 0);
+		DB_MIN_DATE[2] = @DbDsGetRowData(connection_id, "DATE_MIN_2", 0);
+		DB_MIN_DATE[3] = @DbDsGetRowData(connection_id, "DATE_MIN_3", 0);
+		DB_MIN_DATE[4] = @DbDsGetRowData(connection_id, "DATE_MIN_4", 0);
+		DB_MIN_DATE[5] = @DbDsGetRowData(connection_id, "DATE_MIN_TOT", 0);
+
+		DB_MIN_VOL[1] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_1", 0));
+		DB_MIN_VOL[2] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_2", 0));
+		DB_MIN_VOL[3] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_3", 0));
+		DB_MIN_VOL[4] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_4", 0));
+		DB_MIN_VOL[5] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_TOT", 0));
+
+		DB_MIN_MASS[1] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_1", 0));
+		DB_MIN_MASS[2] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_2", 0));
+		DB_MIN_MASS[3] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_3", 0));
+		DB_MIN_MASS[4] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_4", 0));
+		DB_MIN_MASS[5] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_TOT", 0));
+
+		DB_MIN_ENE[1] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_1", 0));
+		DB_MIN_ENE[2] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_2", 0));
+		DB_MIN_ENE[3] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_3", 0));
+		DB_MIN_ENE[4] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_4", 0));
+		DB_MIN_ENE[5] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_TOT", 0));
+
+		@DbDsClose(connection_id);
+
+		CURRENT_VOL[1] = $FC_A.RUN1.VOL_FLOW;
+		CURRENT_VOL[2] = $FC_A.RUN2.VOL_FLOW;
+		CURRENT_VOL[3] = $FC_A.RUN3.VOL_FLOW;
+		CURRENT_VOL[4] = $FC_A.RUN4.VOL_FLOW;
+
+		CURRENT_MASS[1] = $FC_A.RUN1.MASS_FLOW;
+		CURRENT_MASS[2] = $FC_A.RUN2.MASS_FLOW;
+		CURRENT_MASS[3] = $FC_A.RUN3.MASS_FLOW;
+		CURRENT_MASS[4] = $FC_A.RUN4.MASS_FLOW;
+
+		CURRENT_ENE[1] = $FC_A.RUN1.ENE_FLOW;
+		CURRENT_ENE[2] = $FC_A.RUN2.ENE_FLOW;
+		CURRENT_ENE[3] = $FC_A.RUN3.ENE_FLOW;
+		CURRENT_ENE[4] = $FC_A.RUN4.ENE_FLOW;
+
+		for (i = 1; i <= 3; i = i + 1)
+		{
+			if (CURRENT_VOL[i] > DB_MAX_VOL[i])
+			{
+				DB_MAX_DATE[i+10] = MIN_MAX_DATE;
+				DB_MAX_VOL[i+10] = CURRENT_VOL[i];
+				DB_MAX_MASS[i+10] = CURRENT_MASS[i];
+				DB_MAX_ENE[i+10] = CURRENT_ENE[i];
+			}
+			else
+			{
+				DB_MAX_DATE[i+10] = DB_MAX_DATE[i];
+				DB_MAX_VOL[i+10] = DB_MAX_VOL[i];
+				DB_MAX_MASS[i+10] = DB_MAX_MASS[i];
+				DB_MAX_ENE[i+10] = DB_MAX_ENE[i];
+			}
+
+			if (CURRENT_VOL[i] < DB_MIN_VOL[i])
+			{
+				DB_MIN_DATE[i+10] = MIN_MAX_DATE;
+				DB_MIN_VOL[i+10] = CURRENT_VOL[i];
+				DB_MIN_MASS[i+10] = CURRENT_MASS[i];
+				DB_MIN_ENE[i+10] = CURRENT_ENE[i];
+			}
+			else
+			{
+				DB_MIN_DATE[i+10] = DB_MIN_DATE[i];
+				DB_MIN_VOL[i+10] = DB_MIN_VOL[i];
+				DB_MIN_MASS[i+10] = DB_MIN_MASS[i];
+				DB_MIN_ENE[i+10] = DB_MIN_ENE[i];
+			}
+		}
+
+		if (VOL_TOT[1] > DB_MAX_VOL[5])
+		{
+			DB_MAX_DATE[15] = MIN_MAX_DATE;
+			DB_MAX_VOL[15] = VOL_TOT[1];
+			DB_MAX_MASS[15] = MASS_TOT[1];
+			DB_MAX_ENE[15] = ENE_TOT[1];
+		}
+		else
+		{
+			DB_MAX_DATE[15] = DB_MAX_DATE[5];
+			DB_MAX_VOL[15] = DB_MAX_VOL[5];
+			DB_MAX_MASS[15] = DB_MAX_MASS[5];
+			DB_MAX_ENE[15] = DB_MAX_ENE[5];
+		}
+
+		if (VOL_TOT[2] < DB_MIN_VOL[5])
+		{
+			DB_MIN_DATE[15] = MIN_MAX_DATE;
+			DB_MIN_VOL[15] = VOL_TOT[2];
+			DB_MIN_MASS[15] = MASS_TOT[2];
+			DB_MIN_ENE[15] = ENE_TOT[2];
+		}
+		else
+		{
+			DB_MIN_DATE[15] = DB_MIN_DATE[5];
+			DB_MIN_VOL[15] = DB_MIN_VOL[5];
+			DB_MIN_MASS[15] = DB_MIN_MASS[5];
+			DB_MIN_ENE[15] = DB_MIN_ENE[5];
+		}
+
+		@sprintf(sql_insert,"UPDATE FCA_MIN_MAX SET TYPE=0, DATE_SAVE='%s', DATE_MAX_1='%s', MAX_VOL_1=%f, MAX_MASS_1=%f, MAX_ENE_1=%f, DATE_MIN_1='%s', MIN_VOL_1=%f, MIN_MASS_1=%f, MIN_ENE_1=%f, DATE_MAX_2='%s', MAX_VOL_2=%f, MAX_MASS_2=%f, MAX_ENE_2=%f, DATE_MIN_2='%s', MIN_VOL_2=%f, MIN_MASS_2=%f, MIN_ENE_2=%f, DATE_MAX_3='%s', MAX_VOL_3=%f, MAX_MASS_3=%f, MAX_ENE_3=%f, DATE_MIN_3='%s', MIN_VOL_3=%f, MIN_MASS_3=%f, MIN_ENE_3=%f, DATE_MAX_4='%s', MAX_VOL_4=%f, MAX_MASS_4=%f, MAX_ENE_4=%f, DATE_MIN_4='%s', MIN_VOL_4=%f, MIN_MASS_4=%f, MIN_ENE_4=%f, DATE_MAX_TOT='%s', MAX_VOL_TOT=%f, MAX_MASS_TOT=%f, MAX_ENE_TOT=%f, DATE_MIN_TOT='%s', MIN_VOL_TOT=%f, MIN_MASS_TOT=%f, MIN_ENE_TOT=%f WHERE DATE_SAVE = '%04d%02d%02d'", DATE_SAVE, DB_MAX_DATE[11], DB_MAX_VOL[11], DB_MAX_MASS[11], DB_MAX_ENE[11], DB_MIN_DATE[11], DB_MIN_VOL[11], DB_MIN_MASS[11], DB_MIN_ENE[11], DB_MAX_DATE[12], DB_MAX_VOL[12], DB_MAX_MASS[12], DB_MAX_ENE[12], DB_MIN_DATE[12], DB_MIN_VOL[12], DB_MIN_MASS[12], DB_MIN_ENE[12], DB_MAX_DATE[13], DB_MAX_VOL[13], DB_MAX_MASS[13], DB_MAX_ENE[13], DB_MIN_DATE[13], DB_MIN_VOL[13], DB_MIN_MASS[13], DB_MIN_ENE[13], DB_MAX_DATE[14], DB_MAX_VOL[14], DB_MAX_MASS[14], DB_MAX_ENE[14], DB_MIN_DATE[14], DB_MIN_VOL[14], DB_MIN_MASS[14], DB_MIN_ENE[14], DB_MAX_DATE[15], DB_MAX_VOL[15], DB_MAX_MASS[15], DB_MAX_ENE[15], DB_MIN_DATE[15], DB_MIN_VOL[15], DB_MIN_MASS[15], DB_MIN_ENE[15], year, month, day);
+		@DbCommand("SQL", sql_insert);
+	}
+
+/////////////////////////////////////////////////////////////////////FC-B/////////////////////////////////////////////////////////////////////
+
+	COMP_VAL1[1] = $FC_B.RUN1.VOL_FLOW;
+	COMP_VAL1[2] = $FC_B.RUN2.VOL_FLOW;
+	COMP_VAL1[3] = $FC_B.RUN3.VOL_FLOW;
+	COMP_VAL1[4] = $FC_B.RUN4.VOL_FLOW;
+
+	MAX_VAL1 = COMP_VAL1[1];
+	MAX_INDEX1 = 1;
+
+	for (i = 2; i <= 3; i = i + 1)
+	{
+		if (MAX_VAL1 < COMP_VAL1[i])
+		{
+			MAX_VAL1 = COMP_VAL1[i];
+			MAX_INDEX1 = i;
+		}
+	}
+
+	VOL_TOT[1] = MAX_VAL1;
+	@sprintf(TAG_TOT, "FC_B.RUN%d.MASS_FLOW", MAX_INDEX1);
+	MASS_TOT[1] = @GetTagValue(TAG_TOT);
+	@sprintf(TAG_TOT, "FC_B.RUN%d.ENE_FLOW", MAX_INDEX1);
+	ENE_TOT[1] = @GetTagValue(TAG_TOT);
+
+	MIN_VAL1 = COMP_VAL1[1];
+	MIN_INDEX1 = 1;
+
+	for (i = 2; i <= 3; i = i + 1)
+	{
+		if (MIN_VAL1 > COMP_VAL1[i])
+		{
+			MIN_VAL1 = COMP_VAL1[i];
+			MIN_INDEX1 = i;
+		}
+	}
+
+	VOL_TOT[2] = MIN_VAL1;
+	@sprintf(TAG_TOT, "FC_B.RUN%d.MASS_FLOW", MIN_INDEX1);
+	MASS_TOT[2] = @GetTagValue(TAG_TOT);
+	@sprintf(TAG_TOT, "FC_B.RUN%d.ENE_FLOW", MIN_INDEX1);
+	ENE_TOT[2] = @GetTagValue(TAG_TOT);
+
+	@sprintf(DATE_SAVE, "%04d%02d%02d", year, month, day);
+	@sprintf(MIN_MAX_DATE, "%04d-%02d-%02d %02d:%02d:%02d", year, month, day, hour, min, sec);
+	@sprintf(buf_query,"SELECT * FROM FCB_MIN_MAX WHERE TYPE = 0 AND DATE_SAVE = '%04d%02d%02d'", year, month, day);
+	connection_id = @DbDsOpen("SQL",buf_query);
+	count = @DbDsGetRowCount(connection_id);
+	
+	//if (count >= 1)
+	if (count < 1)
+	{
+		@DbDsClose(connection_id);
+
+		//TYPE(Day : 0, Month : 1, Year : 2)
+
+		@sprintf(sql_insert,"INSERT INTO FCB_MIN_MAX (TYPE,DATE_SAVE,DATE_MAX_1,MAX_VOL_1,MAX_MASS_1,MAX_ENE_1,DATE_MIN_1,MIN_VOL_1,MIN_MASS_1,MIN_ENE_1,DATE_MAX_2,MAX_VOL_2,MAX_MASS_2,MAX_ENE_2,DATE_MIN_2,MIN_VOL_2,MIN_MASS_2,MIN_ENE_2,DATE_MAX_3,MAX_VOL_3,MAX_MASS_3,MAX_ENE_3,DATE_MIN_3,MIN_VOL_3,MIN_MASS_3,MIN_ENE_3,DATE_MAX_4,MAX_VOL_4,MAX_MASS_4,MAX_ENE_4,DATE_MIN_4,MIN_VOL_4,MIN_MASS_4,MIN_ENE_4,DATE_MAX_TOT,MAX_VOL_TOT,MAX_MASS_TOT,MAX_ENE_TOT,DATE_MIN_TOT,MIN_VOL_TOT,MIN_MASS_TOT,MIN_ENE_TOT) VALUES(%d, '%s', '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f, '%s', %f, %f, %f)", 0, DATE_SAVE, MIN_MAX_DATE, $FC_B.RUN1.VOL_FLOW, $FC_B.RUN1.MASS_FLOW, $FC_B.RUN1.ENE_FLOW, MIN_MAX_DATE, $FC_B.RUN1.VOL_FLOW, $FC_B.RUN1.MASS_FLOW, $FC_B.RUN1.ENE_FLOW, MIN_MAX_DATE, $FC_B.RUN2.VOL_FLOW, $FC_B.RUN2.MASS_FLOW, $FC_B.RUN2.ENE_FLOW, MIN_MAX_DATE, $FC_B.RUN2.VOL_FLOW, $FC_B.RUN2.MASS_FLOW, $FC_B.RUN2.ENE_FLOW, MIN_MAX_DATE, $FC_B.RUN3.VOL_FLOW, $FC_B.RUN3.MASS_FLOW, $FC_B.RUN3.ENE_FLOW, MIN_MAX_DATE, $FC_B.RUN3.VOL_FLOW, $FC_B.RUN3.MASS_FLOW, $FC_B.RUN3.ENE_FLOW, MIN_MAX_DATE, $FC_B.RUN4.VOL_FLOW, $FC_B.RUN4.MASS_FLOW, $FC_B.RUN4.ENE_FLOW, MIN_MAX_DATE, $FC_B.RUN4.VOL_FLOW, $FC_B.RUN4.MASS_FLOW, $FC_B.RUN4.ENE_FLOW, MIN_MAX_DATE, VOL_TOT[1], MASS_TOT[1], ENE_TOT[1], MIN_MAX_DATE, VOL_TOT[2], MASS_TOT[2], ENE_TOT[2]);
+		@DbCommand("SQL", sql_insert);
+	}
+	else
+	{
+		DB_MAX_DATE[1] = @DbDsGetRowData(connection_id, "DATE_MAX_1", 0);
+		DB_MAX_DATE[2] = @DbDsGetRowData(connection_id, "DATE_MAX_2", 0);
+		DB_MAX_DATE[3] = @DbDsGetRowData(connection_id, "DATE_MAX_3", 0);
+		DB_MAX_DATE[4] = @DbDsGetRowData(connection_id, "DATE_MAX_4", 0);
+		DB_MAX_DATE[5] = @DbDsGetRowData(connection_id, "DATE_MAX_TOT", 0);
+
+		DB_MAX_VOL[1] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_1", 0));
+		DB_MAX_VOL[2] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_2", 0));
+		DB_MAX_VOL[3] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_3", 0));
+		DB_MAX_VOL[4] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_4", 0));
+		DB_MAX_VOL[5] = @atof(@DbDsGetRowData(connection_id, "MAX_VOL_TOT", 0));
+
+		DB_MAX_MASS[1] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_1", 0));
+		DB_MAX_MASS[2] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_2", 0));
+		DB_MAX_MASS[3] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_3", 0));
+		DB_MAX_MASS[4] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_4", 0));
+		DB_MAX_MASS[5] = @atof(@DbDsGetRowData(connection_id, "MAX_MASS_TOT", 0));
+
+		DB_MAX_ENE[1] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_1", 0));
+		DB_MAX_ENE[2] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_2", 0));
+		DB_MAX_ENE[3] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_3", 0));
+		DB_MAX_ENE[4] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_4", 0));
+		DB_MAX_ENE[5] = @atof(@DbDsGetRowData(connection_id, "MAX_ENE_TOT", 0));
+
+		DB_MIN_DATE[1] = @DbDsGetRowData(connection_id, "DATE_MIN_1", 0);
+		DB_MIN_DATE[2] = @DbDsGetRowData(connection_id, "DATE_MIN_2", 0);
+		DB_MIN_DATE[3] = @DbDsGetRowData(connection_id, "DATE_MIN_3", 0);
+		DB_MIN_DATE[4] = @DbDsGetRowData(connection_id, "DATE_MIN_4", 0);
+		DB_MIN_DATE[5] = @DbDsGetRowData(connection_id, "DATE_MIN_TOT", 0);
+
+		DB_MIN_VOL[1] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_1", 0));
+		DB_MIN_VOL[2] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_2", 0));
+		DB_MIN_VOL[3] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_3", 0));
+		DB_MIN_VOL[4] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_4", 0));
+		DB_MIN_VOL[5] = @atof(@DbDsGetRowData(connection_id, "MIN_VOL_TOT", 0));
+
+		DB_MIN_MASS[1] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_1", 0));
+		DB_MIN_MASS[2] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_2", 0));
+		DB_MIN_MASS[3] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_3", 0));
+		DB_MIN_MASS[4] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_4", 0));
+		DB_MIN_MASS[5] = @atof(@DbDsGetRowData(connection_id, "MIN_MASS_TOT", 0));
+
+		DB_MIN_ENE[1] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_1", 0));
+		DB_MIN_ENE[2] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_2", 0));
+		DB_MIN_ENE[3] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_3", 0));
+		DB_MIN_ENE[4] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_4", 0));
+		DB_MIN_ENE[5] = @atof(@DbDsGetRowData(connection_id, "MIN_ENE_TOT", 0));
+
+		@DbDsClose(connection_id);
+
+		CURRENT_VOL[1] = $FC_B.RUN1.VOL_FLOW;
+		CURRENT_VOL[2] = $FC_B.RUN2.VOL_FLOW;
+		CURRENT_VOL[3] = $FC_B.RUN3.VOL_FLOW;
+		CURRENT_VOL[4] = $FC_B.RUN4.VOL_FLOW;
+
+		CURRENT_MASS[1] = $FC_B.RUN1.MASS_FLOW;
+		CURRENT_MASS[2] = $FC_B.RUN2.MASS_FLOW;
+		CURRENT_MASS[3] = $FC_B.RUN3.MASS_FLOW;
+		CURRENT_MASS[4] = $FC_B.RUN4.MASS_FLOW;
+
+		CURRENT_ENE[1] = $FC_B.RUN1.ENE_FLOW;
+		CURRENT_ENE[2] = $FC_B.RUN2.ENE_FLOW;
+		CURRENT_ENE[3] = $FC_B.RUN3.ENE_FLOW;
+		CURRENT_ENE[4] = $FC_B.RUN4.ENE_FLOW;
+
+		for (i = 1; i <= 3; i = i + 1)
+		{
+			if (CURRENT_VOL[i] > DB_MAX_VOL[i])
+			{
+				DB_MAX_DATE[i+10] = MIN_MAX_DATE;
+				DB_MAX_VOL[i+10] = CURRENT_VOL[i];
+				DB_MAX_MASS[i+10] = CURRENT_MASS[i];
+				DB_MAX_ENE[i+10] = CURRENT_ENE[i];
+			}
+			else
+			{
+				DB_MAX_DATE[i+10] = DB_MAX_DATE[i];
+				DB_MAX_VOL[i+10] = DB_MAX_VOL[i];
+				DB_MAX_MASS[i+10] = DB_MAX_MASS[i];
+				DB_MAX_ENE[i+10] = DB_MAX_ENE[i];
+			}
+
+			if (CURRENT_VOL[i] < DB_MIN_VOL[i])
+			{
+				DB_MIN_DATE[i+10] = MIN_MAX_DATE;
+				DB_MIN_VOL[i+10] = CURRENT_VOL[i];
+				DB_MIN_MASS[i+10] = CURRENT_MASS[i];
+				DB_MIN_ENE[i+10] = CURRENT_ENE[i];
+			}
+			else
+			{
+				DB_MIN_DATE[i+10] = DB_MIN_DATE[i];
+				DB_MIN_VOL[i+10] = DB_MIN_VOL[i];
+				DB_MIN_MASS[i+10] = DB_MIN_MASS[i];
+				DB_MIN_ENE[i+10] = DB_MIN_ENE[i];
+			}
+		}
+
+		if (VOL_TOT[1] > DB_MAX_VOL[5])
+		{
+			DB_MAX_DATE[15] = MIN_MAX_DATE;
+			DB_MAX_VOL[15] = VOL_TOT[1];
+			DB_MAX_MASS[15] = MASS_TOT[1];
+			DB_MAX_ENE[15] = ENE_TOT[1];
+		}
+		else
+		{
+			DB_MAX_DATE[15] = DB_MAX_DATE[5];
+			DB_MAX_VOL[15] = DB_MAX_VOL[5];
+			DB_MAX_MASS[15] = DB_MAX_MASS[5];
+			DB_MAX_ENE[15] = DB_MAX_ENE[5];
+		}
+
+		if (VOL_TOT[2] < DB_MIN_VOL[5])
+		{
+			DB_MIN_DATE[15] = MIN_MAX_DATE;
+			DB_MIN_VOL[15] = VOL_TOT[2];
+			DB_MIN_MASS[15] = MASS_TOT[2];
+			DB_MIN_ENE[15] = ENE_TOT[2];
+		}
+		else
+		{
+			DB_MIN_DATE[15] = DB_MIN_DATE[5];
+			DB_MIN_VOL[15] = DB_MIN_VOL[5];
+			DB_MIN_MASS[15] = DB_MIN_MASS[5];
+			DB_MIN_ENE[15] = DB_MIN_ENE[5];
+		}
+
+		@sprintf(sql_insert,"UPDATE FCB_MIN_MAX SET TYPE=0, DATE_SAVE='%s', DATE_MAX_1='%s', MAX_VOL_1=%f, MAX_MASS_1=%f, MAX_ENE_1=%f, DATE_MIN_1='%s', MIN_VOL_1=%f, MIN_MASS_1=%f, MIN_ENE_1=%f, DATE_MAX_2='%s', MAX_VOL_2=%f, MAX_MASS_2=%f, MAX_ENE_2=%f, DATE_MIN_2='%s', MIN_VOL_2=%f, MIN_MASS_2=%f, MIN_ENE_2=%f, DATE_MAX_3='%s', MAX_VOL_3=%f, MAX_MASS_3=%f, MAX_ENE_3=%f, DATE_MIN_3='%s', MIN_VOL_3=%f, MIN_MASS_3=%f, MIN_ENE_3=%f, DATE_MAX_4='%s', MAX_VOL_4=%f, MAX_MASS_4=%f, MAX_ENE_4=%f, DATE_MIN_4='%s', MIN_VOL_4=%f, MIN_MASS_4=%f, MIN_ENE_4=%f, DATE_MAX_TOT='%s', MAX_VOL_TOT=%f, MAX_MASS_TOT=%f, MAX_ENE_TOT=%f, DATE_MIN_TOT='%s', MIN_VOL_TOT=%f, MIN_MASS_TOT=%f, MIN_ENE_TOT=%f WHERE DATE_SAVE = '%04d%02d%02d'", DATE_SAVE, DB_MAX_DATE[11], DB_MAX_VOL[11], DB_MAX_MASS[11], DB_MAX_ENE[11], DB_MIN_DATE[11], DB_MIN_VOL[11], DB_MIN_MASS[11], DB_MIN_ENE[11], DB_MAX_DATE[12], DB_MAX_VOL[12], DB_MAX_MASS[12], DB_MAX_ENE[12], DB_MIN_DATE[12], DB_MIN_VOL[12], DB_MIN_MASS[12], DB_MIN_ENE[12], DB_MAX_DATE[13], DB_MAX_VOL[13], DB_MAX_MASS[13], DB_MAX_ENE[13], DB_MIN_DATE[13], DB_MIN_VOL[13], DB_MIN_MASS[13], DB_MIN_ENE[13], DB_MAX_DATE[14], DB_MAX_VOL[14], DB_MAX_MASS[14], DB_MAX_ENE[14], DB_MIN_DATE[14], DB_MIN_VOL[14], DB_MIN_MASS[14], DB_MIN_ENE[14], DB_MAX_DATE[15], DB_MAX_VOL[15], DB_MAX_MASS[15], DB_MAX_ENE[15], DB_MIN_DATE[15], DB_MIN_VOL[15], DB_MIN_MASS[15], DB_MIN_ENE[15], year, month, day);
+		@DbCommand("SQL", sql_insert);
+	}
+Programm,END,

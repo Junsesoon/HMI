@@ -1,0 +1,178 @@
+Description,,
+ScanTime,60,False,False,
+Data,string,hourly_tag,10,"0,,,,,,,,,,"
+Data,string,auto_tag,1,"0,"
+Data,int,min,1,"0,"
+Data,string,hourly_RPT,10,"0,,,,,,,,,,"
+Data,string,daily_tag,20,"0,,,,,,,,,,,,,,,,,,,,"
+Data,string,daily_RPT,20,"0,,,,,,,,,,,,,,,,,,,,"
+Data,string,monthly_tag,20,"0,,,,,,,,,,,,,,,,,,,,"
+Data,string,monthly_RPT,20,"0,,,,,,,,,,,,,,,,,,,,"
+Data,int,i,1,"0,"
+Data,int,year,1,"0,"
+Data,int,month,1,"0,"
+Data,int,day,1,"0,"
+Data,int,hour,1,"0,"
+Data,int,sec,1,"0,"
+Data,string,print_date,1,"0,"
+Data,string,print_time,1,"0,"
+Data,string,report_hour2,1,"0,"
+Data,string,where,1,"0,"
+Data,string,period,1,"0,"
+Data,string,report_date,1,"0,"
+Data,string,report_date00,1,"0,"
+Data,string,report_date01,1,"0,"
+Data,string,report_date02,1,"0,"
+Data,string,report_date03,1,"0,"
+Data,string,report_date04,1,"0,"
+Data,string,report_date05,1,"0,"
+Data,string,report_date06,1,"0,"
+Data,string,report_date07,1,"0,"
+Data,string,report_date08,1,"0,"
+Data,string,report_date09,1,"0,"
+Data,string,report_date10,1,"0,"
+Data,string,report_date11,1,"0,"
+Data,string,report_date12,1,"0,"
+Data,string,report_date13,1,"0,"
+Data,string,report_date14,1,"0,"
+Data,string,report_date15,1,"0,"
+Data,string,report_date16,1,"0,"
+Data,string,report_date17,1,"0,"
+Data,string,report_date18,1,"0,"
+Data,string,report_date19,1,"0,"
+Data,string,report_date20,1,"0,"
+Data,string,report_date21,1,"0,"
+Data,string,report_date22,1,"0,"
+Data,string,report_date23,1,"0,"
+Data,string,report_date24,1,"0,"
+Data,string,report_date25,1,"0,"
+Data,string,report_date26,1,"0,"
+Data,string,report_date27,1,"0,"
+Data,string,report_date28,1,"0,"
+Data,string,report_date29,1,"0,"
+Data,string,report_date30,1,"0,"
+Data,string,report_date31,1,"0,"
+Data,string,report_tot,1,"0,"
+Data,string,report_acc,1,"0,"
+Data,string,report_min_max,1,"0,"
+Programm,BEGIN,
+hour = @GetTimeHour();
+min = @GetTimeMin();
+
+if ((hour == 0) && (min == 3))
+{
+	daily_tag[0] = "REPORT.AUTO_PRINT.FCA.DAILY_RUN1";
+	daily_tag[1] = "REPORT.AUTO_PRINT.FCA.DAILY_RUN2";
+	daily_tag[2] = "REPORT.AUTO_PRINT.FCA.DAILY_RUN3";
+	daily_tag[3] = "REPORT.AUTO_PRINT.FCA.DAILY_RUN4";
+	daily_tag[4] = "REPORT.AUTO_PRINT.FCA.DAILY";
+	daily_tag[5] = "REPORT.AUTO_PRINT.FCA.DAILY_GC";
+	daily_tag[6] = "REPORT.AUTO_PRINT.FCB.DAILY_RUN1";
+	daily_tag[7] = "REPORT.AUTO_PRINT.FCB.DAILY_RUN2";
+	daily_tag[8] = "REPORT.AUTO_PRINT.FCB.DAILY_RUN3";
+	daily_tag[9] = "REPORT.AUTO_PRINT.FCB.DAILY_RUN4";
+	daily_tag[10] = "REPORT.AUTO_PRINT.FCB.DAILY";
+	daily_tag[11] = "REPORT.AUTO_PRINT.FCB.DAILY_GC";
+
+	daily_RPT[0] = "RPT_Daily_Run1_FCA.rptx";
+	daily_RPT[1] = "RPT_Daily_Run2_FCA.rptx";
+	daily_RPT[2] = "RPT_Daily_Run3_FCA.rptx";
+	daily_RPT[3] = "RPT_Daily_Run4_FCA.rptx";
+	daily_RPT[4] = "RPT_Daily_FCA.rptx";
+	daily_RPT[5] = "RPT_Daily_GC_FCA.rptx";
+	daily_RPT[6] = "RPT_Daily_Run1_FCB.rptx";
+	daily_RPT[7] = "RPT_Daily_Run2_FCB.rptx";
+	daily_RPT[8] = "RPT_Daily_Run3_FCB.rptx";
+	daily_RPT[9] = "RPT_Daily_Run4_FCB.rptx";
+	daily_RPT[10] = "RPT_Daily_FCB.rptx";
+	daily_RPT[11] = "RPT_Daily_GC_FCB.rptx";
+
+	for (i = 0; i <= 11; i = i + 1)
+	{
+		@sprintf(auto_tag, daily_tag[i]);
+	
+		if (@GetTagValue(auto_tag) == 1)
+		{
+			year = @GetDateYear();
+			month = @GetDateMon();
+			day = @GetDateDay();
+			hour = @GetTimeHour();
+			min = @GetTimeMin();
+			sec = @GetTimeSec();
+
+			@sprintf(print_date, "%04d-%02d-%02d", year, month, day);
+			@sprintf(print_time, "%02d:%02d:%02d", hour, min, sec);
+
+			@TimeMinusDay(year,month,day);
+
+			@sprintf(report_date, "%04d-%02d-%02d", year, month, day);
+	
+			@sprintf(report_date00, "DATE = '%s' and TIME = '00:00 ~ 01:00'", report_date);
+			@sprintf(report_date01, "DATE = '%s' and TIME = '01:00 ~ 02:00'", report_date);
+			@sprintf(report_date02, "DATE = '%s' and TIME = '02:00 ~ 03:00'", report_date);
+			@sprintf(report_date03, "DATE = '%s' and TIME = '03:00 ~ 04:00'", report_date);
+			@sprintf(report_date04, "DATE = '%s' and TIME = '04:00 ~ 05:00'", report_date);
+			@sprintf(report_date05, "DATE = '%s' and TIME = '05:00 ~ 06:00'", report_date);
+			@sprintf(report_date06, "DATE = '%s' and TIME = '06:00 ~ 07:00'", report_date);
+			@sprintf(report_date07, "DATE = '%s' and TIME = '07:00 ~ 08:00'", report_date);
+			@sprintf(report_date08, "DATE = '%s' and TIME = '08:00 ~ 09:00'", report_date);
+			@sprintf(report_date09, "DATE = '%s' and TIME = '09:00 ~ 10:00'", report_date);
+			@sprintf(report_date10, "DATE = '%s' and TIME = '10:00 ~ 11:00'", report_date);
+			@sprintf(report_date11, "DATE = '%s' and TIME = '11:00 ~ 12:00'", report_date);
+			@sprintf(report_date12, "DATE = '%s' and TIME = '12:00 ~ 13:00'", report_date);
+			@sprintf(report_date13, "DATE = '%s' and TIME = '13:00 ~ 14:00'", report_date);
+			@sprintf(report_date14, "DATE = '%s' and TIME = '14:00 ~ 15:00'", report_date);
+			@sprintf(report_date15, "DATE = '%s' and TIME = '15:00 ~ 16:00'", report_date);
+			@sprintf(report_date16, "DATE = '%s' and TIME = '16:00 ~ 17:00'", report_date);
+			@sprintf(report_date17, "DATE = '%s' and TIME = '17:00 ~ 18:00'", report_date);
+			@sprintf(report_date18, "DATE = '%s' and TIME = '18:00 ~ 19:00'", report_date);
+			@sprintf(report_date19, "DATE = '%s' and TIME = '19:00 ~ 20:00'", report_date);
+			@sprintf(report_date20, "DATE = '%s' and TIME = '20:00 ~ 21:00'", report_date);
+			@sprintf(report_date21, "DATE = '%s' and TIME = '21:00 ~ 22:00'", report_date);
+			@sprintf(report_date22, "DATE = '%s' and TIME = '22:00 ~ 23:00'", report_date);
+			@sprintf(report_date23, "DATE = '%s' and TIME = '23:00 ~ 00:00'", report_date);
+			@sprintf(report_tot, "DATE = '%s'", report_date);
+			@sprintf(report_acc, "DATE = '%s' and TIME = '23:00 ~ 00:00'", report_date);
+			@sprintf(report_min_max, "TYPE = 0 and DATE_SAVE = '%04d%02d%02d'", year, month, day);
+
+			@ReportSetVar("_00", report_date00);
+			@ReportSetVar("_01", report_date01);
+			@ReportSetVar("_02", report_date02);
+			@ReportSetVar("_03", report_date03);
+			@ReportSetVar("_04", report_date04);
+			@ReportSetVar("_05", report_date05);
+			@ReportSetVar("_06", report_date06);
+			@ReportSetVar("_07", report_date07);
+			@ReportSetVar("_08", report_date08);
+			@ReportSetVar("_09", report_date09);
+			@ReportSetVar("_10", report_date10);
+			@ReportSetVar("_11", report_date11);
+			@ReportSetVar("_12", report_date12);
+			@ReportSetVar("_13", report_date13);
+			@ReportSetVar("_14", report_date14);
+			@ReportSetVar("_15", report_date15);
+			@ReportSetVar("_16", report_date16);
+			@ReportSetVar("_17", report_date17);
+			@ReportSetVar("_18", report_date18);
+			@ReportSetVar("_19", report_date19);
+			@ReportSetVar("_20", report_date20);
+			@ReportSetVar("_21", report_date21);
+			@ReportSetVar("_22", report_date22);
+			@ReportSetVar("_23", report_date23);
+			@ReportSetVar("_tot", report_tot);
+			@ReportSetVar("_acc", report_acc);
+			@ReportSetVar("_min_max", report_min_max);
+
+			@ReportSetVar("print_date", print_date);
+			@ReportSetVar("print_time", print_time);
+			@ReportSetVar("period", report_date);
+			@ReportPrint(daily_RPT[i]);
+
+		}
+	}			
+}
+else
+{
+	return;
+}
+Programm,END,

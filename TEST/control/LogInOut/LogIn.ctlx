@@ -1,0 +1,7 @@
+Description,사용자 로그인 시 실행할 스크립트,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@GetUserName($LOGIN.USER);
+$LOGIN.ID = "";
+$LOGIN.PW = "";
+Programm,END,

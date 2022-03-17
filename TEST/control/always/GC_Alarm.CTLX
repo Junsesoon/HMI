@@ -1,0 +1,229 @@
+Description,,
+ScanTime,3,False,False,
+Data,string,fc1,3,"0,,,"
+Data,string,sort1,20,"0,,,,,,,,,,,,,,,,,,,,"
+Data,int,i,1,"0,"
+Data,int,k,1,"0,"
+Data,string,tagname,1,"0,"
+Data,string,min_tag,1,"0,"
+Data,string,max_tag,1,"0,"
+Data,string,alarm_h,1,"0,"
+Data,string,alarm_l,1,"0,"
+Data,float,data,1,"0,"
+Data,float,min_set,1,"0,"
+Data,float,max_set,1,"0,"
+Data,float,used_data,11,"0,0,0,0,0,0,0,0,0,0,0,"
+Data,float,key_data,11,"0,0,0,0,0,0,0,0,0,0,0,"
+Data,int,flag,1,"0,"
+Data,int,FCA_gen_alm,25,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,int,FCB_gen_alm,25,"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Data,string,used,1,"0,"
+Data,int,used_set,1,"0,"
+Data,string,before_tag,1,"0,"
+Data,float,before_data,1,"0,"
+Data,string,timer_tag,1,"0,"
+Data,string,holding_tag,1,"0,"
+Data,int,timer_data,1,"0,"
+Programm,BEGIN,
+fc1[0] = "FC_A";
+fc1[1] = "FC_B";
+
+sort1[0] = "METHANE";
+sort1[1] = "ETHANE";
+sort1[2] = "PROPANE";
+sort1[3] = "I_BUTANE";
+sort1[4] = "N_BUTANE";
+sort1[5] = "I_PENTANE";
+sort1[6] = "N_PENTANE";
+sort1[7] = "NITROGEN";
+sort1[8] = "CO2";
+sort1[9] = "TOTAL";
+sort1[10] = "SCV";
+//sort1[11] = "N_HEXANE";
+//sort1[12] = "NEO_PENTANE";
+
+for (i = 0; i <= 1; i = i + 1)
+{
+	for (k = 0; k <= 10; k = k + 1)
+	{
+		@sprintf(tagname, "%s.RUN1.GC.%s", fc1[i], sort1[k]);
+		@sprintf(min_tag, "%s.RUN1.MIN.%s", fc1[i], sort1[k]);
+		@sprintf(max_tag, "%s.RUN1.MAX.%s", fc1[i], sort1[k]);
+		@sprintf(alarm_h, "%s.RUN1.GC.%s_H", fc1[i], sort1[k]);
+		@sprintf(alarm_l, "%s.RUN1.GC.%s_L", fc1[i], sort1[k]);
+		@sprintf(used, "FC_A.RUN1.GC.%s_USED", sort1[k]);
+
+		data = @GetTagValue(tagname);
+		min_set = @GetTagValue(min_tag);
+		max_set = @GetTagValue(max_tag);
+		used_set = @GetTagValue(used);
+	
+		if ((data > max_set) && (used_set == 1))
+		{
+
+			if (@GetTagValue(alarm_h) == 0)
+			{
+				@SetTagValue(alarm_h, 1);
+			}
+		}
+		else
+		{
+			if (@GetTagValue(alarm_h) == 1)
+			{
+				@SetTagValue(alarm_h, 0);
+			}
+		}
+			
+		if ((data < min_set) && (used_set == 1))
+		{
+			if (@GetTagValue(alarm_l) == 0)
+			{
+				@SetTagValue(alarm_l, 1);
+			}
+		}
+		else
+		{
+			if (@GetTagValue(alarm_l) == 1)
+			{
+				@SetTagValue(alarm_l, 0);
+			}
+		}
+	}
+}
+
+////////////////////////////////////////////////////////////////////
+
+if (($FC_A.DIG.COMM_ERR == 1) || (($FC_A.DIG.COMM_ERR == 0) && ($FC_B.DIG.COMM_ERR == 0)))
+{
+	used_data[0] = $FC_A.RUN1.USED.METHANE;
+	used_data[1] = $FC_A.RUN1.USED.ETHANE;
+	used_data[2] = $FC_A.RUN1.USED.PROPANE;
+	used_data[3] = $FC_A.RUN1.USED.I_BUTANE;
+	used_data[4] = $FC_A.RUN1.USED.N_BUTANE;
+	used_data[5] = $FC_A.RUN1.USED.I_PENTANE;
+	used_data[6] = $FC_A.RUN1.USED.N_PENTANE;
+	used_data[7] = $FC_A.RUN1.USED.NITROGEN;
+	used_data[8] = $FC_A.RUN1.USED.CO2;
+	//used_data[9] = $FC_A.RUN1.USED.N_HEXANE;
+
+	key_data[0] = $FC_A.RUN1.KEY.METHANE;
+	key_data[1] = $FC_A.RUN1.KEY.ETHANE;
+	key_data[2] = $FC_A.RUN1.KEY.PROPANE;
+	key_data[3] = $FC_A.RUN1.KEY.I_BUTANE;
+	key_data[4] = $FC_A.RUN1.KEY.N_BUTANE;
+	key_data[5] = $FC_A.RUN1.KEY.I_PENTANE;
+	key_data[6] = $FC_A.RUN1.KEY.N_PENTANE;
+	key_data[7] = $FC_A.RUN1.KEY.NITROGEN;
+	key_data[8] = $FC_A.RUN1.KEY.CO2;
+	//key_data[9] = $FC_A.RUN1.KEY.N_HEXANE;
+}
+elseif (($FC_B.DIG.COMM_ERR == 1) && ($FC_A.DIG.COMM_ERR == 0))
+{
+	used_data[0] = $FC_B.RUN1.USED.METHANE;
+	used_data[1] = $FC_B.RUN1.USED.ETHANE;
+	used_data[2] = $FC_B.RUN1.USED.PROPANE;
+	used_data[3] = $FC_B.RUN1.USED.I_BUTANE;
+	used_data[4] = $FC_B.RUN1.USED.N_BUTANE;
+	used_data[5] = $FC_B.RUN1.USED.I_PENTANE;
+	used_data[6] = $FC_B.RUN1.USED.N_PENTANE;
+	used_data[7] = $FC_B.RUN1.USED.NITROGEN;
+	used_data[8] = $FC_B.RUN1.USED.CO2;
+	//used_data[9] = $FC_B.RUN1.USED.N_HEXANE;
+
+	key_data[0] = $FC_B.RUN1.KEY.METHANE;
+	key_data[1] = $FC_B.RUN1.KEY.ETHANE;
+	key_data[2] = $FC_B.RUN1.KEY.PROPANE;
+	key_data[3] = $FC_B.RUN1.KEY.I_BUTANE;
+	key_data[4] = $FC_B.RUN1.KEY.N_BUTANE;
+	key_data[5] = $FC_B.RUN1.KEY.I_PENTANE;
+	key_data[6] = $FC_B.RUN1.KEY.N_PENTANE;
+	key_data[7] = $FC_B.RUN1.KEY.NITROGEN;
+	key_data[8] = $FC_B.RUN1.KEY.CO2;
+	//key_data[9] = $FC_B.RUN1.KEY.N_HEXANE;
+}
+
+flag = 0;
+
+for(i = 0; i<=8; i=i+1)
+{
+	if (used_data[i] == key_data[i])
+	{
+		flag = flag + 1;
+	}
+}
+
+if (flag == 9)
+{
+
+	if ($GC_USED_DATA == 1)
+	{
+		$GC_USED_DATA = 0;
+	}
+}
+else
+{
+	if ($GC_USED_DATA == 0)
+	{
+		$GC_USED_DATA = 1;
+	}
+}
+
+////////////////////////////////////////////////////////////////////
+
+if ($GC_USED_DATA == 1)
+{
+	flag = 0;
+
+	for (i = 0; i <= 1; i = i + 1)
+	{
+		for (k = 0; k <= 8; k = k + 1)
+		{
+			@sprintf(tagname, "%s.RUN1.GC.%s", fc1[i], sort1[k]);
+			@sprintf(before_tag, "%s.RUN1.GC.%s_BEFORE", fc1[i], sort1[k]);
+
+			data = @GetTagValue(tagname);
+			before_data = @GetTagValue(before_tag);
+	
+			if (data == before_data)
+			{
+				flag = flag + 1;
+			}
+			else
+			{
+				@SetTagValue(before_tag, data);
+			}
+				
+		}
+	
+		@sprintf(timer_tag, "%s.RUN1.GC.HOLDING_TIMER", fc1[i]);
+		@sprintf(holding_tag, "%s.DIG.GC_A_HOLDING", fc1[i]);
+	
+		if (flag == 9)
+		{
+			@SetTagValue(timer_tag, @GetTagValue(timer_tag) + 3);
+			flag = 0;
+		}
+		else
+		{
+			@SetTagValue(timer_tag, 0);
+			flag = 0;
+		}
+	
+		timer_data = @GetTagValue(timer_tag);
+	
+		if (timer_data >= 3600)
+		{
+			@SetTagValue(holding_tag, 1);
+			@SetTagValue(timer_tag, 3600);
+		}
+		else
+		{
+			@SetTagValue(holding_tag, 0);
+		}
+	}
+}
+else
+{
+	return;
+}
+Programm,END,

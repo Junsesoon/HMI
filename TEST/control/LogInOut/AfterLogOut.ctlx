@@ -1,0 +1,7 @@
+Description,사용자 로그아웃 후에 실행할 스크립트,
+ScanTime,1,False,False,
+Programm,BEGIN,
+$LOGIN.ID = "USER";
+$LOGIN.PW = "";
+@LogInUserPass($LOGIN.ID, $LOGIN.PW);
+Programm,END,

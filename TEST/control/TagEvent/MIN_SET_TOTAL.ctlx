@@ -1,0 +1,26 @@
+Description,,
+ScanTime,1,False,False,
+Data,string,fc1,1,"0,"
+Data,string,fc2,1,"0,"
+Data,string,sort1,1,"0,"
+Data,string,sort2,1,"0,"
+Data,string,VAL1,1,"0,"
+Data,string,VAL2,1,"0,"
+Data,string,VAL3,1,"0,"
+Programm,BEGIN,
+$FC_B.RUN1.MIN.TOTAL = $FC_A.RUN1.MIN.TOTAL;
+
+fc1 = "FC_A";
+fc2 = "FC_B";
+sort1 = "MIN";
+sort2 = "TOTAL";
+
+@sprintf(VAL1, "%s.RUN1.%s.%s", fc1, sort1, sort2);
+@sprintf(VAL2, "%s.RUN1.%s.%s_MEMORY", fc1, sort1, sort2);
+@sprintf(VAL3, "%s.RUN1.GC.%s_USED", fc1, sort2);
+
+if ((@GetTagValue(VAL1) != @GetTagValue(VAL2)) && (@GetTagValue(VAL3) == 1))
+{
+	@SetTagValue(VAL2, @GetTagValue(VAL1));
+}
+Programm,END,

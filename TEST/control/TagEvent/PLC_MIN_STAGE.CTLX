@@ -1,0 +1,5 @@
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+$PLC.MIN_STAGE = $PLC.MIN_STAGE2 - 1;
+Programm,END,

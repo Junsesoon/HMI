@@ -1,0 +1,5 @@
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+$FC_A.RUN1.MAX.TOTAL = $FC_B.RUN1.MAX.TOTAL;
+Programm,END,

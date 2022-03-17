@@ -1,0 +1,49 @@
+Description,,
+ScanTime,1,False,False,
+Data,string,changetag,1,"0,"
+Data,int,i,1,"0,"
+Data,string,tagname,1,"0,"
+Data,string,sort1,1,"0,"
+Data,string,sort2,1,"0,"
+Data,string,fc1,1,"0,"
+Data,string,fc2,1,"0,"
+Data,string,VAL1,1,"0,"
+Data,string,VAL2,1,"0,"
+Data,string,VAL3,1,"0,"
+Programm,BEGIN,
+fc1 = "FC_A";
+fc2 = "FC_B";
+sort1 = "MIN";
+sort2 = "CO2";
+
+@sprintf(changetag, "%s.RUN1.%s.%s", fc1, sort1, sort2);
+
+for (i = 2; i <= 4; i = i + 1)
+{
+	@sprintf(tagname, "%s.RUN%d.%s.%s", fc1, i, sort1, sort2);
+
+	if (@GetTagValue(changetag) != @GetTagValue(tagname))
+	{
+		@SetTagValue(tagname, @GetTagValue(changetag));
+	}
+}
+
+for (i = 1; i <= 4; i = i + 1)
+{
+	@sprintf(tagname, "%s.RUN%d.%s.%s", fc2, i, sort1, sort2);
+
+	if (@GetTagValue(changetag) != @GetTagValue(tagname))
+	{
+		@SetTagValue(tagname, @GetTagValue(changetag));
+	}
+}
+
+@sprintf(VAL1, "%s.RUN1.%s.%s", fc1, sort1, sort2);
+@sprintf(VAL2, "%s.RUN1.%s.%s_MEMORY", fc1, sort1, sort2);
+@sprintf(VAL3, "%s.RUN1.GC.%s_USED", fc1, sort2);
+
+if ((@GetTagValue(VAL1) != @GetTagValue(VAL2)) && (@GetTagValue(VAL3) == 1))
+{
+	@SetTagValue(VAL2, @GetTagValue(VAL1));
+}
+Programm,END,

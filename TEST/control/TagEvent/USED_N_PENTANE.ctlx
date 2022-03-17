@@ -1,0 +1,55 @@
+Description,,
+ScanTime,1,False,False,
+Data,string,fc,5,"0,,,,,"
+Data,string,sort,5,"0,,,,,"
+Data,string,tag1,1,"0,"
+Data,string,tag2,1,"0,"
+Data,string,tag3,1,"0,"
+Data,string,tag4,1,"0,"
+Data,int,i,1,"0,"
+Programm,BEGIN,
+fc[1] = "FC_A";
+fc[2] = "FC_B";
+sort[1] = "MAX";
+sort[2] = "MIN";
+sort[3] = "N_PENTANE";
+
+@sprintf(tag1, "%s.RUN1.GC.%s_USED", fc[1], sort[3]);
+@sprintf(tag2, "%s.RUN1.%s.%s_MEMORY", fc[1], sort[1], sort[3]);
+@sprintf(tag3, "%s.RUN1.%s.%s_MEMORY", fc[1], sort[2], sort[3]);
+
+if (@GetTagValue(tag1) == 1)
+{
+	for (i = 1; i <= 4; i = i + 1)
+	{
+		@sprintf(tag4, "%s.RUN%d.%s.%s", fc[1], i, sort[1], sort[3]);
+		@SetTagValue(tag4, @GetTagValue(tag2));
+
+		@sprintf(tag4, "%s.RUN%d.%s.%s", fc[1], i, sort[2], sort[3]);
+		@SetTagValue(tag4, @GetTagValue(tag3));
+
+		@sprintf(tag4, "%s.RUN%d.%s.%s", fc[2], i, sort[1], sort[3]);
+		@SetTagValue(tag4, @GetTagValue(tag2));
+
+		@sprintf(tag4, "%s.RUN%d.%s.%s", fc[2], i, sort[2], sort[3]);
+		@SetTagValue(tag4, @GetTagValue(tag3));
+	}
+}
+else
+{
+	for (i = 1; i <= 4; i = i + 1)
+	{
+		@sprintf(tag4, "%s.RUN%d.%s.%s", fc[1], i, sort[1], sort[3]);
+		@SetTagValue(tag4, 100);
+
+		@sprintf(tag4, "%s.RUN%d.%s.%s", fc[1], i, sort[2], sort[3]);
+		@SetTagValue(tag4, 0);
+
+		@sprintf(tag4, "%s.RUN%d.%s.%s", fc[2], i, sort[1], sort[3]);
+		@SetTagValue(tag4, 100);
+
+		@sprintf(tag4, "%s.RUN%d.%s.%s", fc[2], i, sort[2], sort[3]);
+		@SetTagValue(tag4, 0);
+	}
+}
+Programm,END,
