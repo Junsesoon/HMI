@@ -1522,7 +1522,7 @@ ObjectText,END
 ObjectText,BEGIN
 	Rect,1024,728,1440,760,
 	TextColor,255,255,255,255,
-	String,누적적산,
+	String,누적합산,
 	TextAlign,1,1,
 	StringOption,False,False,
 	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
@@ -1620,7 +1620,7 @@ ObjectText,END
 ObjectText,BEGIN
 	Rect,1024,552,1440,584,
 	TextColor,255,255,255,255,
-	String,일적산,
+	String,일합산,
 	TextAlign,1,1,
 	StringOption,False,False,
 	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
