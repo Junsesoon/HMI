@@ -2097,16 +2097,6 @@ ObjectRectangle,BEGIN
 	ExpandColorFill,END
 	ExpandScript,END
 ObjectRectangle,END
-ObjectSingleText,BEGIN
-	Rect,88,488,155,519,
-	TextColor,0,0,0,255,
-	String,Inlet,
-	LogFont,나눔스퀘어_ac ExtraBold,20,1,0,0,0,
-	ClassName,SingleText1,0,,0,,0,1
-	ExpandScript,BEGIN
-		Active,0
-	ExpandScript,END
-ObjectSingleText,END
 ObjectGroup,BEGIN,
 	GroupRect,40,512,90,562,
 	GroupSize,34,36,
@@ -2331,16 +2321,6 @@ ObjectCurve,END
 	ExpandVisible,END
 	ExpandScript,END
 ObjectGroup,END,
-ObjectSingleText,BEGIN
-	Rect,848,488,938,519,
-	TextColor,0,0,0,255,
-	String,Outlet,
-	LogFont,나눔스퀘어_ac ExtraBold,20,1,0,0,0,
-	ClassName,SingleText1,0,,0,,0,1
-	ExpandScript,BEGIN
-		Active,0
-	ExpandScript,END
-ObjectSingleText,END
 ObjectGroup,BEGIN,
 	GroupRect,446,438,580,563,
 	GroupSize,135,126,

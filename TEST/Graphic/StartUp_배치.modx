@@ -6155,22 +6155,6 @@ ObjectPoly,END
 		Active,0
 	ExpandScript,END
 ObjectGroup,END,
-ObjectPoly,BEGIN
-	Rect,75,1231,158,1320,
-	LineColor,64,0,0,255,
-	FillColor,255,124,0,255,1,
-
-	LineThick,1,
-	LineOption,1,
-	FillOption,1,
-	Point,75,1231,
-	Point,75,1320,
-	Point,158,1275,
-	ClassName,Poly1,0,,0,,0,1
-	ExpandScript,BEGIN
-		Active,0
-	ExpandScript,END
-ObjectPoly,END
 ObjectRectangle,BEGIN
 	Rect,365,495,445,510,
 	LineColor,0,0,0,255,
