@@ -1,0 +1,720 @@
+Resolution,1920,1080
+DefaultLocation,0,0,0
+ModuleOptic,2
+ModuleWindowStyle,0,False,100,1,False
+ModuleWindowStyleFlag,13107200,0
+BackGroundColor,255,255,255,255
+Version, 10,3,5,9,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,1919,1079,
+	GroupSize,1920,1080,
+ObjectRectangle,BEGIN
+	Rect,141,256,1780,1056,
+	LineColor,26,42,64,255,
+	FillColor,26,42,64,255,0,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,0,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectWindowAlarm,BEGIN
+	Rect,141,184,1781,1001,
+	LogFont,맑은 고딕,15,1,0,0,0,
+	StringOption,1,0,1,True,True,
+AlarmEventColumn,Priority,True,Lvl.
+AlarmEventColumn,AlarmDate,True,Date
+AlarmEventColumn,AlarmTime,True,Time
+AlarmEventColumn,Tag,True,Tag
+AlarmEventColumn,Description,True,Description
+AlarmEventColumn,Message,True,Message
+	ClassName,Alarm,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectButtonProgramm,BEGIN
+	Rect,141,1002,414,1057,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm");
+
+@AlarmListConfirm("Alarm", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,415,1002,688,1057,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@AlarmListConfirm("Alarm", -1);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK. ALL,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1509,1002,1782,1057,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@AlarmListSetFilter("Alarm", 0, 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,VIEW ALL,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,963,1002,1236,1057,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@DialogAlarmFileSearch();
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,FILTER SET,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,689,1002,962,1057,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@AlarmListConfirm("Alarm", -1);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,PRINT,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1237,1002,1510,1057,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@ViewAlarmList (0, 0, 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,HISTORICAL,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectStringString,BEGIN
+	Rect,1664,63,1848,88,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,20,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectRectangle,BEGIN
+	Rect,162,1,1921,88,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectDate,BEGIN
+	Rect,1595,-4,1795,44,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Date1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectDate,END
+ObjectClock,BEGIN
+	Rect,1737,-3,1937,45,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Clock1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectClock,END
+ObjectStringString,BEGIN
+	Rect,1672,31,1856,56,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,18,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectRectangle,BEGIN
+	Rect,1454,4,1541,86,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1071,4,1158,86,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,1074,11,1154,79,
+	GroupSize,81,69,
+ObjectSingleText,BEGIN
+	Rect,0,0,80,28,
+	TextColor,0,0,0,255,
+	String,General,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,14,20,67,48,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,8,40,72,68,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,1158,4,1306,45,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1173,11,1291,39,
+	TextColor,0,0,0,255,
+	String,FC-A Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,1465,6,1529,79,
+	GroupSize,65,74,
+ObjectSingleText,BEGIN
+	Rect,11,0,53,28,
+	TextColor,0,0,0,255,
+	String,G/C,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,6,22,59,50,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,0,45,64,73,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,487,-7,830,54,
+	TextColor,255,255,255,255,
+	String,Alarms / Events,
+	LogFont,Malgun Gothic,32,1,0,0,0,
+	ClassName,Gas Chromatograph,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,586,43,731,90,
+	TextColor,255,255,255,255,
+	String,IHO B/V,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectWindowAlarm,BEGIN
+	Rect,1036,90,1796,145,
+	LogFont,Malgun Gothic,10,1,0,0,0,
+	StringOption,1,0,1,True,True,
+AlarmEventColumn,Priority,True,레벨
+AlarmEventColumn,AlarmDate,True,경보날짜
+AlarmEventColumn,AlarmTime,True,경보시간
+AlarmEventColumn,Tag,True,태그
+AlarmEventColumn,Description,True,태그 설명
+AlarmEventColumn,Message,True,경보 내용
+	ClassName,Alarm,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectRoundRectangle,BEGIN
+	Rect,1628,58,1900,85,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,6,6,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectButtonModule3D,BEGIN
+	Rect,0,89,130,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,StartUp.modx,
+	String,Station,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,130,89,260,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,GC.modx,
+	String,Gas Chro,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,783,89,913,144,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Alarm.modx,
+	String,Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,523,89,653,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Trend.modx,
+	String,Trend,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,653,89,783,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Report.modx,
+	String,Report,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonProgramm,BEGIN
+	Rect,914,89,1035,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm");
+
+@AlarmListConfirm("Alarm", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectGroup,BEGIN,
+	GroupRect,1800,97,1912,136,
+	GroupSize,113,40,
+ObjectBitmap,BEGIN
+	Rect,0,0,49,39,
+	FileName,1.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LogIn();
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,63,0,112,39,
+	FileName,2.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LogOut();
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectBitmap,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectButtonModule3D,BEGIN
+	Rect,261,89,391,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,207,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Operator_Entry.modx,
+	String,Oper.Entry,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,392,89,522,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,GC.modx,
+	String,V/V Control,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectRectangle,BEGIN
+	Rect,1158,45,1306,86,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1306,4,1454,45,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1306,45,1454,86,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1314,7,1446,35,
+	TextColor,0,0,0,255,
+	String,GC COMM-A,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1174,51,1290,79,
+	TextColor,0,0,0,255,
+	String,FC-B Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1315,48,1446,76,
+	TextColor,0,0,0,255,
+	String,GC COMM-B,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ScriptModuleStart,BEGIN
+Description,모듈 열릴 때 한번 실행할 스크립트,
+ScanTime,1,False,False,
+Data,int,year,1,"0,"
+Data,int,mon,1,"0,"
+Data,int,day,1,"0,"
+Data,int,yo,1,"0,"
+Programm,BEGIN,
+year = @GetDateYear();
+
+mon = @GetDateMon();
+
+day = @GetDateDay();
+
+  
+
+yo = @GetWeekDay(year, mon, day);
+
+
+if(yo == 0)
+	$ST_0001 = "일요일";
+if(yo == 1)
+	$ST_0001 = "월요일";
+if(yo == 2)
+	$ST_0001 = "화요일";
+if(yo == 3)
+	$ST_0001 = "수요일";
+if(yo == 4)
+	$ST_0001 = "목요일";
+if(yo == 5)
+	$ST_0001 = "금요일";
+if(yo == 6)
+	$ST_0001 = "토요일";
+Programm,END,
+	ScriptModuleStart,END

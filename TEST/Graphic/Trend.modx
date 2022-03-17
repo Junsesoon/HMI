@@ -1,0 +1,2633 @@
+Resolution,1920,1080
+DefaultLocation,0,0,0
+ModuleOptic,2
+ModuleWindowStyle,0,False,100,1,False
+ModuleWindowStyleFlag,13107200,0
+BackGroundColor,255,255,255,255
+Version, 10,3,5,9,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,1919,1079,
+	GroupSize,1920,1080,
+ObjectMilliDataTrend,BEGIN
+	Rect,364,253,1896,886,
+	LogFont,Malgun Gothic,12,0,0,0,0,
+	BackColor,211,211,211,255,1,
+
+	TextColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	GuideLineColor,169,169,169,255,
+	LogarithmicScale,True,10,
+	ShowUnit,100,
+	wTimeDevide,2,
+	wLevelDevide,10,
+	wTimeSelectOption,1,
+	GraphPublicArgs,215,10,5,FF800000,FFFF0000,FF0000FF,FF000080
+	wFlags,215,
+	wGraphPointSize,10,
+	LevelDisplaySize,5,
+	StringOption,dd,,,1,,0,0,0,False,False,
+	ClassName,MilliDataTrend1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectMilliDataTrend,END
+ObjectControlComboBox,BEGIN
+	Rect,16,258,261,287,
+	TagName,Trend1,
+	TextColor,26,42,64,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,Malgun Gothic,13,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,사용안함,
+	ListData,F_NRST_VOL,
+	ListData,F_NRST_MASS,
+	ListData,F_NRST_ENE,
+	ClassName,Trend1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,270,258,349,287,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,string,i,1,"0,"
+Programm,BEGIN,
+i = $Trend1;
+
+i = @ComboBoxSetCurSel("Trend1", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Clear,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectLine,BEGIN
+	Rect,33,292,347,292,
+	LineColor,255,0,0,255,
+	LineThick,2,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectControlComboBox,BEGIN
+	Rect,17,327,262,342,
+	TagName,Trend2,
+	TextColor,26,42,64,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,Malgun Gothic,13,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,사용안함,
+	ListData,F_NRST_VOL,
+	ListData,F_NRST_MASS,
+	ListData,F_NRST_ENE,
+	ClassName,Trend2,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,270,327,349,356,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,string,i,1,"0,"
+Programm,BEGIN,
+i = $Trend2;
+
+i = @ComboBoxSetCurSel("Trend2", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Clear,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectLine,BEGIN
+	Rect,33,361,347,361,
+	LineColor,255,124,0,255,
+	LineThick,2,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectControlComboBox,BEGIN
+	Rect,17,399,262,414,
+	TagName,Trend3,
+	TextColor,26,42,64,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,Malgun Gothic,13,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,사용안함.,
+	ListData,F_NRST_VOL,
+	ListData,F_NRST_MASS,
+	ListData,F_NRST_ENE,
+	ClassName,Trend3,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,270,399,349,428,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,string,i,1,"0,"
+Programm,BEGIN,
+i = $Trend3;
+
+i = @ComboBoxSetCurSel("Trend3", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Clear,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectLine,BEGIN
+	Rect,33,433,347,433,
+	LineColor,0,128,0,255,
+	LineThick,2,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectControlComboBox,BEGIN
+	Rect,17,471,262,486,
+	TagName,Trend4,
+	TextColor,26,42,64,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,Malgun Gothic,13,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,사용안함,
+	ClassName,Trend4,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,270,471,349,500,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,string,i,1,"0,"
+Programm,BEGIN,
+i = $Trend4;
+
+i = @ComboBoxSetCurSel("Trend4", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Clear,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectLine,BEGIN
+	Rect,33,505,347,505,
+	LineColor,0,0,255,255,
+	LineThick,2,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectControlComboBox,BEGIN
+	Rect,17,543,262,558,
+	TagName,Trend5,
+	TextColor,26,42,64,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,Malgun Gothic,13,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,사용안함,
+	ClassName,Trend5,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,269,543,348,572,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,string,i,1,"0,"
+Programm,BEGIN,
+i = $Trend5;
+
+i = @ComboBoxSetCurSel("Trend5", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Clear,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectLine,BEGIN
+	Rect,33,577,347,577,
+	LineColor,124,0,255,255,
+	LineThick,2,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectControlComboBox,BEGIN
+	Rect,17,615,262,630,
+	TagName,Trend6,
+	TextColor,26,42,64,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,Malgun Gothic,13,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,사용안함,
+	ClassName,Trend6,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,269,615,348,644,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,string,i,1,"0,"
+Programm,BEGIN,
+i = $Trend6;
+
+i = @ComboBoxSetCurSel("Trend6", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Clear,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectLine,BEGIN
+	Rect,33,649,347,649,
+	LineColor,0,128,128,255,
+	LineThick,2,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectControlComboBox,BEGIN
+	Rect,17,687,262,702,
+	TagName,Trend7,
+	TextColor,26,42,64,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,Malgun Gothic,13,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,사용안함,
+	ListData,F_NRST Uncorrected Volume,
+	ListData,F_NRST Standard Volume,
+	ListData,F_NRST Energy,
+	ListData,F_NRST Mass,
+	ListData,B_NRST Uncorrected Volume,
+	ListData,B_NRST Standard Volume,
+	ListData,B_NRST Energy,
+	ListData,B_NRST Mass,
+	ListData,F_DAILY Uncorrected Volume,
+	ListData,F_DAILY Standard Volume,
+	ListData,F_DAILY Energy,
+	ListData,F_DAILY Mass,
+	ListData,B_DAILY Uncorrected Volume,
+	ListData,B_DAILY Standard Volume,
+	ListData,B_DAILY Energy,
+	ListData,B_DAILY Mass,
+	ListData,USED Methane,
+	ListData,USED Ethane,
+	ListData,USED Propane,
+	ListData,USED iButane,
+	ListData,USED nButane,
+	ListData,USED iPentane,
+	ListData,USED nPentane,
+	ListData,USED Hexane+,
+	ListData,USED Nitrogen,
+	ListData,USED Carbon_Dioxide,
+	ListData,USED Superior Heating Value Volume,
+	ListData,USED Inferior Heating Value Volume,
+	ListData,KEY Methane,
+	ListData,KEY Ethane,
+	ListData,KEY Propane,
+	ListData,KEY iButane,
+	ListData,KEY nButane,
+	ListData,KEY iPentane,
+	ListData,KEY nPentane,
+	ListData,KEY Hexane+,
+	ListData,KEY Nitrogen,
+	ListData,KEY Carbon_Dioxide,
+	ListData,KEY Superior Heating Value Volume,
+	ListData,KEY Inferior Heating Value Volume,
+	ListData,GC Methane,
+	ListData,GC Ethane,
+	ListData,GC Propane,
+	ListData,GC iButane,
+	ListData,GC nButane,
+	ListData,GC iPentane,
+	ListData,GC nPentane,
+	ListData,GC Hexane+,
+	ListData,GC Nitrogen,
+	ListData,GC Carbon_Dioxide,
+	ListData,GC Superior Heating Value Volume,
+	ListData,GC Inferior Heating Value Volume,
+	ListData,F_Uncorrected Volume FLOW,
+	ListData,F_Standard Volume FLOW,
+	ListData,F_Energy FLOW,
+	ListData,F_Mass FLOW,
+	ListData,B_Uncorrected Volume FLOW,
+	ListData,B_Standard Volume FLOW,
+	ListData,B_Energy FLOW,
+	ListData,B_Mass FLOW,
+	ListData,Frequency,
+	ListData,Pressure,
+	ListData,Temperature,
+	ListData,Density,
+	ListData,Base Density,
+	ListData,Relative Density,
+	ClassName,Trend7,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,269,687,348,716,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,string,i,1,"0,"
+Programm,BEGIN,
+i = $Trend7;
+
+i = @ComboBoxSetCurSel("Trend7", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Clear,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectLine,BEGIN
+	Rect,33,721,347,721,
+	LineColor,255,0,255,255,
+	LineThick,2,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectControlComboBox,BEGIN
+	Rect,17,759,262,774,
+	TagName,Trend8,
+	TextColor,26,42,64,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,Malgun Gothic,13,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,사용안함,
+	ListData,F_NRST Uncorrected Volume,
+	ListData,F_NRST Standard Volume,
+	ListData,F_NRST Energy,
+	ListData,F_NRST Mass,
+	ListData,B_NRST Uncorrected Volume,
+	ListData,B_NRST Standard Volume,
+	ListData,B_NRST Energy,
+	ListData,B_NRST Mass,
+	ListData,F_DAILY Uncorrected Volume,
+	ListData,F_DAILY Standard Volume,
+	ListData,F_DAILY Energy,
+	ListData,F_DAILY Mass,
+	ListData,B_DAILY Uncorrected Volume,
+	ListData,B_DAILY Standard Volume,
+	ListData,B_DAILY Energy,
+	ListData,B_DAILY Mass,
+	ListData,USED Methane,
+	ListData,USED Ethane,
+	ListData,USED Propane,
+	ListData,USED iButane,
+	ListData,USED nButane,
+	ListData,USED iPentane,
+	ListData,USED nPentane,
+	ListData,USED Hexane+,
+	ListData,USED Nitrogen,
+	ListData,USED Carbon_Dioxide,
+	ListData,USED Superior Heating Value Volume,
+	ListData,USED Inferior Heating Value Volume,
+	ListData,KEY Methane,
+	ListData,KEY Ethane,
+	ListData,KEY Propane,
+	ListData,KEY iButane,
+	ListData,KEY nButane,
+	ListData,KEY iPentane,
+	ListData,KEY nPentane,
+	ListData,KEY Hexane+,
+	ListData,KEY Nitrogen,
+	ListData,KEY Carbon_Dioxide,
+	ListData,KEY Superior Heating Value Volume,
+	ListData,KEY Inferior Heating Value Volume,
+	ListData,GC Methane,
+	ListData,GC Ethane,
+	ListData,GC Propane,
+	ListData,GC iButane,
+	ListData,GC nButane,
+	ListData,GC iPentane,
+	ListData,GC nPentane,
+	ListData,GC Hexane+,
+	ListData,GC Nitrogen,
+	ListData,GC Carbon_Dioxide,
+	ListData,GC Superior Heating Value Volume,
+	ListData,GC Inferior Heating Value Volume,
+	ListData,F_Uncorrected Volume FLOW,
+	ListData,F_Standard Volume FLOW,
+	ListData,F_Energy FLOW,
+	ListData,F_Mass FLOW,
+	ListData,B_Uncorrected Volume FLOW,
+	ListData,B_Standard Volume FLOW,
+	ListData,B_Energy FLOW,
+	ListData,B_Mass FLOW,
+	ListData,Frequency,
+	ListData,Pressure,
+	ListData,Temperature,
+	ListData,Density,
+	ListData,Base Density,
+	ListData,Relative Density,
+	ClassName,Trend8,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,269,759,348,788,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,string,i,1,"0,"
+Programm,BEGIN,
+i = $Trend8;
+
+i = @ComboBoxSetCurSel("Trend8", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Clear,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectLine,BEGIN
+	Rect,33,793,347,793,
+	LineColor,128,128,0,255,
+	LineThick,2,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectButtonProgramm,BEGIN
+	Rect,196,887,348,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendClear("MilliDataTrend1");
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,All Clear,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,17,887,169,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendClear("MilliDataTrend1");
+
+if($Trend.Trend1 == "F_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_VOL","KRISO_F_NRST_VOL", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST uVolume");
+elseif($Trend.Trend1 == "F_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_S_VOL","KRISO_F_NRST_S_VOL", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST sVolume");
+elseif($Trend.Trend1 == "F_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_ENE","KRISO_F_NRST_ENE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Energy");
+elseif($Trend.Trend1 == "F_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_MASS","KRISO_F_NRST_MASS", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Mass");
+
+if($Trend.Trend1  == "B_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_VOL","KRISO_B_NRST_VOL", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST uVolume");
+elseif($Trend.Trend1 == "B_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_S_VOL","KRISO_B_NRST_S_VOL", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST sVolume");
+elseif($Trend.Trend1 == "B_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_ENE","KRISO_B_NRST_ENE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Energy");
+elseif($Trend.Trend1 == "B_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_MASS","KRISO_B_NRST_MASS", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Mass");
+
+if($Trend.Trend1 == "F_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_VOL","KRISO_F_D_VOL", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY uVolume");
+elseif($Trend.Trend1 == "F_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_S_VOL","KRISO_F_D_S_VOL", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY sVolume");
+
+
+elseif($Trend.Trend1 == "F_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_ENE","KRISO_F_D_ENE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Energy");
+elseif($Trend.Trend1 == "F_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_MASS","KRISO_F_D_MASS", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Mass");
+
+if($Trend.Trend1 == "B_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_VOL","KRISO_B_D_VOL", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY uVolume");
+elseif($Trend.Trend1 == "B_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_S_VOL","KRISO_B_D_S_VOL", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY sVolume");
+elseif($Trend.Trend1 == "B_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_ENE","KRISO_B_D_ENE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Energy");
+elseif($Trend.Trend1 == "B_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_MASS","KRISO_B_D_MASS", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Mass");
+
+
+if($Trend.Trend1 == "USED Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_METHANE","KRISO_U_METHANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend1 == "USED Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ETHANE","KRISO_U_ETHANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend1 == "USED Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_PROPANE","KRISO_U_PROPANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend1 == "USED iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_BUTANE","KRISO_U_I_BUTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend1 == "USED nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_BUTANE","KRISO_U_N_BUTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend1 == "USED iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_PENTANE","KRISO_U_I_PENTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend1 == "USED nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_PENTANE","KRISO_U_N_PENTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend1 == "USED Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_HEXANE","KRISO_U_HEXANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend1 == "USED Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_NITROGEN","KRISO_U_NITROGEN", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend1 == "USED Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_CO2","KRISO_U_CO2", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon_Dioxide");
+elseif($Trend.Trend1 == "USED Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_SCV","KRISO_U_SCV", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend1 == "USED Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ICV","KRISO_U_ICV", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+
+if($Trend.Trend1 == "KEY Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_METHANE","KRISO_K_METHANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend1 == "KEY Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ETHANE","KRISO_K_ETHANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend1 == "KEY Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_PROPANE","KRISO_K_PROPANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend1 == "KEY iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_BUTANE","KRISO_K_I_BUTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend1 == "KEY nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_BUTANE","KRISO_K_N_BUTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend1 == "KEY iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_PENTANE","KRISO_K_I_PENTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend1 == "KEY nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_PENTANE","KRISO_K_N_PENTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend1 == "KEY Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_HEXANE","KRISO_K_HEXANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane+");
+elseif($Trend.Trend1 == "KEY Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_NITROGEN","KRISO_K_NITROGEN", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend1 == "KEY Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_CO2","KRISO_K_CO2", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend1 == "KEY Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_SCV","KRISO_K_SCV", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend1 == "KEY Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ICV","KRISO_K_ICV", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend1 == "GC Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_METHANE","KRISO_GC_METHANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend1 == "GC Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ETHANE","KRISO_GC_ETHANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend1 == "GC Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_PROPANE","KRISO_GC_PROPANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend1 == "GC iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_BUTANE","KRISO_GC_I_BUTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend1 == "GC nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_BUTANE","KRISO_GC_N_BUTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend1 == "GC iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_PENTANE","KRISO_GC_I_PENTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend1 == "GC nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_PENTANE","KRISO_GC_N_PENTANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend1 == "GC Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_HEXANE","KRISO_GC_HEXANE", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend1 == "GC Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_NITROGEN","KRISO_GC_NITROGEN", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend1 == "GC Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_CO2","KRISO_GC_CO2", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend1 == "GC Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_SCV","KRISO_GC_SCV", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend1 == "GC Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ICV","KRISO_GC_ICV", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend1 == "F_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_VOL_FLOW","KRISO_F_VOL_FLOW", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_VOL_FLOW");
+elseif($Trend.Trend1 == "F_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_S_VOL_FLOW","KRISO_F_S_VOL_FLOW", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_S_VOL_FLOW");
+elseif($Trend.Trend1 == "F_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_ENE_FLOW","KRISO_F_ENE_FLOW", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_ENE_FLOW");
+elseif($Trend.Trend1 == "F_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_MASS_FLOW","KRISO_F_MASS_FLOW", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_MASS_FLOW");
+
+if($Trend.Trend1 == "B_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_VOL_FLOW","KRISO_B_VOL_FLOW", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_VOL_FLOW");
+elseif($Trend.Trend1 == "B_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_S_VOL_FLOW","KRISO_B_S_VOL_FLOW", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_S_VOL_FLOW");
+elseif($Trend.Trend1 == "B_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_ENE_FLOW","KRISO_B_ENE_FLOW", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_ENE_FLOW");
+elseif($Trend.Trend1 == "B_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_MASS_FLOW","KRISO_B_MASS_FLOW", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_MASS_FLOW");
+
+if($Trend.Trend1 == "Frequency")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.FREQUENCY","KRISO_FREQUENCY", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "FREQUENCY");
+elseif($Trend.Trend1 == "Pressure")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.PRESS","KRISO_PRESS", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "PRESS");
+elseif($Trend.Trend1 == "Temperature")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.TEMP","KRISO_TEMP", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "TEMP");
+elseif($Trend.Trend1 == "Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.DENSITY","KRISO_DENSITY", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Density");
+elseif($Trend.Trend1 == "Base Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_B_DENSITY","KRISO_U_B_DENSITY", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Base Density");
+elseif($Trend.Trend1 == "Relative Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_R_DENSITY","KRISO_U_R_DENSITY", @RGB(255,0,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Relative Density");
+
+
+
+if($Trend.Trend2 == "F_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_VOL","KRISO_F_NRST_VOL", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST uVolume");
+elseif($Trend.Trend2 == "F_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_S_VOL","KRISO_F_NRST_S_VOL", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST sVolume");
+elseif($Trend.Trend2 == "F_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_ENE","KRISO_F_NRST_ENE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Energy");
+elseif($Trend.Trend2 == "F_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_MASS","KRISO_F_NRST_MASS", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Mass");
+
+if($Trend.Trend2  == "B_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_VOL","KRISO_B_NRST_VOL", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST uVolume");
+elseif($Trend.Trend2 == "B_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_S_VOL","KRISO_B_NRST_S_VOL", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST sVolume");
+elseif($Trend.Trend2 == "B_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_ENE","KRISO_B_NRST_ENE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Energy");
+elseif($Trend.Trend2 == "B_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_MASS","KRISO_B_NRST_MASS", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Mass");
+
+if($Trend.Trend2 == "F_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_VOL","KRISO_F_D_VOL", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY uVolume");
+elseif($Trend.Trend2 == "F_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_S_VOL","KRISO_F_D_S_VOL", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY sVolume");
+elseif($Trend.Trend2 == "F_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_ENE","KRISO_F_D_ENE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Energy");
+elseif($Trend.Trend2 == "F_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_MASS","KRISO_F_D_MASS", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Mass");
+
+if($Trend.Trend2 == "B_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_VOL","KRISO_B_D_VOL", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY uVolume");
+elseif($Trend.Trend2 == "B_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_S_VOL","KRISO_B_D_S_VOL", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY sVolume");
+elseif($Trend.Trend2 == "B_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_ENE","KRISO_B_D_ENE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Energy");
+elseif($Trend.Trend2 == "B_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_MASS","KRISO_B_D_MASS", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Mass");
+
+
+if($Trend.Trend2 == "USED Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_METHANE","KRISO_U_METHANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend2 == "USED Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ETHANE","KRISO_U_ETHANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend2 == "USED Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_PROPANE","KRISO_U_PROPANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend2 == "USED iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_BUTANE","KRISO_U_I_BUTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend2 == "USED nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_BUTANE","KRISO_U_N_BUTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend2 == "USED iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_PENTANE","KRISO_U_I_PENTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend2 == "USED nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_PENTANE","KRISO_U_N_PENTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend2 == "USED Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_HEXANE","KRISO_U_HEXANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend2 == "USED Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_NITROGEN","KRISO_U_NITROGEN", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend2 == "USED Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_CO2","KRISO_U_CO2", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon_Dioxide");
+elseif($Trend.Trend2 == "USED Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_SCV","KRISO_U_SCV", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend2 == "USED Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ICV","KRISO_U_ICV", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+
+if($Trend.Trend2 == "KEY Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_METHANE","KRISO_K_METHANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend2 == "KEY Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ETHANE","KRISO_K_ETHANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend2 == "KEY Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_PROPANE","KRISO_K_PROPANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend2 == "KEY iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_BUTANE","KRISO_K_I_BUTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend2 == "KEY nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_BUTANE","KRISO_K_N_BUTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend2 == "KEY iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_PENTANE","KRISO_K_I_PENTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend2 == "KEY nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_PENTANE","KRISO_K_N_PENTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend2 == "KEY Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_HEXANE","KRISO_K_HEXANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend2 == "KEY Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_NITROGEN","KRISO_K_NITROGEN", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend2 == "KEY Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_CO2","KRISO_K_CO2", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend2 == "KEY Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_SCV","KRISO_K_SCV", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend2 == "KEY Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ICV","KRISO_K_ICV", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend2 == "GC Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_METHANE","KRISO_GC_METHANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend2 == "GC Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ETHANE","KRISO_GC_ETHANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend2 == "GC Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_PROPANE","KRISO_GC_PROPANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend2 == "GC iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_BUTANE","KRISO_GC_I_BUTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend2 == "GC nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_BUTANE","KRISO_GC_N_BUTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend2 == "GC iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_PENTANE","KRISO_GC_I_PENTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend2 == "GC nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_PENTANE","KRISO_GC_N_PENTANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend2 == "GC Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_HEXANE","KRISO_GC_HEXANE", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend2 == "GC Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_NITROGEN","KRISO_GC_NITROGEN", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend2 == "GC Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_CO2","KRISO_GC_CO2", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend2 == "GC Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_SCV","KRISO_GC_SCV", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend2 == "GC Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ICV","KRISO_GC_ICV", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend2 == "F_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_VOL_FLOW","KRISO_F_VOL_FLOW", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_VOL_FLOW");
+elseif($Trend.Trend2 == "F_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_S_VOL_FLOW","KRISO_F_S_VOL_FLOW", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_S_VOL_FLOW");
+elseif($Trend.Trend2 == "F_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_ENE_FLOW","KRISO_F_ENE_FLOW", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_ENE_FLOW");
+elseif($Trend.Trend2 == "F_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_MASS_FLOW","KRISO_F_MASS_FLOW", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_MASS_FLOW");
+
+if($Trend.Trend2 == "B_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_VOL_FLOW","KRISO_B_VOL_FLOW", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_VOL_FLOW");
+elseif($Trend.Trend2 == "B_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_S_VOL_FLOW","KRISO_B_S_VOL_FLOW", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_S_VOL_FLOW");
+elseif($Trend.Trend2 == "B_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_ENE_FLOW","KRISO_B_ENE_FLOW", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_ENE_FLOW");
+elseif($Trend.Trend2 == "B_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_MASS_FLOW","KRISO_B_MASS_FLOW", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_MASS_FLOW");
+
+if($Trend.Trend2 == "Frequency")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.FREQUENCY","KRISO_FREQUENCY", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "FREQUENCY");
+elseif($Trend.Trend2 == "Pressure")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.PRESS","KRISO_PRESS", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "PRESS");
+elseif($Trend.Trend2 == "Temperature")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.TEMP","KRISO_TEMP", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "TEMP");
+elseif($Trend.Trend2 == "Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.DENSITY","KRISO_DENSITY", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Density");
+elseif($Trend.Trend2 == "Base Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_B_DENSITY","KRISO_U_B_DENSITY", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Base Density");
+elseif($Trend.Trend2 == "Relative Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_R_DENSITY","KRISO_U_R_DENSITY", @RGB(255,124,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Relative Density");
+
+
+if($Trend.Trend3 == "F_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_VOL","KRISO_F_NRST_VOL", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST uVolume");
+elseif($Trend.Trend3 == "F_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_S_VOL","KRISO_F_NRST_S_VOL", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST sVolume");
+elseif($Trend.Trend3 == "F_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_ENE","KRISO_F_NRST_ENE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Energy");
+elseif($Trend.Trend3 == "F_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_MASS","KRISO_F_NRST_MASS", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Mass");
+
+if($Trend.Trend3  == "B_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_VOL","KRISO_B_NRST_VOL", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST uVolume");
+elseif($Trend.Trend3 == "B_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_S_VOL","KRISO_B_NRST_S_VOL", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST sVolume");
+elseif($Trend.Trend3 == "B_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_ENE","KRISO_B_NRST_ENE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Energy");
+elseif($Trend.Trend3 == "B_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_MASS","KRISO_B_NRST_MASS", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Mass");
+
+if($Trend.Trend3 == "F_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_VOL","KRISO_F_D_VOL", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY uVolume");
+elseif($Trend.Trend3 == "F_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_S_VOL","KRISO_F_D_S_VOL", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY sVolume");
+elseif($Trend.Trend3 == "F_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_ENE","KRISO_F_D_ENE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Energy");
+elseif($Trend.Trend3 == "F_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_MASS","KRISO_F_D_MASS", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Mass");
+
+if($Trend.Trend3 == "B_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_VOL","KRISO_B_D_VOL", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY uVolume");
+elseif($Trend.Trend3 == "B_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_S_VOL","KRISO_B_D_S_VOL", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY sVolume");
+elseif($Trend.Trend3 == "B_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_ENE","KRISO_B_D_ENE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Energy");
+elseif($Trend.Trend3 == "B_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_MASS","KRISO_B_D_MASS", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Mass");
+
+
+if($Trend.Trend3 == "USED Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_METHANE","KRISO_U_METHANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend3 == "USED Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ETHANE","KRISO_U_ETHANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend3 == "USED Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_PROPANE","KRISO_U_PROPANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend3 == "USED iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_BUTANE","KRISO_U_I_BUTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend3 == "USED nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_BUTANE","KRISO_U_N_BUTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend3 == "USED iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_PENTANE","KRISO_U_I_PENTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend3 == "USED nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_PENTANE","KRISO_U_N_PENTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend3 == "USED Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_HEXANE","KRISO_U_HEXANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend3 == "USED Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_NITROGEN","KRISO_U_NITROGEN", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend3 == "USED Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_CO2","KRISO_U_CO2", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon_Dioxide");
+elseif($Trend.Trend3 == "USED Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_SCV","KRISO_U_SCV", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend3 == "USED Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ICV","KRISO_U_ICV", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+
+if($Trend.Trend3 == "KEY Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_METHANE","KRISO_K_METHANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend3 == "KEY Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ETHANE","KRISO_K_ETHANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend3 == "KEY Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_PROPANE","KRISO_K_PROPANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend3 == "KEY iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_BUTANE","KRISO_K_I_BUTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend3 == "KEY nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_BUTANE","KRISO_K_N_BUTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend3 == "KEY iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_PENTANE","KRISO_K_I_PENTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend3 == "KEY nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_PENTANE","KRISO_K_N_PENTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend3 == "KEY Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_HEXANE","KRISO_K_HEXANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend3 == "KEY Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_NITROGEN","KRISO_K_NITROGEN", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend3 == "KEY Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_CO2","KRISO_K_CO2", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend3 == "KEY Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_SCV","KRISO_K_SCV", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend3 == "KEY Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ICV","KRISO_K_ICV", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend3 == "GC Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_METHANE","KRISO_GC_METHANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend3 == "GC Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ETHANE","KRISO_GC_ETHANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend3 == "GC Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_PROPANE","KRISO_GC_PROPANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend3 == "GC iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_BUTANE","KRISO_GC_I_BUTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend3 == "GC nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_BUTANE","KRISO_GC_N_BUTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend3 == "GC iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_PENTANE","KRISO_GC_I_PENTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend3 == "GC nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_PENTANE","KRISO_GC_N_PENTANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend3 == "GC Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_HEXANE","KRISO_GC_HEXANE", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend3 == "GC Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_NITROGEN","KRISO_GC_NITROGEN", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend3 == "GC Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_CO2","KRISO_GC_CO2", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend3 == "GC Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_SCV","KRISO_GC_SCV", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend3 == "GC Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ICV","KRISO_GC_ICV", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend3 == "F_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_VOL_FLOW","KRISO_F_VOL_FLOW", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_VOL_FLOW");
+elseif($Trend.Trend3 == "F_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_S_VOL_FLOW","KRISO_F_S_VOL_FLOW", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_S_VOL_FLOW");
+elseif($Trend.Trend3 == "F_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_ENE_FLOW","KRISO_F_ENE_FLOW", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_ENE_FLOW");
+elseif($Trend.Trend3 == "F_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_MASS_FLOW","KRISO_F_MASS_FLOW", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_MASS_FLOW");
+
+if($Trend.Trend3 == "B_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_VOL_FLOW","KRISO_B_VOL_FLOW", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_VOL_FLOW");
+elseif($Trend.Trend3 == "B_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_S_VOL_FLOW","KRISO_B_S_VOL_FLOW", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_S_VOL_FLOW");
+elseif($Trend.Trend3 == "B_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_ENE_FLOW","KRISO_B_ENE_FLOW", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_ENE_FLOW");
+elseif($Trend.Trend3 == "B_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_MASS_FLOW","KRISO_B_MASS_FLOW", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_MASS_FLOW");
+
+if($Trend.Trend3 == "Frequency")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.FREQUENCY","KRISO_FREQUENCY", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "FREQUENCY");
+elseif($Trend.Trend3 == "Pressure")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.PRESS","KRISO_PRESS", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "PRESS");
+elseif($Trend.Trend3 == "Temperature")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.TEMP","KRISO_TEMP", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "TEMP");
+elseif($Trend.Trend3 == "Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.DENSITY","KRISO_DENSITY", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Density");
+elseif($Trend.Trend3 == "Base Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_B_DENSITY","KRISO_U_B_DENSITY", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Base Density");
+elseif($Trend.Trend3 == "Relative Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_R_DENSITY","KRISO_U_R_DENSITY", @RGB(0,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Relative Density");
+
+
+
+if($Trend.Trend4 == "F_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_VOL","KRISO_F_NRST_VOL", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST uVolume");
+elseif($Trend.Trend4 == "F_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_S_VOL","KRISO_F_NRST_S_VOL", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST sVolume");
+elseif($Trend.Trend4 == "F_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_ENE","KRISO_F_NRST_ENE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Energy");
+elseif($Trend.Trend4 == "F_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_MASS","KRISO_F_NRST_MASS", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Mass");
+
+if($Trend.Trend4  == "B_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_VOL","KRISO_B_NRST_VOL", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST uVolume");
+elseif($Trend.Trend4 == "B_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_S_VOL","KRISO_B_NRST_S_VOL", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST sVolume");
+elseif($Trend.Trend4 == "B_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_ENE","KRISO_B_NRST_ENE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Energy");
+elseif($Trend.Trend4 == "B_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_MASS","KRISO_B_NRST_MASS", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Mass");
+
+if($Trend.Trend4 == "F_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_VOL","KRISO_F_D_VOL", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY uVolume");
+elseif($Trend.Trend4 == "F_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_S_VOL","KRISO_F_D_S_VOL", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY sVolume");
+elseif($Trend.Trend4 == "F_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_ENE","KRISO_F_D_ENE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Energy");
+elseif($Trend.Trend4 == "F_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_MASS","KRISO_F_D_MASS", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Mass");
+
+if($Trend.Trend4 == "B_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_VOL","KRISO_B_D_VOL", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY uVolume");
+elseif($Trend.Trend4 == "B_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_S_VOL","KRISO_B_D_S_VOL", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY sVolume");
+elseif($Trend.Trend4 == "B_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_ENE","KRISO_B_D_ENE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Energy");
+elseif($Trend.Trend4 == "B_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_MASS","KRISO_B_D_MASS", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Mass");
+
+
+if($Trend.Trend4 == "USED Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_METHANE","KRISO_U_METHANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend4 == "USED Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ETHANE","KRISO_U_ETHANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend4 == "USED Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_PROPANE","KRISO_U_PROPANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend4 == "USED iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_BUTANE","KRISO_U_I_BUTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend4 == "USED nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_BUTANE","KRISO_U_N_BUTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend4 == "USED iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_PENTANE","KRISO_U_I_PENTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend4 == "USED nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_PENTANE","KRISO_U_N_PENTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend4 == "USED Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_HEXANE","KRISO_U_HEXANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend4 == "USED Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_NITROGEN","KRISO_U_NITROGEN", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend4 == "USED Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_CO2","KRISO_U_CO2", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon_Dioxide");
+elseif($Trend.Trend4 == "USED Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_SCV","KRISO_U_SCV", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend4 == "USED Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ICV","KRISO_U_ICV", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+
+if($Trend.Trend4 == "KEY Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_METHANE","KRISO_K_METHANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend4 == "KEY Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ETHANE","KRISO_K_ETHANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend4 == "KEY Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_PROPANE","KRISO_K_PROPANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend4 == "KEY iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_BUTANE","KRISO_K_I_BUTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend4 == "KEY nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_BUTANE","KRISO_K_N_BUTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend4 == "KEY iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_PENTANE","KRISO_K_I_PENTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend4 == "KEY nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_PENTANE","KRISO_K_N_PENTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend4 == "KEY Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_HEXANE","KRISO_K_HEXANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend4 == "KEY Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_NITROGEN","KRISO_K_NITROGEN", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend4 == "KEY Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_CO2","KRISO_K_CO2", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend4 == "KEY Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_SCV","KRISO_K_SCV", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend4 == "KEY Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ICV","KRISO_K_ICV", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend4 == "GC Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_METHANE","KRISO_GC_METHANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend4 == "GC Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ETHANE","KRISO_GC_ETHANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend4 == "GC Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_PROPANE","KRISO_GC_PROPANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend4 == "GC iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_BUTANE","KRISO_GC_I_BUTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend4 == "GC nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_BUTANE","KRISO_GC_N_BUTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend4 == "GC iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_PENTANE","KRISO_GC_I_PENTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend4 == "GC nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_PENTANE","KRISO_GC_N_PENTANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend4 == "GC Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_HEXANE","KRISO_GC_HEXANE", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend4 == "GC Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_NITROGEN","KRISO_GC_NITROGEN", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend4 == "GC Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_CO2","KRISO_GC_CO2", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend4 == "GC Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_SCV","KRISO_GC_SCV", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend4 == "GC Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ICV","KRISO_GC_ICV", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend4 == "F_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_VOL_FLOW","KRISO_F_VOL_FLOW", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_VOL_FLOW");
+elseif($Trend.Trend4 == "F_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_S_VOL_FLOW","KRISO_F_S_VOL_FLOW", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_S_VOL_FLOW");
+elseif($Trend.Trend4 == "F_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_ENE_FLOW","KRISO_F_ENE_FLOW", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_ENE_FLOW");
+elseif($Trend.Trend4 == "F_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_MASS_FLOW","KRISO_F_MASS_FLOW", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_MASS_FLOW");
+
+if($Trend.Trend4 == "B_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_VOL_FLOW","KRISO_B_VOL_FLOW", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_VOL_FLOW");
+elseif($Trend.Trend4 == "B_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_S_VOL_FLOW","KRISO_B_S_VOL_FLOW", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_S_VOL_FLOW");
+elseif($Trend.Trend4 == "B_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_ENE_FLOW","KRISO_B_ENE_FLOW", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_ENE_FLOW");
+elseif($Trend.Trend4 == "B_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_MASS_FLOW","KRISO_B_MASS_FLOW", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_MASS_FLOW");
+
+if($Trend.Trend4 == "Frequency")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.FREQUENCY","KRISO_FREQUENCY", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "FREQUENCY");
+elseif($Trend.Trend4 == "Pressure")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.PRESS","KRISO_PRESS", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "PRESS");
+elseif($Trend.Trend4 == "Temperature")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.TEMP","KRISO_TEMP", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "TEMP");
+elseif($Trend.Trend4 == "Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.DENSITY","KRISO_DENSITY", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Density");
+elseif($Trend.Trend4 == "Base Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_B_DENSITY","KRISO_U_B_DENSITY", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Base Density");
+elseif($Trend.Trend4 == "Relative Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_R_DENSITY","KRISO_U_R_DENSITY", @RGB(0,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Relative Density");
+
+
+
+if($Trend.Trend5 == "F_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_VOL","KRISO_F_NRST_VOL", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST uVolume");
+elseif($Trend.Trend5 == "F_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_S_VOL","KRISO_F_NRST_S_VOL", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST sVolume");
+elseif($Trend.Trend5 == "F_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_ENE","KRISO_F_NRST_ENE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Energy");
+elseif($Trend.Trend5 == "F_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_MASS","KRISO_F_NRST_MASS", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Mass");
+
+if($Trend.Trend5  == "B_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_VOL","KRISO_B_NRST_VOL", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST uVolume");
+elseif($Trend.Trend5 == "B_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_S_VOL","KRISO_B_NRST_S_VOL", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST sVolume");
+elseif($Trend.Trend5 == "B_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_ENE","KRISO_B_NRST_ENE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Energy");
+elseif($Trend.Trend5 == "B_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_MASS","KRISO_B_NRST_MASS", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Mass");
+
+if($Trend.Trend5 == "F_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_VOL","KRISO_F_D_VOL", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY uVolume");
+elseif($Trend.Trend5 == "F_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_S_VOL","KRISO_F_D_S_VOL", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY sVolume");
+elseif($Trend.Trend5 == "F_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_ENE","KRISO_F_D_ENE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Energy");
+elseif($Trend.Trend5 == "F_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_MASS","KRISO_F_D_MASS", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Mass");
+
+if($Trend.Trend5 == "B_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_VOL","KRISO_B_D_VOL", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY uVolume");
+elseif($Trend.Trend5 == "B_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_S_VOL","KRISO_B_D_S_VOL", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY sVolume");
+elseif($Trend.Trend5 == "B_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_ENE","KRISO_B_D_ENE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Energy");
+elseif($Trend.Trend5 == "B_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_MASS","KRISO_B_D_MASS", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Mass");
+
+if($Trend.Trend5 == "USED Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_METHANE","KRISO_U_METHANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend5 == "USED Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ETHANE","KRISO_U_ETHANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend5 == "USED Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_PROPANE","KRISO_U_PROPANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend5 == "USED iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_BUTANE","KRISO_U_I_BUTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend5 == "USED nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_BUTANE","KRISO_U_N_BUTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend5 == "USED iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_PENTANE","KRISO_U_I_PENTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend5 == "USED nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_PENTANE","KRISO_U_N_PENTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend5 == "USED Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_HEXANE","KRISO_U_HEXANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend5 == "USED Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_NITROGEN","KRISO_U_NITROGEN", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend5 == "USED Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_CO2","KRISO_U_CO2", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon_Dioxide");
+elseif($Trend.Trend5 == "USED Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_SCV","KRISO_U_SCV", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend5 == "USED Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ICV","KRISO_U_ICV", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+
+if($Trend.Trend5 == "KEY Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_METHANE","KRISO_K_METHANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend5 == "KEY Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ETHANE","KRISO_K_ETHANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend5 == "KEY Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_PROPANE","KRISO_K_PROPANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend5 == "KEY iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_BUTANE","KRISO_K_I_BUTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend5 == "KEY nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_BUTANE","KRISO_K_N_BUTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend5 == "KEY iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_PENTANE","KRISO_K_I_PENTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend5 == "KEY nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_PENTANE","KRISO_K_N_PENTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend5 == "KEY Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_HEXANE","KRISO_K_HEXANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend5 == "KEY Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_NITROGEN","KRISO_K_NITROGEN", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend5 == "KEY Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_CO2","KRISO_K_CO2", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend5 == "KEY Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_SCV","KRISO_K_SCV", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend5 == "KEY Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ICV","KRISO_K_ICV", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend5 == "GC Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_METHANE","KRISO_GC_METHANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend5 == "GC Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ETHANE","KRISO_GC_ETHANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend5 == "GC Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_PROPANE","KRISO_GC_PROPANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend5 == "GC iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_BUTANE","KRISO_GC_I_BUTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend5 == "GC nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_BUTANE","KRISO_GC_N_BUTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend5 == "GC iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_PENTANE","KRISO_GC_I_PENTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend5 == "GC nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_PENTANE","KRISO_GC_N_PENTANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend5 == "GC Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_HEXANE","KRISO_GC_HEXANE", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend5 == "GC Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_NITROGEN","KRISO_GC_NITROGEN", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend5 == "GC Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_CO2","KRISO_GC_CO2", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend5 == "GC Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_SCV","KRISO_GC_SCV", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend5 == "GC Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ICV","KRISO_GC_ICV", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend5 == "F_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_VOL_FLOW","KRISO_F_VOL_FLOW", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_VOL_FLOW");
+elseif($Trend.Trend5 == "F_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_S_VOL_FLOW","KRISO_F_S_VOL_FLOW", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_S_VOL_FLOW");
+elseif($Trend.Trend5 == "F_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_ENE_FLOW","KRISO_F_ENE_FLOW", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_ENE_FLOW");
+elseif($Trend.Trend5 == "F_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_MASS_FLOW","KRISO_F_MASS_FLOW", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_MASS_FLOW");
+
+if($Trend.Trend5 == "B_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_VOL_FLOW","KRISO_B_VOL_FLOW", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_VOL_FLOW");
+elseif($Trend.Trend5 == "B_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_S_VOL_FLOW","KRISO_B_S_VOL_FLOW", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_S_VOL_FLOW");
+elseif($Trend.Trend5 == "B_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_ENE_FLOW","KRISO_B_ENE_FLOW", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_ENE_FLOW");
+elseif($Trend.Trend5 == "B_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_MASS_FLOW","KRISO_B_MASS_FLOW", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_MASS_FLOW");
+
+if($Trend.Trend5 == "Frequency")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.FREQUENCY","KRISO_FREQUENCY", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "FREQUENCY");
+elseif($Trend.Trend5 == "Pressure")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.PRESS","KRISO_PRESS", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "PRESS");
+elseif($Trend.Trend5 == "Temperature")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.TEMP","KRISO_TEMP", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "TEMP");
+elseif($Trend.Trend5 == "Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.DENSITY","KRISO_DENSITY", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Density");
+elseif($Trend.Trend5 == "Base Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_B_DENSITY","KRISO_U_B_DENSITY", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Base Density");
+elseif($Trend.Trend5 == "Relative Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_R_DENSITY","KRISO_U_R_DENSITY", @RGB(124,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Relative Density");
+
+
+
+if($Trend.Trend6 == "F_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_VOL","KRISO_F_NRST_VOL", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST uVolume");
+elseif($Trend.Trend6 == "F_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_S_VOL","KRISO_F_NRST_S_VOL", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST sVolume");
+elseif($Trend.Trend6 == "F_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_ENE","KRISO_F_NRST_ENE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Energy");
+elseif($Trend.Trend6 == "F_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_MASS","KRISO_F_NRST_MASS", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Mass");
+
+if($Trend.Trend6  == "B_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_VOL","KRISO_B_NRST_VOL", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST uVolume");
+elseif($Trend.Trend6 == "B_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_S_VOL","KRISO_B_NRST_S_VOL", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST sVolume");
+elseif($Trend.Trend6 == "B_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_ENE","KRISO_B_NRST_ENE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Energy");
+elseif($Trend.Trend6 == "B_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_MASS","KRISO_B_NRST_MASS", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Mass");
+
+if($Trend.Trend6 == "F_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_VOL","KRISO_F_D_VOL", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY uVolume");
+elseif($Trend.Trend6 == "F_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_S_VOL","KRISO_F_D_S_VOL", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY sVolume");
+elseif($Trend.Trend6 == "F_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_ENE","KRISO_F_D_ENE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Energy");
+elseif($Trend.Trend6 == "F_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_MASS","KRISO_F_D_MASS", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Mass");
+
+if($Trend.Trend6 == "B_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_VOL","KRISO_B_D_VOL", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY uVolume");
+elseif($Trend.Trend6 == "B_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_S_VOL","KRISO_B_D_S_VOL", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY sVolume");
+elseif($Trend.Trend6 == "B_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_ENE","KRISO_B_D_ENE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Energy");
+elseif($Trend.Trend6 == "B_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_MASS","KRISO_B_D_MASS", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Mass");
+
+if($Trend.Trend6 == "USED Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_METHANE","KRISO_U_METHANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend6 == "USED Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ETHANE","KRISO_U_ETHANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend6 == "USED Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_PROPANE","KRISO_U_PROPANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend6 == "USED iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_BUTANE","KRISO_U_I_BUTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend6 == "USED nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_BUTANE","KRISO_U_N_BUTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend6 == "USED iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_PENTANE","KRISO_U_I_PENTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend6 == "USED nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_PENTANE","KRISO_U_N_PENTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend6 == "USED Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_HEXANE","KRISO_U_HEXANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend6 == "USED Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_NITROGEN","KRISO_U_NITROGEN", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend6 == "USED Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_CO2","KRISO_U_CO2", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon_Dioxide");
+elseif($Trend.Trend6 == "USED Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_SCV","KRISO_U_SCV", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend6 == "USED Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ICV","KRISO_U_ICV", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend6 == "KEY Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_METHANE","KRISO_K_METHANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend6 == "KEY Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ETHANE","KRISO_K_ETHANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend6 == "KEY Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_PROPANE","KRISO_K_PROPANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend6 == "KEY iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_BUTANE","KRISO_K_I_BUTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend6 == "KEY nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_BUTANE","KRISO_K_N_BUTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend6 == "KEY iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_PENTANE","KRISO_K_I_PENTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend6 == "KEY nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_PENTANE","KRISO_K_N_PENTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend6 == "KEY Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_HEXANE","KRISO_K_HEXANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend6 == "KEY Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_NITROGEN","KRISO_K_NITROGEN", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend6 == "KEY Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_CO2","KRISO_K_CO2", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend6 == "KEY Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_SCV","KRISO_K_SCV", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend6 == "KEY Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ICV","KRISO_K_ICV", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend6 == "GC Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_METHANE","KRISO_GC_METHANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend6 == "GC Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ETHANE","KRISO_GC_ETHANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend6 == "GC Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_PROPANE","KRISO_GC_PROPANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend6 == "GC iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_BUTANE","KRISO_GC_I_BUTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend6 == "GC nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_BUTANE","KRISO_GC_N_BUTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend6 == "GC iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_PENTANE","KRISO_GC_I_PENTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend6 == "GC nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_PENTANE","KRISO_GC_N_PENTANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend6 == "GC Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_HEXANE","KRISO_GC_HEXANE", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend6 == "GC Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_NITROGEN","KRISO_GC_NITROGEN", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend6 == "GC Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_CO2","KRISO_GC_CO2", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend6 == "GC Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_SCV","KRISO_GC_SCV", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend6 == "GC Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ICV","KRISO_GC_ICV", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend6 == "F_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_VOL_FLOW","KRISO_F_VOL_FLOW", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_VOL_FLOW");
+elseif($Trend.Trend6 == "F_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_S_VOL_FLOW","KRISO_F_S_VOL_FLOW", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_S_VOL_FLOW");
+elseif($Trend.Trend6 == "F_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_ENE_FLOW","KRISO_F_ENE_FLOW", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_ENE_FLOW");
+elseif($Trend.Trend6 == "F_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_MASS_FLOW","KRISO_F_MASS_FLOW", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_MASS_FLOW");
+
+if($Trend.Trend6 == "B_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_VOL_FLOW","KRISO_B_VOL_FLOW", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_VOL_FLOW");
+elseif($Trend.Trend6 == "B_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_S_VOL_FLOW","KRISO_B_S_VOL_FLOW", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_S_VOL_FLOW");
+elseif($Trend.Trend6 == "B_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_ENE_FLOW","KRISO_B_ENE_FLOW", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_ENE_FLOW");
+elseif($Trend.Trend6 == "B_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_MASS_FLOW","KRISO_B_MASS_FLOW", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_MASS_FLOW");
+
+if($Trend.Trend6 == "Frequency")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.FREQUENCY","KRISO_FREQUENCY", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "FREQUENCY");
+elseif($Trend.Trend6 == "Pressure")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.PRESS","KRISO_PRESS", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "PRESS");
+elseif($Trend.Trend6 == "Temperature")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.TEMP","KRISO_TEMP", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "TEMP");
+elseif($Trend.Trend6 == "Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.DENSITY","KRISO_DENSITY", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Density");
+elseif($Trend.Trend6 == "Base Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_B_DENSITY","KRISO_U_B_DENSITY", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Base Density");
+elseif($Trend.Trend6 == "Relative Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_R_DENSITY","KRISO_U_R_DENSITY", @RGB(0,128,128), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Relative Density");
+
+
+if($Trend.Trend7 == "F_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_VOL","KRISO_F_NRST_VOL", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST uVolume");
+elseif($Trend.Trend7 == "F_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_S_VOL","KRISO_F_NRST_S_VOL", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST sVolume");
+elseif($Trend.Trend7 == "F_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_ENE","KRISO_F_NRST_ENE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Energy");
+elseif($Trend.Trend7 == "F_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_MASS","KRISO_F_NRST_MASS", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Mass");
+
+if($Trend.Trend7  == "B_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_VOL","KRISO_B_NRST_VOL", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST uVolume");
+elseif($Trend.Trend7 == "B_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_S_VOL","KRISO_B_NRST_S_VOL", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST sVolume");
+elseif($Trend.Trend7 == "B_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_ENE","KRISO_B_NRST_ENE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Energy");
+elseif($Trend.Trend7 == "B_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_MASS","KRISO_B_NRST_MASS", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Mass");
+
+if($Trend.Trend7 == "F_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_VOL","KRISO_F_D_VOL", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY uVolume");
+elseif($Trend.Trend7 == "F_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_S_VOL","KRISO_F_D_S_VOL", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY sVolume");
+elseif($Trend.Trend7 == "F_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_ENE","KRISO_F_D_ENE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Energy");
+elseif($Trend.Trend7 == "F_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_MASS","KRISO_F_D_MASS", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Mass");
+
+if($Trend.Trend7 == "B_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_VOL","KRISO_B_D_VOL", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY uVolume");
+elseif($Trend.Trend7 == "B_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_S_VOL","KRISO_B_D_S_VOL", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY sVolume");
+elseif($Trend.Trend7 == "B_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_ENE","KRISO_B_D_ENE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Energy");
+elseif($Trend.Trend7 == "B_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_MASS","KRISO_B_D_MASS", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Mass");
+
+if($Trend.Trend7 == "USED Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_METHANE","KRISO_U_METHANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend7 == "USED Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ETHANE","KRISO_U_ETHANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend7 == "USED Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_PROPANE","KRISO_U_PROPANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend7 == "USED iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_BUTANE","KRISO_U_I_BUTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend7 == "USED nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_BUTANE","KRISO_U_N_BUTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend7 == "USED iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_PENTANE","KRISO_U_I_PENTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend7 == "USED nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_PENTANE","KRISO_U_N_PENTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend7 == "USED Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_HEXANE","KRISO_U_HEXANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend7 == "USED Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_NITROGEN","KRISO_U_NITROGEN", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend7 == "USED Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_CO2","KRISO_U_CO2", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon_Dioxide");
+elseif($Trend.Trend7 == "USED Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_SCV","KRISO_U_SCV", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend7 == "USED Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ICV","KRISO_U_ICV", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+
+if($Trend.Trend7 == "KEY Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_METHANE","KRISO_K_METHANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend7 == "KEY Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ETHANE","KRISO_K_ETHANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend7 == "KEY Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_PROPANE","KRISO_K_PROPANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend7 == "KEY iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_BUTANE","KRISO_K_I_BUTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend7 == "KEY nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_BUTANE","KRISO_K_N_BUTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend7 == "KEY iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_PENTANE","KRISO_K_I_PENTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend7 == "KEY nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_PENTANE","KRISO_K_N_PENTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend7 == "KEY Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_HEXANE","KRISO_K_HEXANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend7 == "KEY Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_NITROGEN","KRISO_K_NITROGEN", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend7 == "KEY Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_CO2","KRISO_K_CO2", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend7 == "KEY Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_SCV","KRISO_K_SCV", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend7 == "KEY Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ICV","KRISO_K_ICV", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend7 == "GC Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_METHANE","KRISO_GC_METHANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend7 == "GC Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ETHANE","KRISO_GC_ETHANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend7 == "GC Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_PROPANE","KRISO_GC_PROPANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend7 == "GC iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_BUTANE","KRISO_GC_I_BUTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend7 == "GC nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_BUTANE","KRISO_GC_N_BUTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend7 == "GC iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_PENTANE","KRISO_GC_I_PENTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend7 == "GC nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_PENTANE","KRISO_GC_N_PENTANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend7 == "GC Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_HEXANE","KRISO_GC_HEXANE", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend7 == "GC Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_NITROGEN","KRISO_GC_NITROGEN", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend7 == "GC Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_CO2","KRISO_GC_CO2", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend7 == "GC Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_SCV","KRISO_GC_SCV", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend7 == "GC Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ICV","KRISO_GC_ICV", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend7 == "F_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_VOL_FLOW","KRISO_F_VOL_FLOW", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_VOL_FLOW");
+elseif($Trend.Trend7 == "F_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_S_VOL_FLOW","KRISO_F_S_VOL_FLOW", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_S_VOL_FLOW");
+elseif($Trend.Trend7 == "F_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_ENE_FLOW","KRISO_F_ENE_FLOW", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_ENE_FLOW");
+elseif($Trend.Trend7 == "F_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_MASS_FLOW","KRISO_F_MASS_FLOW", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_MASS_FLOW");
+
+if($Trend.Trend7 == "B_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_VOL_FLOW","KRISO_B_VOL_FLOW", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_VOL_FLOW");
+elseif($Trend.Trend7 == "B_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_S_VOL_FLOW","KRISO_B_S_VOL_FLOW", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_S_VOL_FLOW");
+elseif($Trend.Trend7 == "B_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_ENE_FLOW","KRISO_B_ENE_FLOW", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_ENE_FLOW");
+elseif($Trend.Trend7 == "B_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_MASS_FLOW","KRISO_B_MASS_FLOW", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_MASS_FLOW");
+
+if($Trend.Trend7 == "Frequency")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.FREQUENCY","KRISO_FREQUENCY", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "FREQUENCY");
+elseif($Trend.Trend7 == "Pressure")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.PRESS","KRISO_PRESS", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "PRESS");
+elseif($Trend.Trend7 == "Temperature")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.TEMP","KRISO_TEMP", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "TEMP");
+elseif($Trend.Trend7 == "Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.DENSITY","KRISO_DENSITY", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Density");
+elseif($Trend.Trend7 == "Base Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_B_DENSITY","KRISO_U_B_DENSITY", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Base Density");
+elseif($Trend.Trend7 == "Relative Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_R_DENSITY","KRISO_U_R_DENSITY", @RGB(255,0,255), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Relative Density");
+
+
+if($Trend.Trend8 == "F_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_VOL","KRISO_F_NRST_VOL", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST uVolume");
+elseif($Trend.Trend8 == "F_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_S_VOL","KRISO_F_NRST_S_VOL", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST sVolume");
+elseif($Trend.Trend8 == "F_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_ENE","KRISO_F_NRST_ENE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Energy");
+elseif($Trend.Trend8 == "F_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_NRST_MASS","KRISO_F_NRST_MASS", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_NRST Mass");
+
+if($Trend.Trend8  == "B_NRST Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_VOL","KRISO_B_NRST_VOL", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST uVolume");
+elseif($Trend.Trend8 == "B_NRST Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_S_VOL","KRISO_B_NRST_S_VOL", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST sVolume");
+elseif($Trend.Trend8 == "B_NRST Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_ENE","KRISO_B_NRST_ENE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Energy");
+elseif($Trend.Trend8 == "B_NRST Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_NRST_MASS","KRISO_B_NRST_MASS", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_NRST Mass");
+
+if($Trend.Trend8 == "F_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_VOL","KRISO_F_D_VOL", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY uVolume");
+elseif($Trend.Trend8 == "F_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_S_VOL","KRISO_F_D_S_VOL", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY sVolume");
+elseif($Trend.Trend8 == "F_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_ENE","KRISO_F_D_ENE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Energy");
+elseif($Trend.Trend8 == "F_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_D_MASS","KRISO_F_D_MASS", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_DAILY Mass");
+
+if($Trend.Trend8 == "B_DAILY Uncorrected Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_VOL","KRISO_B_D_VOL", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY uVolume");
+elseif($Trend.Trend8 == "B_DAILY Standard Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_S_VOL","KRISO_B_D_S_VOL", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY sVolume");
+elseif($Trend.Trend8 == "B_DAILY Energy")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_ENE","KRISO_B_D_ENE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Energy");
+elseif($Trend.Trend8 == "B_DAILY Mass")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_D_MASS","KRISO_B_D_MASS", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_DAILY Mass");
+
+if($Trend.Trend8 == "USED Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_METHANE","KRISO_U_METHANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend8 == "USED Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ETHANE","KRISO_U_ETHANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend8 == "USED Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_PROPANE","KRISO_U_PROPANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend8 == "USED iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_BUTANE","KRISO_U_I_BUTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend8 == "USED nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_BUTANE","KRISO_U_N_BUTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend8 == "USED iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_I_PENTANE","KRISO_U_I_PENTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend8 == "USED nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_N_PENTANE","KRISO_U_N_PENTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend8 == "USED Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_HEXANE","KRISO_U_HEXANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend8 == "USED Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_NITROGEN","KRISO_U_NITROGEN", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend8 == "USED Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_CO2","KRISO_U_CO2", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon_Dioxide");
+elseif($Trend.Trend8 == "USED Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_SCV","KRISO_U_SCV", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend8 == "USED Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_ICV","KRISO_U_ICV", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend8 == "KEY Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_METHANE","KRISO_K_METHANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend8 == "KEY Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ETHANE","KRISO_K_ETHANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend8 == "KEY Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_PROPANE","KRISO_K_PROPANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend8 == "KEY iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_BUTANE","KRISO_K_I_BUTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend8 == "KEY nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_BUTANE","KRISO_K_N_BUTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend8 == "KEY iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_I_PENTANE","KRISO_K_I_PENTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend8 == "KEY nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_N_PENTANE","KRISO_K_N_PENTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend8 == "KEY Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_HEXANE","KRISO_K_HEXANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend8 == "KEY Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_NITROGEN","KRISO_K_NITROGEN", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend8 == "KEY Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_CO2","KRISO_K_CO2", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend8 == "KEY Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_SCV","KRISO_K_SCV", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend8 == "KEY Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.K_ICV","KRISO_K_ICV", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+if($Trend.Trend8 == "GC Methane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_METHANE","KRISO_GC_METHANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Methane");
+elseif($Trend.Trend8 == "GC Ethane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ETHANE","KRISO_GC_ETHANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Ethane");
+elseif($Trend.Trend8 == "GC Propane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_PROPANE","KRISO_GC_PROPANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Propane");
+elseif($Trend.Trend8 == "GC iButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_BUTANE","KRISO_GC_I_BUTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iButane");
+elseif($Trend.Trend8 == "GC nButane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_BUTANE","KRISO_GC_N_BUTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nButane");
+elseif($Trend.Trend8 == "GC iPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_I_PENTANE","KRISO_GC_I_PENTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "iPentane");
+elseif($Trend.Trend8 == "GC nPentane")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_N_PENTANE","KRISO_GC_N_PENTANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "nPentane");
+elseif($Trend.Trend8 == "GC Hexane+")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_HEXANE","KRISO_GC_HEXANE", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Hexane");
+elseif($Trend.Trend8 == "GC Nitrogen")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_NITROGEN","KRISO_GC_NITROGEN", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Nitrogen");
+elseif($Trend.Trend8 == "GC Carbon_Dioxide")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_CO2","KRISO_GC_CO2", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Carbon Dioxide");
+elseif($Trend.Trend8 == "GC Superior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_SCV","KRISO_GC_SCV", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "SCV");
+elseif($Trend.Trend8 == "GC Inferior Heating Value Volume")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.GC_ICV","KRISO_GC_ICV", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "ICV");
+
+
+if($Trend.Trend8 == "F_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_VOL_FLOW","KRISO_F_VOL_FLOW", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_VOL_FLOW");
+elseif($Trend.Trend8 == "F_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_S_VOL_FLOW","KRISO_F_S_VOL_FLOW", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_S_VOL_FLOW");
+elseif($Trend.Trend8 == "F_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_ENE_FLOW","KRISO_F_ENE_FLOW", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_ENE_FLOW");
+elseif($Trend.Trend8 == "F_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.F_MASS_FLOW","KRISO_F_MASS_FLOW", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "F_MASS_FLOW");
+
+if($Trend.Trend8 == "B_Uncorrected Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_VOL_FLOW","KRISO_B_VOL_FLOW", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_VOL_FLOW");
+elseif($Trend.Trend8 == "B_Standard Volume FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_S_VOL_FLOW","KRISO_B_S_VOL_FLOW", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_S_VOL_FLOW");
+elseif($Trend.Trend8 == "B_Energy FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_ENE_FLOW","KRISO_B_ENE_FLOW", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_ENE_FLOW");
+elseif($Trend.Trend8 == "B_Mass FLOW")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.B_MASS_FLOW","KRISO_B_MASS_FLOW", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "B_MASS_FLOW");
+
+if($Trend.Trend8 == "Frequency")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.FREQUENCY","KRISO_FREQUENCY", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "FREQUENCY");
+elseif($Trend.Trend8 == "Pressure")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.PRESS","KRISO_PRESS", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "PRESS");
+elseif($Trend.Trend8 == "Temperature")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.TEMP","KRISO_TEMP", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "TEMP");
+elseif($Trend.Trend8 == "Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.DENSITY","KRISO_DENSITY", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Density");
+elseif($Trend.Trend8 == "Base Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_B_DENSITY","KRISO_U_B_DENSITY", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Base Density");
+elseif($Trend.Trend8 == "Relative Density")
+	@MilliTrendAddMember("MilliDataTrend1","KRISO.U_R_DENSITY","KRISO_U_R_DENSITY", @RGB(128,128,0), 0, 1, 2, 1, 0,100,15,0,0,0, "", "", "Relative Density");
+
+@MilliTrendReLoad("MilliDataTrend1");
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Apply,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonModule3D,BEGIN
+	Rect,551,887,739,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,POP_max.modx,
+	String,MIN/MAX. SET,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonProgramm,BEGIN
+	Rect,1146,887,1220,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendShiftTime("MilliDataTrend1", -10);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,◀,
+	LogFont,Malgun Gothic,15,0,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1371,887,1445,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendShiftTime("MilliDataTrend1", 10);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,▶,
+	LogFont,Malgun Gothic,15,0,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonModule3D,BEGIN
+	Rect,363,887,550,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,POP_Trend_Set_Time_Test.modx,
+	String,TIME SET,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonProgramm,BEGIN
+	Rect,1071,887,1145,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendShiftTime("MilliDataTrend1", -60);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,◀◀,
+	LogFont,Malgun Gothic,15,0,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1446,887,1520,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendShiftTime("MilliDataTrend1", 60);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,▶▶,
+	LogFont,Malgun Gothic,15,0,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,906,887,1070,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendShiftTime("MilliDataTrend1", -10);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ZOOM OUT,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,740,887,904,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendShiftTime("MilliDataTrend1", -60);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ZOOM IN,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1598,887,1672,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendShiftTime("MilliDataTrend1", -10);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,6H,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1673,887,1747,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,Size,1,"100,"
+Programm,BEGIN,
+@MilliTrendSetAutoUpdate("MilliDataTrend1", 1);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,12H,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1748,887,1822,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,Size,1,"100,"
+Programm,BEGIN,
+@MilliTrendSetAutoUpdate("MilliDataTrend1", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,24H,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1522,887,1596,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@MilliTrendShiftTime("MilliDataTrend1", -60);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,1H,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1823,887,1897,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,Size,1,"100,"
+Programm,BEGIN,
+@MilliTrendSetAutoUpdate("MilliDataTrend1", 0);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,48H,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1296,887,1370,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,Size,1,"100,"
+Programm,BEGIN,
+@MilliTrendSetAutoUpdate("MilliDataTrend1", 0);
+$DI_0002 = 0;
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,II,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1221,887,1295,942,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,Size,1,"100,"
+Programm,BEGIN,
+@MilliTrendSetAutoUpdate("MilliDataTrend1", 1);
+
+$DI_0002 = 1;
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,▶,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectStringString,BEGIN
+	Rect,1664,63,1848,88,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,20,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectRectangle,BEGIN
+	Rect,162,1,1921,88,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectDate,BEGIN
+	Rect,1595,-4,1795,44,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Date1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectDate,END
+ObjectClock,BEGIN
+	Rect,1737,-3,1937,45,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Clock1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectClock,END
+ObjectStringString,BEGIN
+	Rect,1672,31,1856,56,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,18,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectRectangle,BEGIN
+	Rect,1454,4,1541,86,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1071,4,1158,86,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,1074,11,1154,79,
+	GroupSize,81,69,
+ObjectSingleText,BEGIN
+	Rect,0,0,80,28,
+	TextColor,0,0,0,255,
+	String,General,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,14,20,67,48,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,8,40,72,68,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,1158,4,1306,45,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1173,11,1291,39,
+	TextColor,0,0,0,255,
+	String,FC-A Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,1465,6,1529,79,
+	GroupSize,65,74,
+ObjectSingleText,BEGIN
+	Rect,11,0,53,28,
+	TextColor,0,0,0,255,
+	String,G/C,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,6,22,59,50,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,0,45,64,73,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,437,-7,880,54,
+	TextColor,255,255,255,255,
+	String,History Trend Graph,
+	LogFont,Malgun Gothic,32,1,0,0,0,
+	ClassName,Gas Chromatograph,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,586,43,731,90,
+	TextColor,255,255,255,255,
+	String,IHO B/V,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectWindowAlarm,BEGIN
+	Rect,1036,90,1796,145,
+	LogFont,Malgun Gothic,10,1,0,0,0,
+	StringOption,1,0,1,True,True,
+AlarmEventColumn,Priority,True,레벨
+AlarmEventColumn,AlarmDate,True,경보날짜
+AlarmEventColumn,AlarmTime,True,경보시간
+AlarmEventColumn,Tag,True,태그
+AlarmEventColumn,Description,True,태그 설명
+AlarmEventColumn,Message,True,경보 내용
+	ClassName,Alarm,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectRoundRectangle,BEGIN
+	Rect,1628,58,1900,85,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,6,6,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectButtonModule3D,BEGIN
+	Rect,0,89,130,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,StartUp.modx,
+	String,Station,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,130,89,260,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,GC.modx,
+	String,Gas Chro,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,783,89,913,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Alarm.modx,
+	String,Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,523,89,653,144,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Trend.modx,
+	String,Trend,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,653,89,783,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Report.modx,
+	String,Report,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonProgramm,BEGIN
+	Rect,914,89,1035,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm");
+
+@AlarmListConfirm("Alarm", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectGroup,BEGIN,
+	GroupRect,1800,97,1912,136,
+	GroupSize,113,40,
+ObjectBitmap,BEGIN
+	Rect,0,0,49,39,
+	FileName,1.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LogIn();
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,63,0,112,39,
+	FileName,2.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LogOut();
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectBitmap,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectButtonModule3D,BEGIN
+	Rect,261,89,391,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Operator_Entry.modx,
+	String,Oper.Entry,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,392,89,522,144,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,GC.modx,
+	String,V/V Control,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectRectangle,BEGIN
+	Rect,1158,45,1306,86,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1306,4,1454,45,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1306,45,1454,86,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1314,7,1446,35,
+	TextColor,0,0,0,255,
+	String,GC COMM-A,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1174,51,1290,79,
+	TextColor,0,0,0,255,
+	String,FC-B Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1315,48,1446,76,
+	TextColor,0,0,0,255,
+	String,GC COMM-B,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,

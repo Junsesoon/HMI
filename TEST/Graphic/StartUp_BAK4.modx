@@ -1,0 +1,7316 @@
+Resolution,1920,1080
+DefaultLocation,0,0,0
+ModuleOptic,2
+ModuleWindowStyle,0,False,100,1,False
+ModuleWindowStyleFlag,13107200,0
+BackGroundColor,255,255,255,255
+Version, 10,3,5,9,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,1919,1079,
+	GroupSize,1920,1080,
+ObjectRoundRectangle,BEGIN
+	Rect,1575,488,1768,572,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCurve,BEGIN
+	Rect,1136,637,1196,676,
+	LineColor,91,155,213,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	Curve,1,1136,645,0,0,0,0,
+	Curve,2,1166,645,0,0,0,0,
+	Curve,2,1166,637,0,0,0,0,
+	Curve,2,1196,655,0,0,0,0,
+	Curve,2,1166,676,0,0,0,0,
+	Curve,2,1166,665,0,0,0,0,
+	Curve,2,1136,665,0,0,0,0,
+	Curve,A,1136,645,0,0,0,0,
+	ClassName,Curve1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCurve,END
+ObjectGroup,BEGIN,
+	GroupRect,71,624,131,691,
+	GroupSize,61,68,
+ObjectCurve,BEGIN
+	Rect,0,0,60,67,
+	LineColor,91,155,213,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	Curve,1,0,16,0,0,0,0,
+	Curve,2,30,16,0,0,0,0,
+	Curve,2,30,0,0,0,0,0,
+	Curve,2,60,33,0,0,0,0,
+	Curve,2,30,67,0,0,0,0,
+	Curve,2,30,50,0,0,0,0,
+	Curve,2,0,50,0,0,0,0,
+	Curve,A,0,16,0,0,0,0,
+	ClassName,Curve1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCurve,END
+ObjectCurve,BEGIN
+	Rect,1,8,57,31,
+	LineColor,91,155,213,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	Curve,1,1,19,0,0,0,0,
+	Curve,2,35,19,0,0,0,0,
+	Curve,2,32,8,0,0,0,0,
+	Curve,2,57,31,0,0,0,0,
+	Curve,2,1,31,0,0,0,0,
+	Curve,A,1,19,0,0,0,0,
+	ClassName,Curve1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCurve,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRoundRectangle,BEGIN
+	Rect,1574,169,1904,199,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,1192,168,1549,198,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1193,198,1549,621,
+	LineColor,0,0,0,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1366,206,1530,236,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1366,237,1530,267,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1366,268,1530,298,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1366,299,1530,329,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectAnalogString,BEGIN
+	Rect,1366,269,1530,299,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,1366,239,1530,269,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,1366,208,1530,238,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,1366,300,1530,330,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1366,330,1530,360,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1366,361,1530,391,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1366,392,1530,422,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1366,423,1530,453,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectAnalogString,BEGIN
+	Rect,1366,393,1530,423,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,1366,363,1530,393,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,1366,332,1530,362,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,1366,424,1530,454,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1366,454,1530,484,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1366,485,1530,515,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectAnalogString,BEGIN
+	Rect,1366,455,1530,485,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,1366,486,1530,516,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1366,516,1530,546,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1366,547,1530,577,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectAnalogString,BEGIN
+	Rect,1366,548,1530,578,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,1366,518,1530,548,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectSingleText,BEGIN
+	Rect,1202,396,1253,419,
+	TextColor,0,0,0,255,
+	String,n-C5,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,209,1233,232,
+	TextColor,0,0,0,255,
+	String,C1,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,241,1233,264,
+	TextColor,0,0,0,255,
+	String,C2,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,272,1233,295,
+	TextColor,0,0,0,255,
+	String,C3,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,303,1246,326,
+	TextColor,0,0,0,255,
+	String,i-C4,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,335,1253,358,
+	TextColor,0,0,0,255,
+	String,n-C4,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,366,1246,389,
+	TextColor,0,0,0,255,
+	String,i-C5,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,426,1246,449,
+	TextColor,0,0,0,255,
+	String,C6+,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,459,1292,482,
+	TextColor,0,0,0,255,
+	String,Nitrogen,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,490,1246,513,
+	TextColor,0,0,0,255,
+	String,C6+,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,520,1359,543,
+	TextColor,0,0,0,255,
+	String,Carbon Dioxide,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1202,552,1243,575,
+	TextColor,0,0,0,255,
+	String,S.G,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1286,173,1455,196,
+	TextColor,255,255,255,255,
+	String,GAS PROPERTY,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1366,578,1530,608,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectAnalogString,BEGIN
+	Rect,1366,579,1530,609,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,0,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectSingleText,BEGIN
+	Rect,1202,582,1342,605,
+	TextColor,0,0,0,255,
+	String,SCV(MJ/Nm3),
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,210,1486,233,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,241,1486,264,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,272,1486,295,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,303,1486,326,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,334,1486,357,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,365,1486,388,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,396,1486,419,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,427,1486,450,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,458,1486,481,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1463,489,1486,512,
+	TextColor,74,128,177,255,
+	String,%,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRoundRectangle,BEGIN
+	Rect,1192,882,1522,912,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1192,912,1522,1042,
+	LineColor,0,0,0,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1282,922,1446,951,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1448,930,1494,952,
+	TextColor,74,128,177,255,
+	String,Nm3,
+	LogFont,Arial,14,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1199,926,1279,949,
+	TextColor,0,0,0,255,
+	String,Volume,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,1282,924,1446,954,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1282,962,1446,991,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1448,970,1493,992,
+	TextColor,74,128,177,255,
+	String,tons,
+	LogFont,Arial,14,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1222,966,1279,989,
+	TextColor,0,0,0,255,
+	String,Mass,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,1282,964,1446,994,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1282,1002,1446,1031,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1448,1010,1478,1032,
+	TextColor,74,128,177,255,
+	String,GJ,
+	LogFont,Arial,14,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1204,1006,1279,1029,
+	TextColor,0,0,0,255,
+	String,Energy,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,1282,1004,1446,1034,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectSingleText,BEGIN
+	Rect,1312,888,1409,912,
+	TextColor,255,255,255,255,
+	String,누적적산,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRoundRectangle,BEGIN
+	Rect,1568,884,1898,914,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1568,913,1898,1043,
+	LineColor,0,0,0,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1658,923,1822,952,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1824,931,1870,953,
+	TextColor,74,128,177,255,
+	String,Nm3,
+	LogFont,Arial,14,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1575,927,1655,950,
+	TextColor,0,0,0,255,
+	String,Volume,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,1658,925,1822,955,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1658,963,1822,992,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1824,971,1869,993,
+	TextColor,74,128,177,255,
+	String,tons,
+	LogFont,Arial,14,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1598,967,1655,990,
+	TextColor,0,0,0,255,
+	String,Mass,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,1658,965,1822,995,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1658,1003,1822,1032,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1824,1011,1854,1033,
+	TextColor,74,128,177,255,
+	String,GJ,
+	LogFont,Arial,14,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1580,1007,1655,1030,
+	TextColor,0,0,0,255,
+	String,Energy,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,1658,1005,1822,1035,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectSingleText,BEGIN
+	Rect,1699,889,1773,913,
+	TextColor,255,255,255,255,
+	String,일적산,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRoundRectangle,BEGIN
+	Rect,1575,202,1902,264,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,10,10,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,1575,346,1768,387,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1192,728,1522,858,
+	LineColor,0,0,0,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1282,738,1446,767,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1448,746,1511,768,
+	TextColor,74,128,177,255,
+	String,Nm3/h,
+	LogFont,Arial,14,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1199,742,1279,765,
+	TextColor,0,0,0,255,
+	String,Volume,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,1282,740,1446,770,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1282,778,1446,807,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1448,786,1476,808,
+	TextColor,74,128,177,255,
+	String,t/h,
+	LogFont,Arial,14,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1222,782,1279,805,
+	TextColor,0,0,0,255,
+	String,Mass,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,1282,780,1446,810,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1282,818,1446,847,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1448,826,1495,848,
+	TextColor,74,128,177,255,
+	String,GJ/h,
+	LogFont,Arial,14,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1204,822,1279,845,
+	TextColor,0,0,0,255,
+	String,Energy,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,1282,820,1446,850,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRoundRectangle,BEGIN
+	Rect,1192,698,1522,728,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1311,703,1408,727,
+	TextColor,255,255,255,255,
+	String,순시유량,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1623,239,1870,262,
+	TextColor,0,0,0,255,
+	String,YYYY/MM/DD HH:MM:SS,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1581,211,1690,234,
+	TextColor,0,0,0,255,
+	String,FC-A TIME,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1649,174,1827,197,
+	TextColor,255,255,255,255,
+	String,SYSTEM STATUS,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1597,356,1745,379,
+	TextColor,0,0,0,255,
+	String,G/C Used Data,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1781,346,1896,385,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1817,352,1859,380,
+	TextColor,0,0,0,255,
+	String,G/C,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,16,637,101,675,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,34,641,83,669,
+	TextColor,0,0,0,255,
+	String,Inlet,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1193,635,1290,679,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1195,638,1284,675,
+	TextColor,0,0,0,255,
+	String,Outlet,
+	LogFont,Malgun Gothic,20,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRoundRectangle,BEGIN
+	Rect,1575,275,1902,337,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,10,10,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1623,312,1870,335,
+	TextColor,0,0,0,255,
+	String,YYYY/MM/DD HH:MM:SS,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1581,284,1690,307,
+	TextColor,0,0,0,255,
+	String,FC-B TIME,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRoundRectangle,BEGIN
+	Rect,1575,396,1768,480,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,1622,407,1721,471,
+	GroupSize,100,65,
+ObjectSingleText,BEGIN
+	Rect,9,0,87,23,
+	TextColor,0,0,0,255,
+	String,Control,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,2,20,99,43,
+	TextColor,0,0,0,255,
+	String,Authority,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,0,41,97,64,
+	TextColor,0,0,0,255,
+	String,Selection,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,1781,396,1896,435,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1811,402,1866,430,
+	TextColor,0,0,0,255,
+	String,Local,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1781,440,1896,479,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1816,446,1861,474,
+	TextColor,0,0,0,255,
+	String,DCS,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,1618,500,1724,567,
+	GroupSize,107,68,
+ObjectSingleText,BEGIN
+	Rect,0,0,106,23,
+	TextColor,0,0,0,255,
+	String,Meter Run,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1,22,103,45,
+	TextColor,0,0,0,255,
+	String,Switching,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,22,44,81,67,
+	TextColor,0,0,0,255,
+	String,Mode,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,1781,488,1896,527,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1808,494,1869,522,
+	TextColor,0,0,0,255,
+	String,MAN.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1781,532,1896,571,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1804,538,1872,566,
+	TextColor,0,0,0,255,
+	String,AUTO.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRoundRectangle,BEGIN
+	Rect,1575,582,1768,621,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1589,591,1753,614,
+	TextColor,0,0,0,255,
+	String,Switching Stage,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1781,582,1896,621,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectAnalogString,BEGIN
+	Rect,1778,588,1898,618,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectGroup,BEGIN,
+	GroupRect,1568,640,1898,877,
+	GroupSize,331,238,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,330,234,
+	GroupSize,331,235,
+ObjectRoundRectangle,BEGIN
+	Rect,0,0,330,30,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectSingleText,BEGIN
+	Rect,61,5,270,28,
+	TextColor,255,255,255,255,
+	String,Meter Run Switching,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1,32,73,61,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,74,32,329,61,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,134,37,268,60,
+	TextColor,74,128,177,255,
+	String,Flow (Nm3/h),
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1,61,73,90,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,74,61,200,90,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,114,65,160,88,
+	TextColor,74,128,177,255,
+	String,Low,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,202,61,328,90,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,240,64,291,87,
+	TextColor,74,128,177,255,
+	String,High,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,6,64,67,87,
+	TextColor,74,128,177,255,
+	String,Stage,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1,88,73,117,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,74,88,200,117,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,202,88,328,117,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1,117,73,146,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,74,117,200,146,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,202,117,328,146,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1,146,73,175,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,74,146,200,175,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,202,146,328,175,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1,175,73,204,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,74,175,200,204,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,202,175,328,204,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1,205,73,234,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,74,205,200,234,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,202,205,328,234,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,29,92,46,115,
+	TextColor,74,128,177,255,
+	String,0,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,29,121,46,144,
+	TextColor,74,128,177,255,
+	String,1,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,29,151,46,174,
+	TextColor,74,128,177,255,
+	String,2,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,29,180,46,203,
+	TextColor,74,128,177,255,
+	String,3,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,29,210,46,233,
+	TextColor,74,128,177,255,
+	String,4,
+	LogFont,Arial,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectAnalogString,BEGIN
+	Rect,78,89,198,119,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,78,117,198,147,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,78,176,198,206,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,78,146,198,176,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,78,207,198,237,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,204,89,324,119,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,204,117,324,147,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,204,176,324,206,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,204,146,324,176,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,204,207,324,237,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,,0,1,
+	LogFont,Arial,15,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,171,328,152,984,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,152,328,1128,347,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1129,328,1110,984,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,152,536,1128,555,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,104,648,162,667,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1120,645,1165,664,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,192,464,293,632,
+	GroupSize,102,169,
+ObjectGroup,BEGIN,
+	GroupRect,0,32,101,111,
+	GroupSize,102,80,
+ObjectRectangle,BEGIN
+	Rect,0,30,100,67,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,20,0,80,9,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,18,9,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,24,79,72,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,8,57,24,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,18,69,25,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,18,101,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,2,129,98,168,
+	GroupSize,97,40,
+ObjectRectangle,BEGIN
+	Rect,0,0,48,39,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,16,6,32,34,
+	TextColor,0,0,0,255,
+	String,L,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,48,0,96,39,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,63,6,82,34,
+	TextColor,0,0,0,255,
+	String,R,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,9,0,91,28,
+	TextColor,0,0,0,255,
+	String,STATUS,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,101,74,129,
+	TextColor,0,0,0,255,
+	String,TAG,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,152,744,1128,763,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,192,672,293,840,
+	GroupSize,102,169,
+ObjectGroup,BEGIN,
+	GroupRect,0,32,101,111,
+	GroupSize,102,80,
+ObjectRectangle,BEGIN
+	Rect,0,30,100,67,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,20,0,80,9,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,18,9,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,24,79,72,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,8,57,24,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,18,69,25,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,18,101,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,2,129,98,168,
+	GroupSize,97,40,
+ObjectRectangle,BEGIN
+	Rect,0,0,48,39,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,16,6,32,34,
+	TextColor,0,0,0,255,
+	String,L,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,48,0,96,39,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,63,6,82,34,
+	TextColor,0,0,0,255,
+	String,R,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,9,0,91,28,
+	TextColor,0,0,0,255,
+	String,STATUS,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,101,74,129,
+	TextColor,0,0,0,255,
+	String,TAG,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,152,952,1128,971,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,192,880,293,1048,
+	GroupSize,102,169,
+ObjectGroup,BEGIN,
+	GroupRect,0,32,101,111,
+	GroupSize,102,80,
+ObjectRectangle,BEGIN
+	Rect,0,30,100,67,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,20,0,80,9,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,18,9,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,24,79,72,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,8,57,24,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,18,69,25,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,18,101,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,2,129,98,168,
+	GroupSize,97,40,
+ObjectRectangle,BEGIN
+	Rect,0,0,48,39,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,16,6,32,34,
+	TextColor,0,0,0,255,
+	String,L,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,48,0,96,39,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,63,6,82,34,
+	TextColor,0,0,0,255,
+	String,R,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,9,0,91,28,
+	TextColor,0,0,0,255,
+	String,STATUS,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,101,74,129,
+	TextColor,0,0,0,255,
+	String,TAG,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,992,256,1093,424,
+	GroupSize,102,169,
+ObjectGroup,BEGIN,
+	GroupRect,0,32,101,111,
+	GroupSize,102,80,
+ObjectRectangle,BEGIN
+	Rect,0,30,100,67,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,20,0,80,9,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,18,9,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,24,79,72,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,8,57,24,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,18,69,25,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,18,101,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,2,129,98,168,
+	GroupSize,97,40,
+ObjectRectangle,BEGIN
+	Rect,0,0,48,39,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,16,6,32,34,
+	TextColor,0,0,0,255,
+	String,L,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,48,0,96,39,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,63,6,82,34,
+	TextColor,0,0,0,255,
+	String,R,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,9,0,91,28,
+	TextColor,0,0,0,255,
+	String,STATUS,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,101,74,129,
+	TextColor,0,0,0,255,
+	String,TAG,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,992,464,1093,632,
+	GroupSize,102,169,
+ObjectGroup,BEGIN,
+	GroupRect,0,32,101,111,
+	GroupSize,102,80,
+ObjectRectangle,BEGIN
+	Rect,0,30,100,67,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,20,0,80,9,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,18,9,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,24,79,72,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,8,57,24,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,18,69,25,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,18,101,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,2,129,98,168,
+	GroupSize,97,40,
+ObjectRectangle,BEGIN
+	Rect,0,0,48,39,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,16,6,32,34,
+	TextColor,0,0,0,255,
+	String,L,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,48,0,96,39,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,63,6,82,34,
+	TextColor,0,0,0,255,
+	String,R,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,9,0,91,28,
+	TextColor,0,0,0,255,
+	String,STATUS,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,101,74,129,
+	TextColor,0,0,0,255,
+	String,TAG,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,992,688,1093,856,
+	GroupSize,102,169,
+ObjectGroup,BEGIN,
+	GroupRect,0,32,101,111,
+	GroupSize,102,80,
+ObjectRectangle,BEGIN
+	Rect,0,30,100,67,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,20,0,80,9,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,18,9,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,24,79,72,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,8,57,24,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,18,69,25,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,18,101,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,2,129,98,168,
+	GroupSize,97,40,
+ObjectRectangle,BEGIN
+	Rect,0,0,48,39,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,16,6,32,34,
+	TextColor,0,0,0,255,
+	String,L,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,48,0,96,39,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,63,6,82,34,
+	TextColor,0,0,0,255,
+	String,R,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,9,0,91,28,
+	TextColor,0,0,0,255,
+	String,STATUS,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,101,74,129,
+	TextColor,0,0,0,255,
+	String,TAG,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,992,880,1093,1048,
+	GroupSize,102,169,
+ObjectGroup,BEGIN,
+	GroupRect,0,32,101,111,
+	GroupSize,102,80,
+ObjectRectangle,BEGIN
+	Rect,0,30,100,67,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,20,0,80,9,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,18,9,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,24,79,72,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,8,57,24,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,18,69,25,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,18,101,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,2,129,98,168,
+	GroupSize,97,40,
+ObjectRectangle,BEGIN
+	Rect,0,0,48,39,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,16,6,32,34,
+	TextColor,0,0,0,255,
+	String,L,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,48,0,96,39,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,63,6,82,34,
+	TextColor,0,0,0,255,
+	String,R,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,9,0,91,28,
+	TextColor,0,0,0,255,
+	String,STATUS,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,101,74,129,
+	TextColor,0,0,0,255,
+	String,TAG,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,304,384,608,510,
+	GroupSize,305,127,
+ObjectRectangle,BEGIN
+	Rect,0,97,128,121,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,73,128,97,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,49,128,73,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,25,128,49,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,1,128,25,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,128,1,304,25,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,6,273,24,
+	TextColor,74,128,177,255,
+	String,Hz,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,21,4,108,22,
+	TextColor,74,128,177,255,
+	String,Frequency,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,0,247,30,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,25,304,49,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,30,291,48,
+	TextColor,74,128,177,255,
+	String,m3/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,44,28,85,46,
+	TextColor,74,128,177,255,
+	String,Flow,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,24,247,54,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,49,304,73,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,54,300,72,
+	TextColor,74,128,177,255,
+	String,Mpa.a,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,52,101,70,
+	TextColor,74,128,177,255,
+	String,Pressure,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,48,247,78,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,73,304,97,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,78,294,96,
+	TextColor,74,128,177,255,
+	String,Bar.a,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,76,101,94,
+	TextColor,74,128,177,255,
+	String,Pressure,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,72,247,102,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,97,304,121,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,102,271,121,
+	TextColor,74,128,177,255,
+	String,℃,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,12,100,116,118,
+	TextColor,74,128,177,255,
+	String,Temperature,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,96,247,126,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,192,256,293,424,
+	GroupSize,102,169,
+ObjectGroup,BEGIN,
+	GroupRect,0,32,101,111,
+	GroupSize,102,80,
+ObjectRectangle,BEGIN
+	Rect,0,30,100,67,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,20,0,80,9,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,18,9,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,24,79,72,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,8,57,24,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,18,69,25,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,18,101,79,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,2,129,98,168,
+	GroupSize,97,40,
+ObjectRectangle,BEGIN
+	Rect,0,0,48,39,
+	LineColor,0,0,0,255,
+	FillColor,4,217,96,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,16,6,32,34,
+	TextColor,0,0,0,255,
+	String,L,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,48,0,96,39,
+	LineColor,0,0,0,255,
+	FillColor,242,90,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,63,6,82,34,
+	TextColor,0,0,0,255,
+	String,R,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,9,0,91,28,
+	TextColor,0,0,0,255,
+	String,STATUS,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,101,74,129,
+	TextColor,0,0,0,255,
+	String,TAG,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,590,458,691,577,
+	GroupSize,102,120,
+ObjectRectangle,BEGIN
+	Rect,0,70,100,107,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,58,9,119,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,64,79,112,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,48,57,64,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,57,69,64,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,58,101,119,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,64,30,112,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,71,64,79,112,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,23,0,77,48,
+	GroupSize,49,41,
+ObjectCircle,BEGIN
+	Rect,0,0,48,40,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,0,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,0,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectCircle,BEGIN
+	Rect,4,4,44,36,
+	LineColor,0,0,0,255,
+	FillColor,242,242,242,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,4,17,44,24,
+	LineColor,0,0,0,255,
+	FillColor,191,191,191,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,8,18,40,22,
+	LineColor,0,0,0,255,
+	FillColor,0,176,240,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,590,250,691,369,
+	GroupSize,102,120,
+ObjectRectangle,BEGIN
+	Rect,0,70,100,107,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,58,9,119,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,64,79,112,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,48,57,64,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,57,69,64,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,58,101,119,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,64,30,112,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,71,64,79,112,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,23,0,77,48,
+	GroupSize,49,41,
+ObjectCircle,BEGIN
+	Rect,0,0,48,40,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,0,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,0,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectCircle,BEGIN
+	Rect,4,4,44,36,
+	LineColor,0,0,0,255,
+	FillColor,242,242,242,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,4,17,44,24,
+	LineColor,0,0,0,255,
+	FillColor,191,191,191,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,8,18,40,22,
+	LineColor,0,0,0,255,
+	FillColor,0,176,240,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,590,666,691,785,
+	GroupSize,102,120,
+ObjectRectangle,BEGIN
+	Rect,0,70,100,107,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,58,9,119,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,64,79,112,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,48,57,64,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,57,69,64,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,58,101,119,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,64,30,112,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,71,64,79,112,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,23,0,77,48,
+	GroupSize,49,41,
+ObjectCircle,BEGIN
+	Rect,0,0,48,40,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,0,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,0,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectCircle,BEGIN
+	Rect,4,4,44,36,
+	LineColor,0,0,0,255,
+	FillColor,242,242,242,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,4,17,44,24,
+	LineColor,0,0,0,255,
+	FillColor,191,191,191,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,8,18,40,22,
+	LineColor,0,0,0,255,
+	FillColor,0,176,240,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,590,874,691,993,
+	GroupSize,102,120,
+ObjectRectangle,BEGIN
+	Rect,0,70,100,107,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,58,9,119,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,64,79,112,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,44,48,57,64,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,32,57,69,64,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,92,58,101,119,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,22,64,30,112,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,71,64,79,112,
+	LineColor,0,0,0,255,
+	FillColor,127,127,127,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,23,0,77,48,
+	GroupSize,49,41,
+ObjectCircle,BEGIN
+	Rect,0,0,48,40,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,0,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,0,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectCircle,BEGIN
+	Rect,4,4,44,36,
+	LineColor,0,0,0,255,
+	FillColor,242,242,242,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,4,17,44,24,
+	LineColor,0,0,0,255,
+	FillColor,191,191,191,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,8,18,40,22,
+	LineColor,0,0,0,255,
+	FillColor,0,176,240,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,304,592,608,718,
+	GroupSize,305,127,
+ObjectRectangle,BEGIN
+	Rect,0,97,128,121,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,73,128,97,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,49,128,73,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,25,128,49,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,1,128,25,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,128,1,304,25,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,6,273,24,
+	TextColor,74,128,177,255,
+	String,Hz,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,21,4,108,22,
+	TextColor,74,128,177,255,
+	String,Frequency,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,0,247,30,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,25,304,49,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,30,291,48,
+	TextColor,74,128,177,255,
+	String,m3/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,44,28,85,46,
+	TextColor,74,128,177,255,
+	String,Flow,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,24,247,54,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,49,304,73,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,54,300,72,
+	TextColor,74,128,177,255,
+	String,Mpa.a,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,52,101,70,
+	TextColor,74,128,177,255,
+	String,Pressure,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,48,247,78,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,73,304,97,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,78,294,96,
+	TextColor,74,128,177,255,
+	String,Bar.a,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,76,101,94,
+	TextColor,74,128,177,255,
+	String,Pressure,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,72,247,102,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,97,304,121,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,102,271,121,
+	TextColor,74,128,177,255,
+	String,℃,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,12,100,116,118,
+	TextColor,74,128,177,255,
+	String,Temperature,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,96,247,126,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,304,800,608,926,
+	GroupSize,305,127,
+ObjectRectangle,BEGIN
+	Rect,0,97,128,121,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,73,128,97,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,49,128,73,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,25,128,49,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,1,128,25,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,128,1,304,25,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,6,273,24,
+	TextColor,74,128,177,255,
+	String,Hz,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,21,4,108,22,
+	TextColor,74,128,177,255,
+	String,Frequency,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,0,247,30,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,25,304,49,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,30,291,48,
+	TextColor,74,128,177,255,
+	String,m3/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,44,28,85,46,
+	TextColor,74,128,177,255,
+	String,Flow,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,24,247,54,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,49,304,73,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,54,300,72,
+	TextColor,74,128,177,255,
+	String,Mpa.a,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,52,101,70,
+	TextColor,74,128,177,255,
+	String,Pressure,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,48,247,78,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,73,304,97,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,78,294,96,
+	TextColor,74,128,177,255,
+	String,Bar.a,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,76,101,94,
+	TextColor,74,128,177,255,
+	String,Pressure,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,72,247,102,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,97,304,121,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,102,271,121,
+	TextColor,74,128,177,255,
+	String,℃,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,12,100,116,118,
+	TextColor,74,128,177,255,
+	String,Temperature,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,96,247,126,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,296,176,600,302,
+	GroupSize,305,127,
+ObjectRectangle,BEGIN
+	Rect,0,97,128,121,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,73,128,97,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,49,128,73,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,25,128,49,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,1,128,25,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,128,1,304,25,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,6,273,24,
+	TextColor,74,128,177,255,
+	String,Hz,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,21,4,108,22,
+	TextColor,74,128,177,255,
+	String,Frequency,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,0,247,30,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,25,304,49,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,30,291,48,
+	TextColor,74,128,177,255,
+	String,m3/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,44,28,85,46,
+	TextColor,74,128,177,255,
+	String,Flow,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,24,247,54,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,49,304,73,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,54,300,72,
+	TextColor,74,128,177,255,
+	String,Mpa.a,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,52,101,70,
+	TextColor,74,128,177,255,
+	String,Pressure,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,48,247,78,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,73,304,97,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,78,294,96,
+	TextColor,74,128,177,255,
+	String,Bar.a,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,27,76,101,94,
+	TextColor,74,128,177,255,
+	String,Pressure,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,72,247,102,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,128,97,304,121,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,249,102,271,121,
+	TextColor,74,128,177,255,
+	String,℃,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,12,100,116,118,
+	TextColor,74,128,177,255,
+	String,Temperature,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,128,96,247,126,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,672,176,936,280,
+	GroupSize,265,105,
+ObjectRectangle,BEGIN
+	Rect,0,0,264,104,
+	LineColor,0,0,0,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,80,9,198,32,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,13,254,31,
+	TextColor,74,128,177,255,
+	String,Nm3/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,13,11,76,29,
+	TextColor,0,0,0,255,
+	String,Volume,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,11,198,32,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,80,40,198,64,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,44,224,62,
+	TextColor,74,128,177,255,
+	String,t/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,31,42,76,60,
+	TextColor,0,0,0,255,
+	String,Mass,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,42,198,64,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,80,72,198,93,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,76,240,94,
+	TextColor,74,128,177,255,
+	String,GJ/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,16,74,76,92,
+	TextColor,0,0,0,255,
+	String,Energy,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,74,198,96,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,672,384,936,488,
+	GroupSize,265,105,
+ObjectRectangle,BEGIN
+	Rect,0,0,264,104,
+	LineColor,0,0,0,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,80,9,198,32,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,13,254,31,
+	TextColor,74,128,177,255,
+	String,Nm3/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,13,11,76,29,
+	TextColor,0,0,0,255,
+	String,Volume,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,11,198,32,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,80,40,198,64,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,44,224,62,
+	TextColor,74,128,177,255,
+	String,t/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,31,42,76,60,
+	TextColor,0,0,0,255,
+	String,Mass,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,42,198,64,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,80,72,198,93,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,76,240,94,
+	TextColor,74,128,177,255,
+	String,GJ/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,16,74,76,92,
+	TextColor,0,0,0,255,
+	String,Energy,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,74,198,96,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,672,592,936,696,
+	GroupSize,265,105,
+ObjectRectangle,BEGIN
+	Rect,0,0,264,104,
+	LineColor,0,0,0,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,80,9,198,32,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,13,254,31,
+	TextColor,74,128,177,255,
+	String,Nm3/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,13,11,76,29,
+	TextColor,0,0,0,255,
+	String,Volume,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,11,198,32,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,80,40,198,64,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,44,224,62,
+	TextColor,74,128,177,255,
+	String,t/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,31,42,76,60,
+	TextColor,0,0,0,255,
+	String,Mass,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,42,198,64,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,80,72,198,93,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,76,240,94,
+	TextColor,74,128,177,255,
+	String,GJ/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,16,74,76,92,
+	TextColor,0,0,0,255,
+	String,Energy,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,74,198,96,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,672,800,936,904,
+	GroupSize,265,105,
+ObjectRectangle,BEGIN
+	Rect,0,0,264,104,
+	LineColor,0,0,0,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,80,9,198,32,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,13,254,31,
+	TextColor,74,128,177,255,
+	String,Nm3/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,13,11,76,29,
+	TextColor,0,0,0,255,
+	String,Volume,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,11,198,32,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,80,40,198,64,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,44,224,62,
+	TextColor,74,128,177,255,
+	String,t/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,31,42,76,60,
+	TextColor,0,0,0,255,
+	String,Mass,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,42,198,64,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,80,72,198,93,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,200,76,240,94,
+	TextColor,74,128,177,255,
+	String,GJ/h,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,16,74,76,92,
+	TextColor,0,0,0,255,
+	String,Energy,
+	LogFont,Arial,12,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectAnalogString,BEGIN
+	Rect,80,74,198,96,
+	TagName,AI_0001,
+	TagMouseResponse,0,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"4,200,000.000",0,2,
+	LogFont,Arial,12,1,1,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,0,-7,1937,145,
+	GroupSize,1938,153,
+ObjectStringString,BEGIN
+	Rect,1664,70,1848,95,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,20,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectRectangle,BEGIN
+	Rect,162,8,1921,95,
+	LineColor,0,0,0,255,
+	FillColor,91,155,213,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectDate,BEGIN
+	Rect,1595,3,1795,51,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Date1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectDate,END
+ObjectClock,BEGIN
+	Rect,1737,4,1937,52,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Clock1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectClock,END
+ObjectStringString,BEGIN
+	Rect,1672,38,1856,63,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,18,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectRectangle,BEGIN
+	Rect,1454,11,1541,93,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1071,11,1158,93,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,1074,18,1154,86,
+	GroupSize,81,69,
+ObjectSingleText,BEGIN
+	Rect,0,0,80,28,
+	TextColor,0,0,0,255,
+	String,General,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,14,20,67,48,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,8,40,72,68,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,1158,11,1306,52,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1173,18,1291,46,
+	TextColor,0,0,0,255,
+	String,FC-A Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,1465,13,1529,86,
+	GroupSize,65,74,
+ObjectSingleText,BEGIN
+	Rect,11,0,53,28,
+	TextColor,0,0,0,255,
+	String,G/C,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,6,22,59,50,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,0,45,64,73,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,496,0,821,61,
+	TextColor,255,255,255,255,
+	String,Operator Entry,
+	LogFont,Malgun Gothic,32,1,0,0,0,
+	ClassName,Gas Chromatograph,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,586,50,731,97,
+	TextColor,255,255,255,255,
+	String,IHO B/V,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectWindowAlarm,BEGIN
+	Rect,1036,97,1796,152,
+	LogFont,Malgun Gothic,10,1,0,0,0,
+	StringOption,1,0,1,True,True,
+AlarmEventColumn,Priority,True,레벨
+AlarmEventColumn,AlarmDate,True,경보날짜
+AlarmEventColumn,AlarmTime,True,경보시간
+AlarmEventColumn,Tag,True,태그
+AlarmEventColumn,Description,True,태그 설명
+AlarmEventColumn,Message,True,경보 내용
+	ClassName,Alarm,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectRoundRectangle,BEGIN
+	Rect,1628,65,1900,92,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,6,6,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectButtonModule3D,BEGIN
+	Rect,0,96,130,151,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,StartUp.modx,
+	String,Station,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,130,96,260,151,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,GC.modx,
+	String,Gas Chro,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,783,96,913,151,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Alarm.modx,
+	String,Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,523,96,653,151,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Trend.modx,
+	String,Trend,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,653,96,783,151,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,Report.modx,
+	String,Report,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonProgramm,BEGIN
+	Rect,914,96,1035,151,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm");
+
+@AlarmListConfirm("Alarm", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectGroup,BEGIN,
+	GroupRect,1800,104,1912,143,
+	GroupSize,113,40,
+ObjectBitmap,BEGIN
+	Rect,0,0,49,39,
+	FileName,1.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LogIn();
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,63,0,112,39,
+	FileName,2.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LogOut();
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectBitmap,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectButtonModule3D,BEGIN
+	Rect,261,96,391,151,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,GC.modx,
+	String,Oper.Entry,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,392,96,522,151,
+	TextColor,0,0,0,255,
+	BackColor,57,134,204,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,GC.modx,
+	String,V/V Control,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonModule3D1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectRectangle,BEGIN
+	Rect,1158,52,1306,93,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1306,11,1454,52,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1306,52,1454,93,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,1314,14,1446,42,
+	TextColor,0,0,0,255,
+	String,GC COMM-A,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1174,58,1290,86,
+	TextColor,0,0,0,255,
+	String,FC-B Alarm,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,1315,55,1446,83,
+	TextColor,0,0,0,255,
+	String,GC COMM-B,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,

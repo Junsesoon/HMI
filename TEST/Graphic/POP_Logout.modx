@@ -1,0 +1,147 @@
+Resolution,436,196
+DefaultLocation,0,0,0
+ModuleOptic,0
+ModuleWindowStyle,1,False,100,1,False
+ModuleWindowStyleFlag,8388608,0
+BackGroundColor,255,255,255,255
+Version, 10,3,5,9,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,435,195,
+	GroupSize,436,196,
+ObjectRoundRectangle,BEGIN
+	Rect,2,2,434,194,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,15,15,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectRectangle,BEGIN
+	Rect,120,120,316,148,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectBitmap,BEGIN
+	Rect,402,10,426,34,
+	FileName,close-5758.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseUp,BEGIN
+Description,마우스를 떼었을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@CloseModule();
+Programm,END,
+	ScriptMouseUp,END
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectText,BEGIN
+	Rect,10,10,346,42,
+	TextColor,74,128,177,255,
+	String,Logout,
+	TextAlign,0,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,20,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,10,50,418,82,
+	TextColor,74,128,177,255,
+	String,Are you sure to log out?,
+	TextAlign,0,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,2,122,114,146,
+	TextColor,74,128,177,255,
+	String,ID :,
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectStringString,BEGIN
+	Rect,121,121,314,146,
+	TagName,LOGIN.USER,
+	TagMouseResponse,1,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	BackBox,0,
+	TextAlign,1,1,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectStringString,END
+ObjectButtonProgramm,BEGIN
+	Rect,322,117,402,150,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,i,1,"0,"
+Data,string,USER,1,"0,"
+Data,string,ID,1,"0,"
+Programm,BEGIN,
+@LogOut();
+@CloseModule();
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Logout,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,

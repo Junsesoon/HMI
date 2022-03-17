@@ -1,0 +1,431 @@
+Resolution,396,268
+DefaultLocation,0,0,0
+ModuleOptic,0
+ModuleWindowStyle,1,False,100,1,False
+ModuleWindowStyleFlag,0,0
+BackGroundColor,255,255,255,255
+Version, 10,3,5,0,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,395,267,
+	GroupSize,396,268,
+ObjectRoundRectangle,BEGIN
+	Rect,2,2,394,266,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,15,15,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectControlComboBox,BEGIN
+	Rect,48,90,152,114,
+	TagName,REPORT.SEARCH.YEAR,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,2021,
+	ListData,2022,
+	ListData,2023,
+	ListData,2024,
+	ListData,2025,
+	ListData,2026,
+	ListData,2027,
+	ListData,2028,
+	ListData,2029,
+	ListData,2030,
+	ListData,2031,
+	ListData,2032,
+	ListData,2033,
+	ListData,2034,
+	ListData,2035,
+	ListData,2036,
+	ListData,2037,
+	ListData,2038,
+	ListData,2039,
+	ListData,2040,
+	ListData,2041,
+	ListData,2042,
+	ListData,2043,
+	ListData,2044,
+	ListData,2045,
+	ListData,2046,
+	ListData,2047,
+	ListData,2048,
+	ListData,2049,
+	ListData,2050,
+	ListData,2051,
+	ListData,2052,
+	ListData,2053,
+	ListData,2054,
+	ListData,2055,
+	ListData,2056,
+	ListData,2057,
+	ListData,2058,
+	ListData,2059,
+	ListData,2060,
+	ListData,2061,
+	ListData,2062,
+	ListData,2063,
+	ListData,2064,
+	ListData,2065,
+	ListData,2066,
+	ListData,2067,
+	ListData,2068,
+	ListData,2069,
+	ListData,2070,
+	ListData,2071,
+	ListData,2072,
+	ListData,2073,
+	ListData,2074,
+	ListData,2075,
+	ListData,2076,
+	ListData,2077,
+	ListData,2078,
+	ListData,2079,
+	ListData,2080,
+	ListData,2081,
+	ListData,2082,
+	ListData,2083,
+	ListData,2084,
+	ListData,2085,
+	ListData,2086,
+	ListData,2087,
+	ListData,2088,
+	ListData,2089,
+	ListData,2090,
+	ListData,2091,
+	ListData,2092,
+	ListData,2093,
+	ListData,2094,
+	ListData,2095,
+	ListData,2096,
+	ListData,2097,
+	ListData,2098,
+	ListData,2099,
+	ListData,2100,
+	ListData,2101,
+	ListData,2102,
+	ListData,2103,
+	ListData,2104,
+	ListData,2105,
+	ListData,2106,
+	ListData,2107,
+	ListData,2108,
+	ListData,2109,
+	ListData,2110,
+	ListData,2111,
+	ListData,2112,
+	ListData,2113,
+	ListData,2114,
+	ListData,2115,
+	ListData,2116,
+	ListData,2117,
+	ListData,2118,
+	ListData,2119,
+	ListData,2120,
+	ListData,2121,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectSingleText,BEGIN
+	Rect,152,92,167,116,
+	TextColor,0,0,0,255,
+	String,-,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectControlComboBox,BEGIN
+	Rect,170,90,250,114,
+	TagName,REPORT.SEARCH.MONTH,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectControlComboBox,BEGIN
+	Rect,268,90,348,114,
+	TagName,REPORT.SEARCH.DAY,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ListData,13,
+	ListData,14,
+	ListData,15,
+	ListData,16,
+	ListData,17,
+	ListData,18,
+	ListData,19,
+	ListData,20,
+	ListData,21,
+	ListData,22,
+	ListData,23,
+	ListData,24,
+	ListData,25,
+	ListData,26,
+	ListData,27,
+	ListData,28,
+	ListData,29,
+	ListData,30,
+	ListData,31,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectSingleText,BEGIN
+	Rect,250,92,265,116,
+	TextColor,0,0,0,255,
+	String,-,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectBitmap,BEGIN
+	Rect,362,10,386,34,
+	FileName,close-5758.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseUp,BEGIN
+Description,마우스를 떼었을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@CloseModule();
+Programm,END,
+	ScriptMouseUp,END
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectButtonProgramm,BEGIN
+	Rect,218,194,370,250,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@CloseModule();
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Cancel,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,26,194,178,250,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,year,1,"0,"
+Data,int,month,1,"0,"
+Data,int,day,1,"0,"
+Data,int,hour,1,"0,"
+Data,int,min,1,"0,"
+Data,int,sec,1,"0,"
+Data,string,print_date,1,"0,"
+Data,string,print_time,1,"0,"
+Data,string,report_date,1,"0,"
+Data,string,report_date00,1,"0,"
+Data,string,report_date01,1,"0,"
+Data,string,report_date02,1,"0,"
+Data,string,report_date03,1,"0,"
+Data,string,report_date04,1,"0,"
+Data,string,report_date05,1,"0,"
+Data,string,report_date06,1,"0,"
+Data,string,report_date07,1,"0,"
+Data,string,report_date08,1,"0,"
+Data,string,report_date09,1,"0,"
+Data,string,report_date10,1,"0,"
+Data,string,report_date11,1,"0,"
+Data,string,report_date12,1,"0,"
+Data,string,report_date13,1,"0,"
+Data,string,report_date14,1,"0,"
+Data,string,report_date15,1,"0,"
+Data,string,report_date16,1,"0,"
+Data,string,report_date17,1,"0,"
+Data,string,report_date18,1,"0,"
+Data,string,report_date19,1,"0,"
+Data,string,report_date20,1,"0,"
+Data,string,report_date21,1,"0,"
+Data,string,report_date22,1,"0,"
+Data,string,report_date23,1,"0,"
+Data,string,report_tot,1,"0,"
+Data,string,report_acc,1,"0,"
+Data,string,report_min_max,1,"0,"
+Programm,BEGIN,
+year = @GetDateYear();
+month = @GetDateMon();
+day = @GetDateDay();
+hour = @GetTimeHour();
+min = @GetTimeMin();
+sec = @GetTimeSec();
+
+@sprintf(print_date, "%04d-%02d-%02d", year, month, day);
+@sprintf(print_time, "%02d:%02d:%02d", hour, min, sec);
+
+@sprintf(report_date, "%04d-%02d-%02d", $REPORT.SEARCH.YEAR, $REPORT.SEARCH.MONTH, $REPORT.SEARCH.DAY);
+
+@sprintf(report_date00, "DATE = '%s' and TIME = '00:00 ~ 01:00'", report_date);
+@sprintf(report_date01, "DATE = '%s' and TIME = '01:00 ~ 02:00'", report_date);
+@sprintf(report_date02, "DATE = '%s' and TIME = '02:00 ~ 03:00'", report_date);
+@sprintf(report_date03, "DATE = '%s' and TIME = '03:00 ~ 04:00'", report_date);
+@sprintf(report_date04, "DATE = '%s' and TIME = '04:00 ~ 05:00'", report_date);
+@sprintf(report_date05, "DATE = '%s' and TIME = '05:00 ~ 06:00'", report_date);
+@sprintf(report_date06, "DATE = '%s' and TIME = '06:00 ~ 07:00'", report_date);
+@sprintf(report_date07, "DATE = '%s' and TIME = '07:00 ~ 08:00'", report_date);
+@sprintf(report_date08, "DATE = '%s' and TIME = '08:00 ~ 09:00'", report_date);
+@sprintf(report_date09, "DATE = '%s' and TIME = '09:00 ~ 10:00'", report_date);
+@sprintf(report_date10, "DATE = '%s' and TIME = '10:00 ~ 11:00'", report_date);
+@sprintf(report_date11, "DATE = '%s' and TIME = '11:00 ~ 12:00'", report_date);
+@sprintf(report_date12, "DATE = '%s' and TIME = '12:00 ~ 13:00'", report_date);
+@sprintf(report_date13, "DATE = '%s' and TIME = '13:00 ~ 14:00'", report_date);
+@sprintf(report_date14, "DATE = '%s' and TIME = '14:00 ~ 15:00'", report_date);
+@sprintf(report_date15, "DATE = '%s' and TIME = '15:00 ~ 16:00'", report_date);
+@sprintf(report_date16, "DATE = '%s' and TIME = '16:00 ~ 17:00'", report_date);
+@sprintf(report_date17, "DATE = '%s' and TIME = '17:00 ~ 18:00'", report_date);
+@sprintf(report_date18, "DATE = '%s' and TIME = '18:00 ~ 19:00'", report_date);
+@sprintf(report_date19, "DATE = '%s' and TIME = '19:00 ~ 20:00'", report_date);
+@sprintf(report_date20, "DATE = '%s' and TIME = '20:00 ~ 21:00'", report_date);
+@sprintf(report_date21, "DATE = '%s' and TIME = '21:00 ~ 22:00'", report_date);
+@sprintf(report_date22, "DATE = '%s' and TIME = '22:00 ~ 23:00'", report_date);
+@sprintf(report_date23, "DATE = '%s' and TIME = '23:00 ~ 00:00'", report_date);
+@sprintf(report_tot, "DATE = '%s'", report_date);
+@sprintf(report_acc, "DATE = '%s' and TIME = '23:00 ~ 00:00'", report_date);
+@sprintf(report_min_max, "TYPE = 0 and DATE_SAVE = '%04d%02d%02d'", $REPORT.SEARCH.YEAR, $REPORT.SEARCH.MONTH, $REPORT.SEARCH.DAY);
+
+@ReportSetVar("_00", report_date00);
+@ReportSetVar("_01", report_date01);
+@ReportSetVar("_02", report_date02);
+@ReportSetVar("_03", report_date03);
+@ReportSetVar("_04", report_date04);
+@ReportSetVar("_05", report_date05);
+@ReportSetVar("_06", report_date06);
+@ReportSetVar("_07", report_date07);
+@ReportSetVar("_08", report_date08);
+@ReportSetVar("_09", report_date09);
+@ReportSetVar("_10", report_date10);
+@ReportSetVar("_11", report_date11);
+@ReportSetVar("_12", report_date12);
+@ReportSetVar("_13", report_date13);
+@ReportSetVar("_14", report_date14);
+@ReportSetVar("_15", report_date15);
+@ReportSetVar("_16", report_date16);
+@ReportSetVar("_17", report_date17);
+@ReportSetVar("_18", report_date18);
+@ReportSetVar("_19", report_date19);
+@ReportSetVar("_20", report_date20);
+@ReportSetVar("_21", report_date21);
+@ReportSetVar("_22", report_date22);
+@ReportSetVar("_23", report_date23);
+@ReportSetVar("_tot", report_tot);
+@ReportSetVar("_acc", report_acc);
+@ReportSetVar("_min_max", report_min_max);
+
+@ReportSetVar("print_date", print_date);
+@ReportSetVar("print_time", print_time);
+@ReportSetVar("period", report_date);
+@ReportView("RPT_Daily_Run3_FCA.rptx");
+
+@CloseModule();
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Create,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectText,BEGIN
+	Rect,0,10,395,70,
+	TextColor,74,128,177,255,
+	String,Daily Report,
+	String,FC-MAIN(Run#3),
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,20,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,

@@ -1,0 +1,2728 @@
+Resolution,1920,1080
+DefaultLocation,0,0,0
+ModuleOptic,2
+ModuleWindowStyle,0,False,100,1,False
+ModuleWindowStyleFlag,13107200,0
+BackGroundColor,180,200,217,255
+Version, 10,3,5,0,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,1919,1079,
+	GroupSize,1920,1080,
+ObjectRectangle,BEGIN
+	Rect,50,770,230,815,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,50,815,230,910,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,50,620,230,665,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,50,665,230,760,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,50,465,230,510,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,50,510,230,605,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,50,360,230,455,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,50,315,230,360,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,50,165,230,210,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,285,165,1725,910,
+	LineColor,74,128,177,255,
+	FillColor,200,200,200,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,210,0,1300,80,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectButtonProgramm,BEGIN
+	Rect,1165,10,1290,70,
+	TextColor,0,0,0,255,
+	BackColor,106,132,166,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp07_Report_FCA.modx");
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,ButtonProgram1,1,REPORT,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1030,10,1155,70,
+	TextColor,0,0,0,255,
+	BackColor,106,132,166,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+if ($DATA_DISPLAY_SEL == 0)
+{
+
+	if ($TREND_TAG.FCA_PAGE_NO == 0)
+	{
+		@LoadModule("StartUp06_Trend_FCA00.modx");
+	}
+	elseif ($TREND_TAG.FCA_PAGE_NO == 1)
+	{
+		@LoadModule("StartUp06_Trend_FCA01.modx");
+	}
+	elseif ($TREND_TAG.FCA_PAGE_NO == 2)
+	{
+		@LoadModule("StartUp06_Trend_FCA02.modx");
+	}
+	elseif ($TREND_TAG.FCA_PAGE_NO == 3)
+	{
+		@LoadModule("StartUp06_Trend_FCA03.modx");
+	}
+	elseif ($TREND_TAG.FCA_PAGE_NO == 6)
+	{
+		@LoadModule("StartUp06_Trend_FCA06.modx");
+	}
+	elseif ($TREND_TAG.FCA_PAGE_NO == 7)
+	{
+		@LoadModule("StartUp06_Trend_FCA07.modx");
+	}
+
+}
+else
+{
+	if ($TREND_TAG.FCB_PAGE_NO == 0)
+	{
+		@LoadModule("StartUp06_Trend_FCB00.modx");
+	}
+	elseif ($TREND_TAG.FCB_PAGE_NO == 1)
+	{
+		@LoadModule("StartUp06_Trend_FCB01.modx");
+	}
+	elseif ($TREND_TAG.FCB_PAGE_NO == 2)
+	{
+		@LoadModule("StartUp06_Trend_FCB02.modx");
+	}
+	elseif ($TREND_TAG.FCB_PAGE_NO == 3)
+	{
+		@LoadModule("StartUp06_Trend_FCB03.modx");
+	}
+	elseif ($TREND_TAG.FCB_PAGE_NO == 6)
+	{
+		@LoadModule("StartUp06_Trend_FCB06.modx");
+	}
+	elseif ($TREND_TAG.FCB_PAGE_NO == 7)
+	{
+		@LoadModule("StartUp06_Trend_FCB07.modx");
+	}
+}
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,ButtonProgram1,1,TREND,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonModule3D,BEGIN
+	Rect,895,10,1020,70,
+	TextColor,0,0,0,255,
+	BackColor,106,132,166,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,StartUp05_Alarm.modx,
+	String,,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,ButtonModule3D1,1,ALARM,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonModule3D,BEGIN
+	Rect,625,10,750,70,
+	TextColor,0,0,0,255,
+	BackColor,106,132,166,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,StartUp04_VV_Ctrl.modx,
+	String,,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,ButtonModule3D1,1,VALVE CONTROL,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonModule3D,END
+ObjectButtonProgramm,BEGIN
+	Rect,490,10,615,70,
+	TextColor,0,0,0,255,
+	BackColor,106,132,166,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp03_Oper_Entry_FCA.modx");
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,ButtonProgram1,1,OPERATOR ENTRY,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectRectangle,BEGIN
+	Rect,1300,0,1530,80,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1530,0,1690,80,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,1690,0,1920,80,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectDate,BEGIN
+	Rect,1690,11,1922,41,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,10,
+	LogFont,나눔스퀘어_ac ExtraBold,18,1,0,0,0,
+	ClassName,Date1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectDate,END
+ObjectClock,BEGIN
+	Rect,1690,41,1922,71,
+	TextColor,255,255,255,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,나눔스퀘어_ac ExtraBold,18,1,0,0,0,
+	ClassName,Clock1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectClock,END
+ObjectBitmap,BEGIN
+	Rect,1540,10,1603,73,
+	FileName,jpg-1523.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,1,CAPTURE,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseUp,BEGIN
+Description,마우스를 떼었을 때 실행할 Script,
+ScanTime,1,False,False,
+Data,string,Date,1,"0,"
+Data,int,retn,1,"0,"
+Programm,BEGIN,
+@sprintf(Date, "D:\\(Capture)\\%04d%02d%02d_%02d%02d%02d.jpg", @GetDateYear(), @GetDateMon(), @GetDateDay(), @GetTimeHour(), @GetTimeMin(), @GetTimeSec());
+
+@ScreenSave(Date);
+
+retn = @MessageBox("Do you want to open the folder?", "Complete", MB_YESNO);
+
+if (retn != IDYES)
+{
+	return;
+}
+else
+{
+	@ProcessStart("explorer.exe", "D:\\(Capture)");
+}
+Programm,END,
+	ScriptMouseUp,END
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,1610,10,1681,74,
+	FileName,printer-1434.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,1,PRINT,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseUp,BEGIN
+Description,마우스를 떼었을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@PrintScreen(0);
+Programm,END,
+	ScriptMouseUp,END
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,1438,20,1478,60,
+	FileName,person-295.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,1,LOG-IN,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseUp,BEGIN
+Description,마우스를 떼었을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("POP_Login.modx");
+Programm,END,
+	ScriptMouseUp,END
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,1483,20,1523,60,
+	FileName,user-logout-304_X0001.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,1,LOG-OUT,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseUp,BEGIN
+Description,마우스를 떼었을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("POP_Logout.modx");
+Programm,END,
+	ScriptMouseUp,END
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectStringString,BEGIN
+	Rect,1310,40,1430,70,
+	TagName,LOGIN.USER,
+	TagMouseResponse,1,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,192,192,192,255,1,
+
+	BackBox,2,
+	TextAlign,1,1,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectStringString,END
+ObjectText,BEGIN
+	Rect,1310,10,1430,40,
+	TextColor,255,255,255,255,
+	String,User ID,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectButtonProgramm,BEGIN
+	Rect,355,10,480,70,
+	TextColor,0,0,0,255,
+	BackColor,106,132,166,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp02_GC_FCA.modx");
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,ButtonProgram1,1,GAS CHROMATOGRAPH,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectText,BEGIN
+	Rect,355,10,480,70,
+	TextColor,0,0,0,255,
+	String,G/C,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,490,10,615,70,
+	TextColor,0,0,0,255,
+	String,Operator,
+	String,Entry,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,625,10,750,70,
+	TextColor,0,0,0,255,
+	String,Valve,
+	String,Control,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,895,10,1020,70,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,1030,10,1155,70,
+	TextColor,0,0,0,255,
+	String,Trend,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,1165,10,1290,70,
+	TextColor,0,0,0,255,
+	String,Report,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectButtonProgramm,BEGIN
+	Rect,220,10,345,70,
+	TextColor,0,0,0,255,
+	BackColor,106,132,166,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp.modx");
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,ButtonProgram1,1,STATION,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectText,BEGIN
+	Rect,220,10,345,70,
+	TextColor,0,0,0,255,
+	String,Station,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,0,0,210,80,
+	LineColor,0,0,0,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,210,80,
+	TextColor,234,84,6,255,
+	String,스마트에너지센터,
+	String,(이천) Metering,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,18,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectButtonProgramm,BEGIN
+	Rect,760,10,885,70,
+	TextColor,0,0,0,255,
+	BackColor,180,200,217,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp08_Config_FCA.modx");
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,ButtonProgram1,1,CONPIGURATION,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectText,BEGIN
+	Rect,760,10,885,70,
+	TextColor,0,0,0,255,
+	String,Configure,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectWindowAlarm,BEGIN
+	Rect,290,990,1765,1070,
+	LogFont,돋움,11,1,0,0,0,
+	StringOption,1,0,1,False,True,
+AlarmEventColumn,Priority,False,Level
+AlarmEventColumn,AlarmDate,True,Date
+AlarmEventColumn,AlarmTime,True,Time
+AlarmEventColumn,Tag,True,Tag
+AlarmEventColumn,Description,True,Description
+AlarmEventColumn,Message,True,Message
+	ClassName,Alarm_Banner_FCA00,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectButtonProgramm,BEGIN
+	Rect,1775,990,1900,1025,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm_Banner_FCA00");
+
+@AlarmListConfirm("Alarm_Banner_FCA00", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,ButtonProgram1,1,ACK.,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectBitmap,BEGIN
+	Rect,1780,994,1805,1019,
+	FileName,check-3277.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectButtonProgramm,BEGIN
+	Rect,1775,1035,1900,1070,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+@AlarmListConfirm("Alarm_Banner_FCA00", -1);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,ButtonProgram1,1,ACK. ALL,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectBitmap,BEGIN
+	Rect,1778,1040,1803,1065,
+	FileName,check-mark-3279.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectText,BEGIN
+	Rect,1805,990,1900,1025,
+	TextColor,0,0,0,255,
+	String,ACK.,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,1805,1035,1900,1070,
+	TextColor,0,0,0,255,
+	String,ACK. ALL,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectGroup,BEGIN,
+	GroupRect,150,990,215,1030,
+	GroupSize,66,41,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,40,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,40,
+	TextColor,160,160,160,255,
+	String,MAIN,
+	String,Alarm,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,150,1030,215,1070,
+	GroupSize,66,41,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,40,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,40,
+	TextColor,160,160,160,255,
+	String,MAIN,
+	String,Comm.,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,215,990,280,1030,
+	GroupSize,66,41,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,40,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,40,
+	TextColor,160,160,160,255,
+	String,AUX,
+	String,Alarm,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,215,1030,280,1070,
+	GroupSize,66,41,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,40,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,40,
+	TextColor,160,160,160,255,
+	String,AUX,
+	String,Comm.,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,150,990,215,1030,
+	GroupSize,66,41,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,40,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,40,
+	TextColor,242,7,70,255,
+	String,MAIN,
+	String,Alarm,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.FC_A_FAULT,0,1,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.FC_A_FAULT,0,1,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,215,990,280,1030,
+	GroupSize,66,41,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,40,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,40,
+	TextColor,242,7,70,255,
+	String,AUX,
+	String,Alarm,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.FC_B_FAULT,0,1,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.FC_B_FAULT,0,1,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,150,1030,215,1070,
+	GroupSize,66,41,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,40,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,40,
+	TextColor,242,7,70,255,
+	String,MAIN,
+	String,Comm.,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,FC_A.DIG.COMM_ERR,0,0,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,FC_A.DIG.COMM_ERR,0,0,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,215,1030,280,1070,
+	GroupSize,66,41,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,40,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,40,
+	TextColor,242,7,70,255,
+	String,AUX,
+	String,Comm.,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,FC_B.DIG.COMM_ERR,0,0,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,FC_B.DIG.COMM_ERR,0,0,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,85,990,150,1070,
+	GroupSize,66,81,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,80,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,80,
+	TextColor,160,160,160,255,
+	String,PLC,
+	String,Comm.,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,85,990,150,1070,
+	GroupSize,66,81,
+ObjectRectangle,BEGIN
+	Rect,0,0,65,80,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,65,80,
+	TextColor,242,7,70,255,
+	String,PLC,
+	String,Comm.,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,11,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.COMM_ERR,0,0,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.COMM_ERR,0,0,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,550,575,585,740,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,550,575,585,740,
+	TextColor,0,0,0,255,
+	String,R,
+	String,E,
+	String,M,
+	String,O,
+	String,T,
+	String,E,
+	String,0,
+	String,1,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,550,500,885,545,
+	TextColor,242,90,56,255,
+	String,MASTER,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,20,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.DIG.A_MASTER,5,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectText,END
+ObjectBitmap,BEGIN
+	Rect,550,295,885,500,
+	FileName,1-2.jpg,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectText,BEGIN
+	Rect,550,500,885,545,
+	TextColor,4,217,96,255,
+	String,STAND-BY,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,20,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.DIG.A_STAND_BY,5,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectText,END
+ObjectBitmap,BEGIN
+	Rect,585,575,675,740,
+	FileName,55.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,770,575,810,740,
+	FileName,66.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectText,BEGIN
+	Rect,965,500,1300,545,
+	TextColor,242,90,56,255,
+	String,MASTER,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,20,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.DIG.B_MASTER,5,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectText,END
+ObjectBitmap,BEGIN
+	Rect,965,295,1300,500,
+	FileName,1-2.jpg,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectText,BEGIN
+	Rect,965,500,1300,545,
+	TextColor,4,217,96,255,
+	String,STAND-BY,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,20,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.DIG.B_STAND_BY,5,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectText,END
+ObjectBitmap,BEGIN
+	Rect,675,575,765,740,
+	FileName,55.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,815,575,855,740,
+	FileName,66.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,860,575,900,740,
+	FileName,66.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,905,575,945,740,
+	FileName,66.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,1085,575,1125,740,
+	FileName,66.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,950,575,990,740,
+	FileName,66.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,995,575,1035,740,
+	FileName,66.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,1040,575,1080,740,
+	FileName,66.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectRectangle,BEGIN
+	Rect,770,575,809,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,770,575,809,609,
+	TextColor,0,0,0,255,
+	String,DI,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,590,575,675,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,590,575,675,609,
+	TextColor,0,0,0,255,
+	String,IM153-2,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,815,575,854,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,815,575,854,609,
+	TextColor,0,0,0,255,
+	String,DI,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,860,575,899,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,860,575,899,609,
+	TextColor,0,0,0,255,
+	String,DI,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,905,575,944,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,905,575,944,609,
+	TextColor,0,0,0,255,
+	String,DI,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,950,575,989,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,950,575,989,609,
+	TextColor,0,0,0,255,
+	String,DO,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,995,575,1034,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,995,575,1034,609,
+	TextColor,0,0,0,255,
+	String,DO,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,1040,575,1079,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,1040,575,1079,609,
+	TextColor,0,0,0,255,
+	String,DO,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,1085,575,1124,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,1085,575,1124,609,
+	TextColor,0,0,0,255,
+	String,DO,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,680,575,765,609,
+	LineColor,0,0,0,255,
+	FillColor,180,200,217,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,680,575,765,609,
+	TextColor,0,0,0,255,
+	String,IM153-2,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,14,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRoundRectangle,BEGIN
+	Rect,550,255,885,290,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectText,BEGIN
+	Rect,550,255,885,290,
+	TextColor,255,255,255,255,
+	String,PLC-A,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,18,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRoundRectangle,BEGIN
+	Rect,965,255,1300,290,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectText,BEGIN
+	Rect,965,255,1300,290,
+	TextColor,255,255,255,255,
+	String,PLC-B,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,18,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,50,210,230,305,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandColorFill,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,PLC.AUTHORITY,0,1,4,217,96,255,
+	ExpandColorFill,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,50,165,230,210,
+	TextColor,0,0,0,255,
+	String,MAIN PANEL,
+	String,UPS POWER,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,50,315,230,360,
+	TextColor,0,0,0,255,
+	String,MAIN PANEL DC24V,
+	String,POWER SUPPLY,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectBitmap,BEGIN
+	Rect,60,840,131,905,
+	FileName,33.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,840,221,905,
+	FileName,33.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,60,840,131,905,
+	FileName,44.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.MAIN_TEMP_ALARM,5,,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.MAIN_TEMP_ALARM,5,,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,840,221,905,
+	FileName,44.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.AUX_TEMP_ALARM,5,,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.AUX_TEMP_ALARM,5,,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,60,235,131,300,
+	FileName,22.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,235,221,300,
+	FileName,22.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,60,235,131,300,
+	FileName,11.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.MAIN_UPS_A_FAULT,6,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,235,221,300,
+	FileName,11.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.MAIN_UPS_B_FAULT,6,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,60,385,131,450,
+	FileName,22.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,385,221,450,
+	FileName,22.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,60,385,131,450,
+	FileName,11.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.MAIN_SMPS_A_FAULT,6,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,385,221,450,
+	FileName,11.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.MAIN_SMPS_B_FAULT,6,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectText,BEGIN
+	Rect,50,215,140,240,
+	TextColor,0,0,0,255,
+	String,MAIN,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,140,215,230,240,
+	TextColor,0,0,0,255,
+	String,BACKUP,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,50,365,140,390,
+	TextColor,0,0,0,255,
+	String,A,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,140,365,230,390,
+	TextColor,0,0,0,255,
+	String,B,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectBitmap,BEGIN
+	Rect,60,535,131,600,
+	FileName,22.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,535,221,600,
+	FileName,22.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,60,535,131,600,
+	FileName,11.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.AUX_UPS_A_FAULT,6,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,535,221,600,
+	FileName,11.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.AUX_UPS_B_FAULT,6,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,60,690,131,755,
+	FileName,22.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,690,221,755,
+	FileName,22.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,60,690,131,755,
+	FileName,11.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.AUX_SMPS_A_FAULT,6,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectBitmap,BEGIN
+	Rect,150,690,221,755,
+	FileName,11.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.AUX_SMPS_B_FAULT,6,,
+	ExpandVisible,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectText,BEGIN
+	Rect,50,465,230,510,
+	TextColor,0,0,0,255,
+	String,AUX PANEL,
+	String,UPS POWER,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,50,620,230,665,
+	TextColor,0,0,0,255,
+	String,AUX PANEL DC24V,
+	String,POWER SUPPLY,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,50,515,140,540,
+	TextColor,0,0,0,255,
+	String,MAIN,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,140,515,230,540,
+	TextColor,0,0,0,255,
+	String,BACKUP,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,50,670,140,695,
+	TextColor,0,0,0,255,
+	String,A,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,140,670,230,695,
+	TextColor,0,0,0,255,
+	String,B,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,50,770,230,815,
+	TextColor,0,0,0,255,
+	String,PNL.,
+	String,TEMP. ALARM,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,50,820,140,845,
+	TextColor,0,0,0,255,
+	String,MAIN,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,140,820,230,845,
+	TextColor,0,0,0,255,
+	String,AUX,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectGroup,BEGIN,
+	GroupRect,1320,320,1650,375,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,160,160,160,255,
+	String,CPU ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,320,1650,375,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,242,7,70,255,
+	String,CPU ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.DIG.CPU_ERROR,5,,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.DIG.CPU_ERROR,5,,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,385,1650,440,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,160,160,160,255,
+	String,CPU POWER ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,385,1650,440,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,242,7,70,255,
+	String,CPU POWER ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.DIG.BACKUP_SUPPLY_ERR,5,,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.DIG.BACKUP_SUPPLY_ERR,5,,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,450,1650,505,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,160,160,160,255,
+	String,PLC REDUNDANCY FAIL,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,255,1650,310,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,160,160,160,255,
+	String,MODULE COMMON ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,255,1650,310,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,242,7,70,255,
+	String,MODULE COMMON ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.DIG.IO_ERROR,5,,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.DIG.IO_ERROR,5,,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,450,1650,505,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,242,7,70,255,
+	String,PLC REDUNDANCY FAIL,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.DIG.REDUNDANCY_FAIL,5,,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.DIG.REDUNDANCY_FAIL,5,,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRoundRectangle,BEGIN
+	Rect,340,105,1510,140,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectText,BEGIN
+	Rect,345,105,1510,140,
+	TextColor,255,255,255,255,
+	String,CONFIGURATION [스마트에너지센터(이천)],
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,18,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectGroup,BEGIN,
+	GroupRect,1320,515,1650,570,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,160,160,160,255,
+	String,HMI COMMUNICATION ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,515,1650,570,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,242,7,70,255,
+	String,HMI COMMUNICATION ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.COMM_ERR,6,,
+	ExpandVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.COMM_ERR,6,,800
+	ExpandBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,580,1650,635,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,74,128,177,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,160,160,160,255,
+	String,I/O COMMUNICATION ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1320,580,1650,635,
+	GroupSize,331,56,
+ObjectRectangle,BEGIN
+	Rect,0,0,330,55,
+	LineColor,242,7,70,255,
+	FillColor,242,230,56,255,1,
+
+	LineThick,3,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,0,0,330,55,
+	TextColor,242,7,70,255,
+	String,I/O COMMUNICATION ERROR,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ExpandVisible,BEGIN
+		ExpandType,0,
+		ExpandBasicVisible,PLC.DIG.IO_COMM_ERROR,5,,
+	ExpandVisible,END
+	ScriptVisible,BEGIN
+Description,ON 또는 OFF 값을 return,
+ScanTime,1,False,False,
+Programm,BEGIN,
+
+Programm,END,
+	ScriptVisible,END
+	ExpandBlinking,BEGIN
+		ExpandType,0,
+		ExpandBasicBlinking,PLC.DIG.IO_COMM_ERROR,5,,800
+	ExpandBlinking,END
+	ScriptBlinking,BEGIN
+Description,"점멸 주기 값을 return (0 = 점멸 없음, 1000 = 1초마다 점멸)",
+ScanTime,1,False,False,
+Programm,BEGIN,
+
+Programm,END,
+	ScriptBlinking,END
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,

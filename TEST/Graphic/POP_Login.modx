@@ -1,0 +1,210 @@
+Resolution,436,196
+DefaultLocation,0,0,0
+ModuleOptic,0
+ModuleWindowStyle,1,False,100,1,False
+ModuleWindowStyleFlag,0,0
+BackGroundColor,255,255,255,255
+Version, 10,3,5,0,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,435,195,
+	GroupSize,436,196,
+ObjectRoundRectangle,BEGIN
+	Rect,2,2,434,194,
+	LineColor,91,155,213,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,15,15,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectRectangle,BEGIN
+	Rect,120,104,316,132,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectControlEditBox,BEGIN
+	Rect,122,106,314,130,
+	TagName,LOGIN.ID,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	WindowStyle,00000000,
+	StringOption,0,
+	ClassName,ID,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlEditBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,322,106,394,162,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,login_flag,1,"0,"
+Programm,BEGIN,
+login_flag = @LogInUserPass($LOGIN.ID, $LOGIN.PW);
+
+if (login_flag == 1)
+{
+
+	@CloseModule();
+
+}
+else
+{
+
+	@MessageBox("Invalid ID or password.", "Login", MB_OK);
+
+}
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Login,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,TEST,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectBitmap,BEGIN
+	Rect,402,10,426,34,
+	FileName,close-5758.png,
+	OverlayMethod,0,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseUp,BEGIN
+Description,마우스를 떼었을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@CloseModule();
+Programm,END,
+	ScriptMouseUp,END
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectBitmap,END
+ObjectText,BEGIN
+	Rect,10,10,346,42,
+	TextColor,74,128,177,255,
+	String,Login,
+	TextAlign,0,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,20,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,10,50,418,82,
+	TextColor,74,128,177,255,
+	String,Please enter your user ID and password.,
+	TextAlign,0,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,120,136,316,164,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectControlEditBox,BEGIN
+	Rect,122,138,314,162,
+	TagName,LOGIN.PW,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	WindowStyle,00000020,
+	StringOption,0,
+	ClassName,Password,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlEditBox,END
+ObjectText,BEGIN
+	Rect,2,106,114,130,
+	TextColor,74,128,177,255,
+	String,ID :,
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,2,138,114,162,
+	TextColor,74,128,177,255,
+	String,PW :,
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ScriptModuleEnd,BEGIN
+Description,모듈 닫힐 때 한번 실행할 스크립트,
+ScanTime,1,False,False,
+Programm,BEGIN,
+$LOGIN.ID = "";
+$LOGIN.PW = "";
+Programm,END,
+	ScriptModuleEnd,END
+	ScriptModuleStart,BEGIN
+Description,모듈 열릴 때 한번 실행할 스크립트,
+ScanTime,1,False,False,
+Programm,BEGIN,
+$LOGIN.ID = "";
+$LOGIN.PW = "";
+Programm,END,
+	ScriptModuleStart,END

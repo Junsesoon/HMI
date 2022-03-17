@@ -1,0 +1,1006 @@
+Resolution,492,584
+DefaultLocation,0,0,0
+ModuleOptic,2
+ModuleWindowStyle,1,False,100,1,False
+ModuleWindowStyleFlag,13107200,0
+BackGroundColor,180,200,217,255
+Version, 10,3,5,0,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,491,583,
+	GroupSize,492,584,
+ObjectRectangle,BEGIN
+	Rect,10,10,482,475,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,25,305,241,337,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,305,233,337,
+	TextColor,0,0,0,255,
+	String,Methane(CH4),
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,25,385,241,417,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,385,233,417,
+	TextColor,0,0,0,255,
+	String,Ethane(C2H6),
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,25,65,241,97,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,65,233,97,
+	TextColor,0,0,0,255,
+	String,Propane(C3H8),
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,25,105,241,137,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,105,233,137,
+	TextColor,0,0,0,255,
+	String,i-Butane(iC4H10),
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,25,145,241,177,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,145,233,177,
+	TextColor,0,0,0,255,
+	String,n-Butane(nC4H10),
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,25,185,241,217,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,185,233,217,
+	TextColor,0,0,0,255,
+	String,i-Pentane(iC5H12),
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,25,225,241,257,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,225,233,257,
+	TextColor,0,0,0,255,
+	String,n-Pentane(nC5H12),
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,25,265,241,297,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,265,233,297,
+	TextColor,0,0,0,255,
+	String,Nitrogen(N2),
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,25,345,241,377,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,345,233,377,
+	TextColor,0,0,0,255,
+	String,CO2,
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,25,425,241,457,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectText,BEGIN
+	Rect,25,425,233,457,
+	TextColor,0,0,0,255,
+	String,Total,
+	TextAlign,2,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,15,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,249,305,465,337,
+	LineColor,74,128,177,255,
+	FillColor,168,227,247,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectAnalogString,BEGIN
+	Rect,249,305,457,337,
+	TagName,FC_A.RUN1.KEY.METHANE_SET,
+	TagMouseResponse,6,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,45,99,117,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,249,385,465,417,
+	LineColor,74,128,177,255,
+	FillColor,168,227,247,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,249,65,465,97,
+	LineColor,74,128,177,255,
+	FillColor,168,227,247,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,249,105,465,137,
+	LineColor,74,128,177,255,
+	FillColor,168,227,247,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,249,225,465,257,
+	LineColor,74,128,177,255,
+	FillColor,168,227,247,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,249,185,465,217,
+	LineColor,74,128,177,255,
+	FillColor,168,227,247,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,249,145,465,177,
+	LineColor,74,128,177,255,
+	FillColor,168,227,247,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,249,425,465,457,
+	LineColor,74,128,177,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,249,345,465,377,
+	LineColor,74,128,177,255,
+	FillColor,168,227,247,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,249,265,465,297,
+	LineColor,74,128,177,255,
+	FillColor,168,227,247,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectRectangle,END
+ObjectAnalogString,BEGIN
+	Rect,249,385,457,417,
+	TagName,FC_A.RUN1.KEY.ETHANE_SET,
+	TagMouseResponse,6,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,45,99,117,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,249,105,457,137,
+	TagName,FC_A.RUN1.KEY.I_BUTANE_SET,
+	TagMouseResponse,6,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,45,99,117,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,249,65,457,97,
+	TagName,FC_A.RUN1.KEY.PROPANE_SET,
+	TagMouseResponse,6,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,45,99,117,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,249,185,457,217,
+	TagName,FC_A.RUN1.KEY.I_PENTANE_SET,
+	TagMouseResponse,6,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,45,99,117,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,249,145,457,177,
+	TagName,FC_A.RUN1.KEY.N_BUTANE_SET,
+	TagMouseResponse,6,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,45,99,117,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,249,345,457,377,
+	TagName,FC_A.RUN1.KEY.CO2_SET,
+	TagMouseResponse,6,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,45,99,117,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,249,265,457,297,
+	TagName,FC_A.RUN1.KEY.NITROGEN_SET,
+	TagMouseResponse,6,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,45,99,117,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,249,225,457,257,
+	TagName,FC_A.RUN1.KEY.N_PENTANE_SET,
+	TagMouseResponse,6,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,45,99,117,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectAnalogString,BEGIN
+	Rect,249,425,457,457,
+	TagName,FC_A.RUN1.KEY.TOTAL_SET,
+	TagMouseResponse,1,,0,0,,,,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,74,128,177,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	LocalMethod,0,
+	StringOption,"{0:#,##0.###0}",0,2,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectButtonProgramm,BEGIN
+	Rect,10,485,482,517,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+if ($FC_A.RUN1.KEY.TOTAL_VALUE100_CHECK == 1)
+{
+	$FC_A.RUN1.KEY.TOTAL_VALUE100_CHECK = 0;
+}
+else
+{
+	$FC_A.RUN1.KEY.TOTAL_VALUE100_CHECK = 1;
+}
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Total Value '100.0' Check,
+	LogFont,나눔스퀘어_ac Bold,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandColorBack,BEGIN
+		ExpandType,0,
+		ExpandBasicColorMember,1,,FC_A.RUN1.KEY.TOTAL_VALUE100_CHECK,0,1,242,90,56,255,
+	ExpandColorBack,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,10,525,482,573,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,retn,1,"0,"
+Programm,BEGIN,
+if ($FC_A.RUN1.KEY.TOTAL_VALUE100_CHECK == 0)
+{
+	retn = @MessageBox("Are you sure to set the value?", "Setting", MB_YESNO);
+
+	if (retn != IDYES)
+	{
+		return;
+	}
+	else
+	{
+		$FC_A.RUN1.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+		$FC_A.RUN1.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+		$FC_A.RUN1.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+		$FC_A.RUN1.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+		$FC_A.RUN1.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+		$FC_A.RUN1.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+		$FC_A.RUN1.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+		//$FC_A.RUN1.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+		$FC_A.RUN1.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+		$FC_A.RUN1.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+		$FC_A.RUN2.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+		$FC_A.RUN2.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+		$FC_A.RUN2.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+		$FC_A.RUN2.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+		$FC_A.RUN2.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+		$FC_A.RUN2.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+		$FC_A.RUN2.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+		//$FC_A.RUN2.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+		$FC_A.RUN2.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+		$FC_A.RUN2.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+		$FC_A.RUN3.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+		$FC_A.RUN3.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+		$FC_A.RUN3.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+		$FC_A.RUN3.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+		$FC_A.RUN3.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+		$FC_A.RUN3.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+		$FC_A.RUN3.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+		//$FC_A.RUN3.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+		$FC_A.RUN3.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+		$FC_A.RUN3.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+		$FC_A.RUN4.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+		$FC_A.RUN4.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+		$FC_A.RUN4.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+		$FC_A.RUN4.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+		$FC_A.RUN4.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+		$FC_A.RUN4.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+		$FC_A.RUN4.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+		//$FC_A.RUN4.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+		$FC_A.RUN4.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+		$FC_A.RUN4.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+		$FC_B.RUN1.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+		$FC_B.RUN1.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+		$FC_B.RUN1.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+		$FC_B.RUN1.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+		$FC_B.RUN1.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+		$FC_B.RUN1.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+		$FC_B.RUN1.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+		//$FC_B.RUN1.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+		$FC_B.RUN1.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+		$FC_B.RUN1.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+		$FC_B.RUN2.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+		$FC_B.RUN2.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+		$FC_B.RUN2.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+		$FC_B.RUN2.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+		$FC_B.RUN2.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+		$FC_B.RUN2.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+		$FC_B.RUN2.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+		//$FC_B.RUN2.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+		$FC_B.RUN2.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+		$FC_B.RUN2.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+		$FC_B.RUN3.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+		$FC_B.RUN3.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+		$FC_B.RUN3.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+		$FC_B.RUN3.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+		$FC_B.RUN3.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+		$FC_B.RUN3.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+		$FC_B.RUN3.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+		//$FC_B.RUN3.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+		$FC_B.RUN3.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+		$FC_B.RUN3.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+		$FC_B.RUN4.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+		$FC_B.RUN4.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+		$FC_B.RUN4.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+		$FC_B.RUN4.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+		$FC_B.RUN4.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+		$FC_B.RUN4.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+		$FC_B.RUN4.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+		//$FC_B.RUN4.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+		$FC_B.RUN4.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+		$FC_B.RUN4.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+		@CloseModule();
+
+	}
+}
+else
+{
+	if ($FC_A.RUN1.KEY.TOTAL_SET == 100)
+	{
+		
+		retn = @MessageBox("Are you sure to set the value?", "Setting", MB_YESNO);
+
+		if (retn != IDYES)
+		{
+			return;
+		}
+		else
+		{
+			$FC_A.RUN1.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+			$FC_A.RUN1.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+			$FC_A.RUN1.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+			$FC_A.RUN1.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+			$FC_A.RUN1.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+			$FC_A.RUN1.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+			$FC_A.RUN1.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+			//$FC_A.RUN1.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+			$FC_A.RUN1.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+			$FC_A.RUN1.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+			$FC_A.RUN2.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+			$FC_A.RUN2.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+			$FC_A.RUN2.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+			$FC_A.RUN2.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+			$FC_A.RUN2.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+			$FC_A.RUN2.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+			$FC_A.RUN2.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+			//$FC_A.RUN2.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+			$FC_A.RUN2.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+			$FC_A.RUN2.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+			$FC_A.RUN3.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+			$FC_A.RUN3.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+			$FC_A.RUN3.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+			$FC_A.RUN3.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+			$FC_A.RUN3.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+			$FC_A.RUN3.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+			$FC_A.RUN3.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+			//$FC_A.RUN3.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+			$FC_A.RUN3.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+			$FC_A.RUN3.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+			$FC_A.RUN4.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+			$FC_A.RUN4.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+			$FC_A.RUN4.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+			$FC_A.RUN4.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+			$FC_A.RUN4.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+			$FC_A.RUN4.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+			$FC_A.RUN4.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+			//$FC_A.RUN4.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+			$FC_A.RUN4.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+			$FC_A.RUN4.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+			$FC_B.RUN1.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+			$FC_B.RUN1.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+			$FC_B.RUN1.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+			$FC_B.RUN1.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+			$FC_B.RUN1.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+			$FC_B.RUN1.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+			$FC_B.RUN1.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+			//$FC_B.RUN1.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+			$FC_B.RUN1.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+			$FC_B.RUN1.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+			$FC_B.RUN2.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+			$FC_B.RUN2.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+			$FC_B.RUN2.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+			$FC_B.RUN2.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+			$FC_B.RUN2.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+			$FC_B.RUN2.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+			$FC_B.RUN2.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+			//$FC_B.RUN2.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+			$FC_B.RUN2.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+			$FC_B.RUN2.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+			$FC_B.RUN3.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+			$FC_B.RUN3.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+			$FC_B.RUN3.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+			$FC_B.RUN3.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+			$FC_B.RUN3.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+			$FC_B.RUN3.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+			$FC_B.RUN3.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+			//$FC_B.RUN3.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+			$FC_B.RUN3.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+			$FC_B.RUN3.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+			$FC_B.RUN4.KEY.METHANE = $FC_A.RUN1.KEY.METHANE_SET;
+			$FC_B.RUN4.KEY.ETHANE = $FC_A.RUN1.KEY.ETHANE_SET;
+			$FC_B.RUN4.KEY.PROPANE = $FC_A.RUN1.KEY.PROPANE_SET;
+			$FC_B.RUN4.KEY.I_BUTANE = $FC_A.RUN1.KEY.I_BUTANE_SET;
+			$FC_B.RUN4.KEY.N_BUTANE = $FC_A.RUN1.KEY.N_BUTANE_SET;
+			$FC_B.RUN4.KEY.I_PENTANE = $FC_A.RUN1.KEY.I_PENTANE_SET;
+			$FC_B.RUN4.KEY.N_PENTANE = $FC_A.RUN1.KEY.N_PENTANE_SET;
+			//$FC_B.RUN4.KEY.N_HEXANE = $FC_A.RUN1.KEY.N_HEXANE_SET;
+			$FC_B.RUN4.KEY.NITROGEN = $FC_A.RUN1.KEY.NITROGEN_SET;
+			$FC_B.RUN4.KEY.CO2 = $FC_A.RUN1.KEY.CO2_SET;
+
+			@CloseModule();
+
+		}
+	}
+	else
+	{
+		@MessageBox("Total value is not '100.0'", "Error", MB_OK);
+	}
+}
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Apply,
+	LogFont,나눔스퀘어_ac Bold,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectRoundRectangle,BEGIN
+	Rect,25,25,241,63,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectText,BEGIN
+	Rect,25,25,241,65,
+	TextColor,255,255,255,255,
+	String,Component,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRoundRectangle,BEGIN
+	Rect,249,25,465,63,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectText,BEGIN
+	Rect,249,25,465,65,
+	TextColor,255,255,255,255,
+	String,Default Data,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,16,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ScriptModuleStart,BEGIN
+Description,모듈 열릴 때 한번 실행할 스크립트,
+ScanTime,1,False,False,
+Programm,BEGIN,
+if (($FC_A.DIG.COMM_ERR == 1) || (($FC_A.DIG.COMM_ERR == 0) && ($FC_B.DIG.COMM_ERR == 0)))
+{
+	$FC_A.RUN1.KEY.METHANE_SET = $FC_A.RUN1.KEY.METHANE;
+	$FC_A.RUN1.KEY.ETHANE_SET = $FC_A.RUN1.KEY.ETHANE;
+	$FC_A.RUN1.KEY.PROPANE_SET = $FC_A.RUN1.KEY.PROPANE;
+	$FC_A.RUN1.KEY.I_BUTANE_SET = $FC_A.RUN1.KEY.I_BUTANE;
+	$FC_A.RUN1.KEY.N_BUTANE_SET = $FC_A.RUN1.KEY.N_BUTANE;
+	$FC_A.RUN1.KEY.I_PENTANE_SET = $FC_A.RUN1.KEY.I_PENTANE;
+	$FC_A.RUN1.KEY.N_PENTANE_SET = $FC_A.RUN1.KEY.N_PENTANE;
+	$FC_A.RUN1.KEY.NITROGEN_SET = $FC_A.RUN1.KEY.NITROGEN;
+	$FC_A.RUN1.KEY.CO2_SET = $FC_A.RUN1.KEY.CO2;
+}
+elseif (($FC_B.DIG.COMM_ERR == 1) && ($FC_A.DIG.COMM_ERR == 0))
+{
+	$FC_A.RUN1.KEY.METHANE_SET = $FC_A.RUN1.KEY.METHANE;
+	$FC_A.RUN1.KEY.ETHANE_SET = $FC_A.RUN1.KEY.ETHANE;
+	$FC_A.RUN1.KEY.PROPANE_SET = $FC_A.RUN1.KEY.PROPANE;
+	$FC_A.RUN1.KEY.I_BUTANE_SET = $FC_A.RUN1.KEY.I_BUTANE;
+	$FC_A.RUN1.KEY.N_BUTANE_SET = $FC_A.RUN1.KEY.N_BUTANE;
+	$FC_A.RUN1.KEY.I_PENTANE_SET = $FC_A.RUN1.KEY.I_PENTANE;
+	$FC_A.RUN1.KEY.N_PENTANE_SET = $FC_A.RUN1.KEY.N_PENTANE;
+	$FC_A.RUN1.KEY.NITROGEN_SET = $FC_A.RUN1.KEY.NITROGEN;
+	$FC_A.RUN1.KEY.CO2_SET = $FC_A.RUN1.KEY.CO2;
+}
+
+$FC_A.RUN1.KEY.TOTAL_VALUE100_CHECK = 0;
+Programm,END,
+	ScriptModuleStart,END

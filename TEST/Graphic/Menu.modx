@@ -1,0 +1,5390 @@
+Resolution,1920,1080
+DefaultLocation,0,0,0
+ModuleOptic,2
+ModuleWindowStyle,0,False,100,1,False
+ModuleWindowStyleFlag,13107200,0
+BackGroundColor,255,255,255,255
+Version, 10,3,5,9,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,1919,1079,
+	GroupSize,1920,1080,
+ObjectGroup,BEGIN,
+	GroupRect,0,880,1952,1054,
+	GroupSize,1953,175,
+ObjectGroup,BEGIN,
+	GroupRect,0,8,192,86,
+	GroupSize,193,79,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,192,78,
+	GroupSize,193,79,
+ObjectRoundRectangle,BEGIN
+	Rect,0,0,168,78,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,124,0,192,78,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,135,35,191,77,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,41,8,151,49,
+	TextColor,0,0,0,255,
+	String,Station,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,176,8,374,87,
+	GroupSize,199,80,
+ObjectRoundRectangle,BEGIN
+	Rect,30,0,174,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,130,0,198,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,140,37,196,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,33,0,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,74,8,123,49,
+	TextColor,0,0,0,255,
+	String,GC,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,GC,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("GC.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1132,8,1920,89,
+	GroupSize,789,82,
+ObjectRoundRectangle,BEGIN
+	Rect,562,0,756,81,
+	LineColor,0,0,0,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,697,0,788,81,
+	LineColor,0,255,255,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,711,36,787,79,
+	LineColor,0,0,0,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,616,0,525,81,
+	LineColor,0,255,255,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,600,36,525,79,
+	LineColor,0,0,0,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,299,0,493,81,
+	LineColor,0,0,0,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,434,0,525,81,
+	LineColor,0,255,255,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,448,36,524,79,
+	LineColor,0,0,0,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,353,0,262,81,
+	LineColor,0,255,255,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,337,36,262,79,
+	LineColor,0,0,0,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,37,0,231,81,
+	LineColor,0,0,0,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,172,0,263,81,
+	LineColor,0,255,255,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,186,36,262,79,
+	LineColor,0,0,0,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,91,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,75,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,136,179,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,716,8,912,89,
+	GroupSize,197,82,
+ObjectRoundRectangle,BEGIN
+	Rect,28,0,172,81,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,128,0,196,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,139,36,195,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,43,7,149,48,
+	TextColor,0,0,0,255,
+	String,Report,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Report.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,536,8,735,88,
+	GroupSize,200,81,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,199,80,
+	GroupSize,200,81,
+ObjectRoundRectangle,BEGIN
+	Rect,31,0,175,80,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,131,0,199,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,142,37,198,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,72,0,4,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,37,0,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,55,8,147,49,
+	TextColor,0,0,0,255,
+	String,Trend,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Trend.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRoundRectangle,BEGIN
+	Rect,0,59,1920,174,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,17,17,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectSingleText,BEGIN
+	Rect,317,121,531,168,
+	TextColor,0,0,0,255,
+	String,YEOJU CCPP,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,1352,68,1907,163,
+	GroupSize,556,96,
+ObjectRectangle,BEGIN
+	Rect,447,0,555,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,0,108,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,3,0,105,93,
+	GroupSize,103,94,
+ObjectSingleText,BEGIN
+	Rect,0,0,102,35,
+	TextColor,0,0,0,255,
+	String,General,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,17,30,85,65,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,11,58,92,93,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,108,0,277,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,117,29,267,59,
+	TextColor,0,0,0,255,
+	String,FC-A Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,277,0,446,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,277,29,445,59,
+	TextColor,0,0,0,255,
+	String,GC COMM-A,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,461,2,542,92,
+	GroupSize,82,91,
+ObjectSingleText,BEGIN
+	Rect,13,0,67,35,
+	TextColor,0,0,0,255,
+	String,G/C,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,6,27,74,62,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,0,55,81,90,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectWindowAlarm,BEGIN
+	Rect,787,68,1339,163,
+	LogFont,Malgun Gothic,10,1,0,0,0,
+	StringOption,1,0,1,True,True,
+AlarmEventColumn,Priority,True,레벨
+AlarmEventColumn,AlarmDate,True,경보날짜
+AlarmEventColumn,AlarmTime,True,경보시간
+AlarmEventColumn,Tag,True,태그
+AlarmEventColumn,Description,True,태그 설명
+AlarmEventColumn,Message,True,경보 내용
+	ClassName,Alarm,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectButtonProgramm,BEGIN
+	Rect,658,68,779,116,
+	TextColor,0,0,0,255,
+	BackColor,136,179,229,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm");
+
+@AlarmListConfirm("Alarm", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,658,116,779,164,
+	TextColor,0,0,0,255,
+	BackColor,136,179,229,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+@AlarmListConfirm("Alarm", -1);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK. ALL,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectRectangle,BEGIN
+	Rect,1462,19,1622,50,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectBitmap,BEGIN
+	Rect,1412,15,1451,50,
+	FileName,08_icon64.pcx,
+	OverlayMethod,1,0,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectAnalogString,BEGIN
+	Rect,1463,20,1619,47,
+	TagName,AI_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	LocalMethod,0,
+	StringOption,,0,2,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1215,20,1362,51,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectStringString,BEGIN
+	Rect,1216,21,1359,48,
+	TagName,ST_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	TextAlign,2,1,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectDate,BEGIN
+	Rect,1634,0,1834,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Date1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectDate,END
+ObjectStringString,BEGIN
+	Rect,1697,34,1881,59,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,18,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectClock,BEGIN
+	Rect,1752,0,1952,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Clock1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectClock,END
+ObjectBitmap,BEGIN
+	Rect,1154,16,1202,56,
+	FileName,제목 없음.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectGroup,BEGIN,
+	GroupRect,359,8,554,87,
+	GroupSize,196,80,
+ObjectRoundRectangle,BEGIN
+	Rect,27,0,171,79,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,127,0,195,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,138,36,194,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,57,36,1,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,48,8,142,36,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Alarm.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,236,61,612,127,
+	TextColor,0,0,0,255,
+	String,Alarms / Events,
+	LogFont,Malgun Gothic,35,1,0,0,0,
+	ClassName,Gas Chromatograph,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,0,680,1949,854,
+	GroupSize,1950,175,
+ObjectGroup,BEGIN,
+	GroupRect,0,10,192,88,
+	GroupSize,193,79,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,192,78,
+	GroupSize,193,79,
+ObjectRoundRectangle,BEGIN
+	Rect,0,0,168,78,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,124,0,192,78,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,135,35,191,77,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,41,8,151,49,
+	TextColor,0,0,0,255,
+	String,Station,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,176,10,374,89,
+	GroupSize,199,80,
+ObjectRoundRectangle,BEGIN
+	Rect,30,0,174,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,130,0,198,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,140,37,196,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,33,0,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,74,8,123,49,
+	TextColor,0,0,0,255,
+	String,GC,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,GC,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("GC.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,359,11,554,90,
+	GroupSize,196,80,
+ObjectRoundRectangle,BEGIN
+	Rect,27,0,171,79,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,127,0,195,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,138,36,194,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,57,36,1,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,48,8,142,36,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Alarm.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1132,11,1920,92,
+	GroupSize,789,82,
+ObjectRoundRectangle,BEGIN
+	Rect,562,0,756,81,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,697,0,788,81,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,711,36,787,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,616,0,525,81,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,600,36,525,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,299,0,493,81,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,434,0,525,81,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,448,36,524,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,353,0,262,81,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,337,36,262,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,37,0,231,81,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,172,0,263,81,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,186,36,262,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,91,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,75,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,716,11,912,92,
+	GroupSize,197,82,
+ObjectRoundRectangle,BEGIN
+	Rect,28,0,172,81,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,128,0,196,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,139,36,195,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,43,7,149,48,
+	TextColor,0,0,0,255,
+	String,Report,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Report.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRoundRectangle,BEGIN
+	Rect,0,59,1920,174,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,17,17,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectSingleText,BEGIN
+	Rect,317,123,531,170,
+	TextColor,0,0,0,255,
+	String,YEOJU CCPP,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,1352,70,1907,165,
+	GroupSize,556,96,
+ObjectRectangle,BEGIN
+	Rect,447,0,555,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,0,108,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,3,0,105,93,
+	GroupSize,103,94,
+ObjectSingleText,BEGIN
+	Rect,0,0,102,35,
+	TextColor,0,0,0,255,
+	String,General,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,17,30,85,65,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,11,58,92,93,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,108,0,277,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,117,29,267,59,
+	TextColor,0,0,0,255,
+	String,FC-A Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,277,0,446,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,277,29,445,59,
+	TextColor,0,0,0,255,
+	String,GC COMM-A,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,461,2,542,92,
+	GroupSize,82,91,
+ObjectSingleText,BEGIN
+	Rect,13,0,67,35,
+	TextColor,0,0,0,255,
+	String,G/C,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,6,27,74,62,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,0,55,81,90,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectWindowAlarm,BEGIN
+	Rect,787,70,1339,165,
+	LogFont,Malgun Gothic,10,1,0,0,0,
+	StringOption,1,0,1,True,True,
+AlarmEventColumn,Priority,True,레벨
+AlarmEventColumn,AlarmDate,True,경보날짜
+AlarmEventColumn,AlarmTime,True,경보시간
+AlarmEventColumn,Tag,True,태그
+AlarmEventColumn,Description,True,태그 설명
+AlarmEventColumn,Message,True,경보 내용
+	ClassName,Alarm,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectButtonProgramm,BEGIN
+	Rect,658,118,779,166,
+	TextColor,0,0,0,255,
+	BackColor,53,146,219,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+@AlarmListConfirm("Alarm", -1);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK. ALL,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectGroup,BEGIN,
+	GroupRect,536,11,731,91,
+	GroupSize,196,81,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,195,80,
+	GroupSize,196,81,
+ObjectRoundRectangle,BEGIN
+	Rect,27,0,171,80,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,127,0,195,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,138,37,194,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,58,37,2,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,51,8,143,49,
+	TextColor,0,0,0,255,
+	String,Trend,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Trend.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectButtonProgramm,BEGIN
+	Rect,658,70,779,118,
+	TextColor,0,0,0,255,
+	BackColor,53,146,219,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm");
+
+@AlarmListConfirm("Alarm", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectSingleText,BEGIN
+	Rect,167,63,652,129,
+	TextColor,0,0,0,255,
+	String,History Trend Graph,
+	LogFont,Malgun Gothic,35,1,0,0,0,
+	ClassName,Gas Chromatograph,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,1462,19,1622,50,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectBitmap,BEGIN
+	Rect,1412,15,1451,50,
+	FileName,08_icon64.pcx,
+	OverlayMethod,1,0,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectAnalogString,BEGIN
+	Rect,1463,20,1619,47,
+	TagName,AI_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	LocalMethod,0,
+	StringOption,,0,2,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1215,20,1362,51,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectStringString,BEGIN
+	Rect,1216,21,1359,48,
+	TagName,ST_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	TextAlign,2,1,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectDate,BEGIN
+	Rect,1634,0,1834,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Date1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectDate,END
+ObjectStringString,BEGIN
+	Rect,1697,34,1881,59,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,18,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectClock,BEGIN
+	Rect,1749,0,1949,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Clock1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectClock,END
+ObjectBitmap,BEGIN
+	Rect,1154,16,1202,56,
+	FileName,제목 없음.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,0,240,1949,414,
+	GroupSize,1950,175,
+ObjectGroup,BEGIN,
+	GroupRect,716,9,912,90,
+	GroupSize,197,82,
+ObjectRoundRectangle,BEGIN
+	Rect,28,0,172,81,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,128,0,196,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,139,36,195,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,43,7,149,48,
+	TextColor,0,0,0,255,
+	String,Report,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Report.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,536,9,735,89,
+	GroupSize,200,81,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,199,80,
+	GroupSize,200,81,
+ObjectRoundRectangle,BEGIN
+	Rect,31,0,175,80,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,131,0,199,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,142,37,198,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,72,0,4,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,37,0,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,55,8,147,49,
+	TextColor,0,0,0,255,
+	String,Trend,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Trend.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,359,9,558,88,
+	GroupSize,200,80,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,199,79,
+	GroupSize,200,80,
+ObjectRoundRectangle,BEGIN
+	Rect,31,0,175,79,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,131,0,199,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,142,36,198,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,72,0,4,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,52,8,146,36,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Alarm.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,176,9,374,88,
+	GroupSize,199,80,
+ObjectRoundRectangle,BEGIN
+	Rect,30,0,174,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,130,0,198,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,140,37,196,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,33,0,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,74,8,123,49,
+	TextColor,0,0,0,255,
+	String,GC,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,GC,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("GC.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1132,9,1920,90,
+	GroupSize,789,82,
+ObjectRoundRectangle,BEGIN
+	Rect,562,0,756,81,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,697,0,788,81,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,711,36,787,79,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,616,0,525,81,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,600,36,525,79,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,299,0,493,81,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,434,0,525,81,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,448,36,524,79,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,353,0,262,81,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,337,36,262,79,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,37,0,231,81,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,172,0,263,81,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,186,36,262,79,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,91,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,75,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,0,9,192,87,
+	GroupSize,193,79,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,192,78,
+	GroupSize,193,79,
+ObjectRoundRectangle,BEGIN
+	Rect,0,0,168,78,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,124,0,192,78,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,135,35,191,77,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,41,8,151,49,
+	TextColor,0,0,0,255,
+	String,Station,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,0,59,1920,174,
+	GroupSize,1921,116,
+ObjectRoundRectangle,BEGIN
+	Rect,0,0,1920,115,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,17,17,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectSingleText,BEGIN
+	Rect,223,4,626,70,
+	TextColor,0,0,0,255,
+	String,Metering Station,
+	LogFont,Malgun Gothic,35,1,0,0,0,
+	ClassName,Gas Chromatograph,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,317,64,531,111,
+	TextColor,0,0,0,255,
+	String,YEOJU CCPP,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,1352,11,1907,106,
+	GroupSize,556,96,
+ObjectRectangle,BEGIN
+	Rect,447,0,555,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,0,108,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,3,0,105,93,
+	GroupSize,103,94,
+ObjectSingleText,BEGIN
+	Rect,0,0,102,35,
+	TextColor,0,0,0,255,
+	String,General,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,17,30,85,65,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,11,58,92,93,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,108,0,277,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,117,29,267,59,
+	TextColor,0,0,0,255,
+	String,FC-A Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,277,0,446,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,277,29,445,59,
+	TextColor,0,0,0,255,
+	String,GC COMM-A,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,461,2,542,92,
+	GroupSize,82,91,
+ObjectSingleText,BEGIN
+	Rect,13,0,67,35,
+	TextColor,0,0,0,255,
+	String,G/C,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,6,27,74,62,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,0,55,81,90,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectWindowAlarm,BEGIN
+	Rect,787,11,1339,106,
+	LogFont,Malgun Gothic,10,1,0,0,0,
+	StringOption,1,0,1,True,True,
+AlarmEventColumn,Priority,True,레벨
+AlarmEventColumn,AlarmDate,True,경보날짜
+AlarmEventColumn,AlarmTime,True,경보시간
+AlarmEventColumn,Tag,True,태그
+AlarmEventColumn,Description,True,태그 설명
+AlarmEventColumn,Message,True,경보 내용
+	ClassName,Alarm,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectButtonProgramm,BEGIN
+	Rect,658,11,779,59,
+	TextColor,0,0,0,255,
+	BackColor,224,224,224,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm");
+
+@AlarmListConfirm("Alarm", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,658,59,779,107,
+	TextColor,0,0,0,255,
+	BackColor,224,224,224,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+@AlarmListConfirm("Alarm", -1);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK. ALL,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,1462,19,1622,50,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectBitmap,BEGIN
+	Rect,1412,15,1451,50,
+	FileName,08_icon64.pcx,
+	OverlayMethod,1,0,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectAnalogString,BEGIN
+	Rect,1463,20,1619,47,
+	TagName,AI_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	LocalMethod,0,
+	StringOption,,0,2,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1215,20,1362,51,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectStringString,BEGIN
+	Rect,1217,21,1360,48,
+	TagName,ST_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	TextAlign,2,1,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectDate,BEGIN
+	Rect,1634,0,1834,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Date1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectDate,END
+ObjectStringString,BEGIN
+	Rect,1697,34,1881,59,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,18,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectClock,BEGIN
+	Rect,1749,0,1949,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Clock1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectClock,END
+ObjectBitmap,BEGIN
+	Rect,1154,15,1202,55,
+	FileName,제목 없음.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,0,472,1950,645,
+	GroupSize,1951,174,
+ObjectGroup,BEGIN,
+	GroupRect,0,9,192,87,
+	GroupSize,193,79,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,192,78,
+	GroupSize,193,79,
+ObjectRoundRectangle,BEGIN
+	Rect,0,0,168,78,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,124,0,192,78,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,135,35,191,77,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,41,8,151,49,
+	TextColor,0,0,0,255,
+	String,Station,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,176,9,374,88,
+	GroupSize,199,80,
+ObjectRoundRectangle,BEGIN
+	Rect,30,0,174,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,130,0,198,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,140,37,196,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,33,0,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,74,8,123,49,
+	TextColor,0,0,0,255,
+	String,GC,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,GC,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("GC.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,359,9,554,88,
+	GroupSize,196,80,
+ObjectRoundRectangle,BEGIN
+	Rect,27,0,171,79,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,127,0,195,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,138,36,194,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,57,36,1,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,48,8,142,36,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Alarm.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1658,8,1922,89,
+	GroupSize,197,82,
+ObjectRoundRectangle,BEGIN
+	Rect,28,0,172,81,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,128,0,196,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,139,36,195,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1395,9,1659,90,
+	GroupSize,197,82,
+ObjectRoundRectangle,BEGIN
+	Rect,28,0,172,81,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,128,0,196,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,139,36,195,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,1133,9,1397,90,
+	GroupSize,197,82,
+ObjectRoundRectangle,BEGIN
+	Rect,28,0,172,81,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,128,0,196,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,139,36,195,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,1463,19,1623,50,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectBitmap,BEGIN
+	Rect,1413,15,1452,50,
+	FileName,08_icon64.pcx,
+	OverlayMethod,1,0,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectAnalogString,BEGIN
+	Rect,1464,20,1620,47,
+	TagName,AI_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	LocalMethod,0,
+	StringOption,,0,2,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1216,20,1363,51,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectStringString,BEGIN
+	Rect,1218,21,1361,48,
+	TagName,ST_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	TextAlign,2,1,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectDate,BEGIN
+	Rect,1635,0,1835,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Date1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectDate,END
+ObjectStringString,BEGIN
+	Rect,1698,34,1882,59,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,18,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectClock,BEGIN
+	Rect,1750,0,1950,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Clock1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectClock,END
+ObjectGroup,BEGIN,
+	GroupRect,536,9,731,89,
+	GroupSize,196,81,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,195,80,
+	GroupSize,196,81,
+ObjectRoundRectangle,BEGIN
+	Rect,27,0,171,80,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,127,0,195,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,138,37,194,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,58,37,2,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,51,8,143,49,
+	TextColor,0,0,0,255,
+	String,Trend,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Trend.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRoundRectangle,BEGIN
+	Rect,0,58,1920,173,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,17,17,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectSingleText,BEGIN
+	Rect,258,61,591,127,
+	TextColor,0,0,0,255,
+	String,Report / Print,
+	LogFont,Malgun Gothic,35,1,0,0,0,
+	ClassName,Gas Chromatograph,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,317,121,531,168,
+	TextColor,0,0,0,255,
+	String,YEOJU CCPP,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,1352,68,1907,163,
+	GroupSize,556,96,
+ObjectRectangle,BEGIN
+	Rect,447,0,555,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,0,108,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,3,0,105,93,
+	GroupSize,103,94,
+ObjectSingleText,BEGIN
+	Rect,0,0,102,35,
+	TextColor,0,0,0,255,
+	String,General,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,17,30,85,65,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,11,58,92,93,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,108,0,277,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,117,29,267,59,
+	TextColor,0,0,0,255,
+	String,FC-A Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,277,0,446,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,277,29,445,59,
+	TextColor,0,0,0,255,
+	String,GC COMM-A,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,461,2,542,92,
+	GroupSize,82,91,
+ObjectSingleText,BEGIN
+	Rect,13,0,67,35,
+	TextColor,0,0,0,255,
+	String,G/C,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,6,27,74,62,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,0,55,81,90,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectButtonProgramm,BEGIN
+	Rect,658,116,779,164,
+	TextColor,0,0,0,255,
+	BackColor,66,198,244,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+@AlarmListConfirm("Alarm", -1);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK. ALL,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectGroup,BEGIN,
+	GroupRect,716,9,912,90,
+	GroupSize,197,82,
+ObjectRoundRectangle,BEGIN
+	Rect,28,0,172,81,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,128,0,196,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,139,36,195,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,43,7,149,48,
+	TextColor,0,0,0,255,
+	String,Report,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Report.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectWindowAlarm,BEGIN
+	Rect,787,68,1339,163,
+	LogFont,Malgun Gothic,10,1,0,0,0,
+	StringOption,1,0,1,True,True,
+AlarmEventColumn,Priority,True,레벨
+AlarmEventColumn,AlarmDate,True,경보날짜
+AlarmEventColumn,AlarmTime,True,경보시간
+AlarmEventColumn,Tag,True,태그
+AlarmEventColumn,Description,True,태그 설명
+AlarmEventColumn,Message,True,경보 내용
+	ClassName,Alarm,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectButtonProgramm,BEGIN
+	Rect,658,68,779,116,
+	TextColor,0,0,0,255,
+	BackColor,66,198,244,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm");
+
+@AlarmListConfirm("Alarm", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectBitmap,BEGIN
+	Rect,1154,15,1202,55,
+	FileName,제목 없음.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,0,1,1949,174,
+	GroupSize,1950,174,
+ObjectGroup,BEGIN,
+	GroupRect,1132,8,1920,89,
+	GroupSize,789,82,
+ObjectRoundRectangle,BEGIN
+	Rect,562,0,756,81,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,697,0,788,81,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,711,36,787,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,616,0,525,81,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,600,36,525,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,299,0,493,81,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,434,0,525,81,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,448,36,524,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,353,0,262,81,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,337,36,262,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRoundRectangle,BEGIN
+	Rect,37,0,231,81,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,172,0,263,81,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,186,36,262,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,91,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,75,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,720,8,916,89,
+	GroupSize,197,82,
+ObjectRoundRectangle,BEGIN
+	Rect,28,0,172,81,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,128,0,196,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,139,36,195,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,81,
+	LineColor,0,255,255,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,79,
+	LineColor,0,0,0,255,
+	FillColor,66,198,244,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,43,7,149,48,
+	TextColor,0,0,0,255,
+	String,Report,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Report.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,536,8,735,88,
+	GroupSize,200,81,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,199,80,
+	GroupSize,200,81,
+ObjectRoundRectangle,BEGIN
+	Rect,31,0,175,80,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,131,0,199,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,142,37,198,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,72,0,4,80,
+	LineColor,0,255,255,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,37,0,79,
+	LineColor,0,0,0,255,
+	FillColor,53,146,219,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,55,8,147,49,
+	TextColor,0,0,0,255,
+	String,Trend,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Trend.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,359,8,558,87,
+	GroupSize,200,80,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,199,79,
+	GroupSize,200,80,
+ObjectRoundRectangle,BEGIN
+	Rect,31,0,175,79,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,131,0,199,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,142,36,198,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,72,0,4,79,
+	LineColor,0,255,255,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,36,0,78,
+	LineColor,0,0,0,255,
+	FillColor,136,176,229,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,52,8,146,36,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("Alarm.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectGroup,BEGIN,
+	GroupRect,0,8,192,86,
+	GroupSize,193,79,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,192,78,
+	GroupSize,193,79,
+ObjectRoundRectangle,BEGIN
+	Rect,0,0,168,78,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,124,0,192,78,
+	LineColor,0,255,255,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,135,35,191,77,
+	LineColor,0,0,0,255,
+	FillColor,224,224,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,41,8,151,49,
+	TextColor,0,0,0,255,
+	String,Station,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("StartUp.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRoundRectangle,BEGIN
+	Rect,0,58,1920,173,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,17,17,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectSingleText,BEGIN
+	Rect,317,120,531,167,
+	TextColor,0,0,0,255,
+	String,YEOJU CCPP,
+	LogFont,Malgun Gothic,25,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,1352,67,1907,162,
+	GroupSize,556,96,
+ObjectRectangle,BEGIN
+	Rect,447,0,555,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectRectangle,BEGIN
+	Rect,0,0,108,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectGroup,BEGIN,
+	GroupRect,3,0,105,93,
+	GroupSize,103,94,
+ObjectSingleText,BEGIN
+	Rect,0,0,102,35,
+	TextColor,0,0,0,255,
+	String,General,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,17,30,85,65,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,11,58,92,93,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectRectangle,BEGIN
+	Rect,108,0,277,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,117,29,267,59,
+	TextColor,0,0,0,255,
+	String,FC-A Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,277,0,446,95,
+	LineColor,0,0,0,255,
+	FillColor,242,7,70,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,277,29,445,59,
+	TextColor,0,0,0,255,
+	String,GC COMM-A,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectGroup,BEGIN,
+	GroupRect,461,2,542,92,
+	GroupSize,82,91,
+ObjectSingleText,BEGIN
+	Rect,13,0,67,35,
+	TextColor,0,0,0,255,
+	String,G/C,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,6,27,74,62,
+	TextColor,0,0,0,255,
+	String,Fault,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectSingleText,BEGIN
+	Rect,0,55,81,90,
+	TextColor,0,0,0,255,
+	String,Alarm,
+	LogFont,Malgun Gothic,19,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+ObjectWindowAlarm,BEGIN
+	Rect,787,67,1339,162,
+	LogFont,Malgun Gothic,10,1,0,0,0,
+	StringOption,1,0,1,True,True,
+AlarmEventColumn,Priority,True,레벨
+AlarmEventColumn,AlarmDate,True,경보날짜
+AlarmEventColumn,AlarmTime,True,경보시간
+AlarmEventColumn,Tag,True,태그
+AlarmEventColumn,Description,True,태그 설명
+AlarmEventColumn,Message,True,경보 내용
+	ClassName,Alarm,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectWindowAlarm,END
+ObjectButtonProgramm,BEGIN
+	Rect,658,67,779,115,
+	TextColor,0,0,0,255,
+	BackColor,134,186,224,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+pos= @AlarmListGetCursor("Alarm");
+
+@AlarmListConfirm("Alarm", pos);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK.,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,658,115,779,163,
+	TextColor,0,0,0,255,
+	BackColor,134,186,224,255,1,
+
+	LineColor,26,42,64,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,pos,1,"0,"
+Programm,BEGIN,
+@AlarmListConfirm("Alarm", -1);
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,ACK. ALL,
+	LogFont,Malgun Gothic,15,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectRectangle,BEGIN
+	Rect,1462,19,1622,50,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectBitmap,BEGIN
+	Rect,1412,15,1451,50,
+	FileName,08_icon64.pcx,
+	OverlayMethod,1,0,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectAnalogString,BEGIN
+	Rect,1463,20,1619,47,
+	TagName,AI_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	LocalMethod,0,
+	StringOption,,0,2,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,AnalogString1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectAnalogString,END
+ObjectRectangle,BEGIN
+	Rect,1215,20,1362,51,
+	LineColor,192,192,192,255,
+	FillColor,238,245,250,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectStringString,BEGIN
+	Rect,1217,21,1360,48,
+	TagName,ST_0000,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,2,
+	TextAlign,2,1,
+	LogFont,Malgun Gothic,10,0,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectDate,BEGIN
+	Rect,1634,0,1834,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Date1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectDate,END
+ObjectStringString,BEGIN
+	Rect,1697,34,1881,59,
+	TagName,ST_0001,
+	TagMouseResponse,0,,0,0,,?,?,
+	TagDigitalOutputMethod,0,
+	TagDigitalOutputDelayTime,0,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	BackBox,3,
+	TextAlign,1,1,
+	LogFont,Malgun Gothic,18,1,0,0,0,
+	ClassName,StringTag1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectStringString,END
+ObjectClock,BEGIN
+	Rect,1749,0,1949,48,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,0,
+
+	StringOption,0,
+	LogFont,Arial,18,1,0,0,0,
+	ClassName,Clock1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectClock,END
+ObjectBitmap,BEGIN
+	Rect,1154,14,1202,54,
+	FileName,제목 없음.png,
+	OverlayMethod,1,0,
+	ClassName,Bitmap1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectBitmap,END
+ObjectGroup,BEGIN,
+	GroupRect,176,8,374,87,
+	GroupSize,199,80,
+ObjectRoundRectangle,BEGIN
+	Rect,30,0,174,79,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,25,25,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectCircle,BEGIN
+	Rect,130,0,198,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,140,37,196,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectCircle,BEGIN
+	Rect,68,0,0,78,
+	LineColor,0,255,255,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	ClassName,Circle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectCircle,END
+ObjectRectangle,BEGIN
+	Rect,56,33,0,78,
+	LineColor,0,0,0,255,
+	FillColor,134,186,224,255,1,
+
+	LineThick,1,
+	LineOption,0,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,74,8,123,49,
+	TextColor,0,0,0,255,
+	String,GC,
+	LogFont,Malgun Gothic,22,1,0,0,0,
+	ClassName,GC,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseDown,BEGIN
+Description,마우스를 눌렀을 때 실행할 Script,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@LoadModule("GC.modx");
+Programm,END,
+	ScriptMouseDown,END
+	ExpandScript,END
+ObjectGroup,END,
+ObjectSingleText,BEGIN
+	Rect,167,60,643,126,
+	TextColor,0,0,0,255,
+	String,Gas Chromatograph,
+	LogFont,Malgun Gothic,35,1,0,0,0,
+	ClassName,Gas Chromatograph,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,

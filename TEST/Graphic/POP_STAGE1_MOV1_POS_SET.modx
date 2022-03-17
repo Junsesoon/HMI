@@ -1,0 +1,172 @@
+Resolution,315,185
+DefaultLocation,0,0,0
+ModuleOptic,2
+ModuleWindowStyle,1,False,100,1,False
+ModuleWindowStyleFlag,13107200,0
+BackGroundColor,180,200,217,255
+Version, 10,3,5,0,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,314,184,
+	GroupSize,315,185,
+ObjectRoundRectangle,BEGIN
+	Rect,10,10,305,52,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,20,20,
+	ClassName,RoundRect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRoundRectangle,END
+ObjectText,BEGIN
+	Rect,10,10,305,55,
+	TextColor,255,255,255,255,
+	String,"AA012 / 013 [ Run#1 (12"") ]",
+	String,Stage2 Position Setting,
+	TextAlign,1,1,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,13,1,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectRectangle,BEGIN
+	Rect,10,55,305,175,
+	LineColor,74,128,177,255,
+	FillColor,240,242,246,255,1,
+
+	LineThick,2,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rect1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectButtonProgramm,BEGIN
+	Rect,20,65,295,110,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,retn,1,"0,"
+Programm,BEGIN,
+if ($PLC.AUTO == 0)		
+{		
+	retn = @MessageBox("Stage2 - Run1 Position을 Open으로 하시겠습니까?", "Stage2 - Run1", MB_YESNO);	
+		
+	if (retn != IDYES)	
+	{	
+		return;
+	}	
+	else	
+	{	
+		$PLC.STAGE1_MOV1_POS_SET = 1;
+	}	
+}		
+else		
+{		
+	@MessageBox("Switching Mode가 Manual일 때 가능합니다.", "Switching Mode", MB_OK);	
+}
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,OPEN,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ScriptColorBack,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+if ($PLC.STAGE1_MOV1_POS_SET == 1)
+{
+	return @RGB(242, 90, 56);
+}
+else
+{
+	return @RGB(211, 211, 211);
+}
+Programm,END,
+	ScriptColorBack,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,20,120,295,165,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,int,retn,1,"0,"
+Programm,BEGIN,
+if ($PLC.AUTO == 0)			
+{			
+	retn = @MessageBox("Stage2 - Run1 Position을 Close로 하시겠습니까?", "Stage2 - Run1", MB_YESNO);		
+			
+	if (retn != IDYES)		
+	{		
+		return;	
+	}		
+	else		
+	{		
+		$PLC.STAGE1_MOV1_POS_SET = 0;	
+	}		
+}			
+else			
+{			
+	@MessageBox("Switching Mode가 Manual일 때 가능합니다.", "Switching Mode", MB_OK);		
+}
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,CLOSE,
+	LogFont,나눔스퀘어_ac ExtraBold,12,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ScriptColorBack,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+if ($PLC.STAGE1_MOV1_POS_SET == 0)
+{
+	return @RGB(4, 217, 96);
+}
+else
+{
+	return @RGB(211, 211, 211);
+}
+Programm,END,
+	ScriptColorBack,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,

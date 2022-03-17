@@ -1,0 +1,696 @@
+Resolution,448,264
+DefaultLocation,0,0,0
+ModuleOptic,0
+ModuleWindowStyle,1,False,100,1,False
+ModuleWindowStyleFlag,8912896,0
+BackGroundColor,224,224,224,255
+Version, 10,3,5,0,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,447,263,
+	GroupSize,448,264,
+ObjectRectangle,BEGIN
+	Rect,8,8,440,224,
+	LineColor,180,180,180,255,
+	FillColor,255,255,255,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rectangle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectButtonProgramm,BEGIN
+	Rect,208,232,320,256,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@AlarmListSetFilterTimeFrom("Alarm_Historical", $ALARM_TAG.FROM_YEAR, $ALARM_TAG.FROM_MONTH, $ALARM_TAG.FROM_DAY, $ALARM_TAG.FROM_HOUR, 0, 0);
+@AlarmListSetFilterTimeTo("Alarm_Historical", $ALARM_TAG.TO_YEAR, $ALARM_TAG.TO_MONTH, $ALARM_TAG.TO_DAY, $ALARM_TAG.TO_HOUR, 59, 59);
+@AlarmListSetFilterPrepare(10);
+@AlarmListSetFilterPrepare(11);
+@AlarmListSetFilter("Alarm_Historical", 2, 0);
+@CloseModule();
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,OK,
+	LogFont,나눔스퀘어_ac ExtraBold,12,0,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectControlComboBox,BEGIN
+	Rect,32,56,96,72,
+	TagName,ALARM_TAG.FROM_YEAR,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,2021,
+	ListData,2022,
+	ListData,2023,
+	ListData,2024,
+	ListData,2025,
+	ListData,2026,
+	ListData,2027,
+	ListData,2028,
+	ListData,2029,
+	ListData,2030,
+	ListData,2031,
+	ListData,2032,
+	ListData,2033,
+	ListData,2034,
+	ListData,2035,
+	ListData,2036,
+	ListData,2037,
+	ListData,2038,
+	ListData,2039,
+	ListData,2040,
+	ListData,2041,
+	ListData,2042,
+	ListData,2043,
+	ListData,2044,
+	ListData,2045,
+	ListData,2046,
+	ListData,2047,
+	ListData,2048,
+	ListData,2049,
+	ListData,2050,
+	ListData,2051,
+	ListData,2052,
+	ListData,2053,
+	ListData,2054,
+	ListData,2055,
+	ListData,2056,
+	ListData,2057,
+	ListData,2058,
+	ListData,2059,
+	ListData,2060,
+	ListData,2061,
+	ListData,2062,
+	ListData,2063,
+	ListData,2064,
+	ListData,2065,
+	ListData,2066,
+	ListData,2067,
+	ListData,2068,
+	ListData,2069,
+	ListData,2070,
+	ListData,2071,
+	ListData,2072,
+	ListData,2073,
+	ListData,2074,
+	ListData,2075,
+	ListData,2076,
+	ListData,2077,
+	ListData,2078,
+	ListData,2079,
+	ListData,2080,
+	ListData,2081,
+	ListData,2082,
+	ListData,2083,
+	ListData,2084,
+	ListData,2085,
+	ListData,2086,
+	ListData,2087,
+	ListData,2088,
+	ListData,2089,
+	ListData,2090,
+	ListData,2091,
+	ListData,2092,
+	ListData,2093,
+	ListData,2094,
+	ListData,2095,
+	ListData,2096,
+	ListData,2097,
+	ListData,2098,
+	ListData,2099,
+	ListData,2100,
+	ListData,2101,
+	ListData,2102,
+	ListData,2103,
+	ListData,2104,
+	ListData,2105,
+	ListData,2106,
+	ListData,2107,
+	ListData,2108,
+	ListData,2109,
+	ListData,2110,
+	ListData,2111,
+	ListData,2112,
+	ListData,2113,
+	ListData,2114,
+	ListData,2115,
+	ListData,2116,
+	ListData,2117,
+	ListData,2118,
+	ListData,2119,
+	ListData,2120,
+	ListData,2121,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectText,BEGIN
+	Rect,16,16,80,32,
+	TextColor,0,0,0,255,
+	String,~ FROM,
+	TextAlign,0,0,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectLine,BEGIN
+	Rect,16,40,408,40,
+	LineColor,180,180,180,255,
+	LineThick,1,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectLine,BEGIN
+	Rect,16,40,16,88,
+	LineColor,180,180,180,255,
+	LineThick,1,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectText,BEGIN
+	Rect,96,56,136,72,
+	TextColor,0,0,0,255,
+	String,Year,
+	TextAlign,0,2,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,9,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectControlComboBox,BEGIN
+	Rect,136,56,184,72,
+	TagName,ALARM_TAG.FROM_MONTH,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectText,BEGIN
+	Rect,184,56,232,72,
+	TextColor,0,0,0,255,
+	String,Month,
+	TextAlign,0,2,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,9,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,280,56,312,72,
+	TextColor,0,0,0,255,
+	String,Day,
+	TextAlign,0,2,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,9,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectControlComboBox,BEGIN
+	Rect,232,56,280,72,
+	TagName,ALARM_TAG.FROM_DAY,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ListData,13,
+	ListData,14,
+	ListData,15,
+	ListData,16,
+	ListData,17,
+	ListData,18,
+	ListData,19,
+	ListData,20,
+	ListData,21,
+	ListData,22,
+	ListData,23,
+	ListData,24,
+	ListData,25,
+	ListData,26,
+	ListData,27,
+	ListData,28,
+	ListData,29,
+	ListData,30,
+	ListData,31,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectText,BEGIN
+	Rect,360,56,400,72,
+	TextColor,0,0,0,255,
+	String,Hour,
+	TextAlign,0,2,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,9,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectControlComboBox,BEGIN
+	Rect,312,56,360,72,
+	TagName,ALARM_TAG.FROM_HOUR,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ListData,13,
+	ListData,14,
+	ListData,15,
+	ListData,16,
+	ListData,17,
+	ListData,18,
+	ListData,19,
+	ListData,20,
+	ListData,21,
+	ListData,22,
+	ListData,23,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectText,BEGIN
+	Rect,16,112,80,128,
+	TextColor,0,0,0,255,
+	String,~ TO,
+	TextAlign,0,0,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectLine,BEGIN
+	Rect,16,136,408,136,
+	LineColor,180,180,180,255,
+	LineThick,1,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectLine,BEGIN
+	Rect,16,136,16,184,
+	LineColor,180,180,180,255,
+	LineThick,1,
+	LineOption,1,
+	ClassName,Line1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectLine,END
+ObjectButtonProgramm,BEGIN
+	Rect,328,232,440,256,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@CloseModule();
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Cancel,
+	LogFont,나눔스퀘어_ac ExtraBold,12,0,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,1
+	ScriptMouseZone,BEGIN
+Zone,5,5,5,5,
+Lock,1,
+	ScriptMouseZone,END
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectControlComboBox,BEGIN
+	Rect,32,152,96,168,
+	TagName,ALARM_TAG.TO_YEAR,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,2021,
+	ListData,2022,
+	ListData,2023,
+	ListData,2024,
+	ListData,2025,
+	ListData,2026,
+	ListData,2027,
+	ListData,2028,
+	ListData,2029,
+	ListData,2030,
+	ListData,2031,
+	ListData,2032,
+	ListData,2033,
+	ListData,2034,
+	ListData,2035,
+	ListData,2036,
+	ListData,2037,
+	ListData,2038,
+	ListData,2039,
+	ListData,2040,
+	ListData,2041,
+	ListData,2042,
+	ListData,2043,
+	ListData,2044,
+	ListData,2045,
+	ListData,2046,
+	ListData,2047,
+	ListData,2048,
+	ListData,2049,
+	ListData,2050,
+	ListData,2051,
+	ListData,2052,
+	ListData,2053,
+	ListData,2054,
+	ListData,2055,
+	ListData,2056,
+	ListData,2057,
+	ListData,2058,
+	ListData,2059,
+	ListData,2060,
+	ListData,2061,
+	ListData,2062,
+	ListData,2063,
+	ListData,2064,
+	ListData,2065,
+	ListData,2066,
+	ListData,2067,
+	ListData,2068,
+	ListData,2069,
+	ListData,2070,
+	ListData,2071,
+	ListData,2072,
+	ListData,2073,
+	ListData,2074,
+	ListData,2075,
+	ListData,2076,
+	ListData,2077,
+	ListData,2078,
+	ListData,2079,
+	ListData,2080,
+	ListData,2081,
+	ListData,2082,
+	ListData,2083,
+	ListData,2084,
+	ListData,2085,
+	ListData,2086,
+	ListData,2087,
+	ListData,2088,
+	ListData,2089,
+	ListData,2090,
+	ListData,2091,
+	ListData,2092,
+	ListData,2093,
+	ListData,2094,
+	ListData,2095,
+	ListData,2096,
+	ListData,2097,
+	ListData,2098,
+	ListData,2099,
+	ListData,2100,
+	ListData,2101,
+	ListData,2102,
+	ListData,2103,
+	ListData,2104,
+	ListData,2105,
+	ListData,2106,
+	ListData,2107,
+	ListData,2108,
+	ListData,2109,
+	ListData,2110,
+	ListData,2111,
+	ListData,2112,
+	ListData,2113,
+	ListData,2114,
+	ListData,2115,
+	ListData,2116,
+	ListData,2117,
+	ListData,2118,
+	ListData,2119,
+	ListData,2120,
+	ListData,2121,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectText,BEGIN
+	Rect,96,152,136,168,
+	TextColor,0,0,0,255,
+	String,Year,
+	TextAlign,0,2,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,9,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectControlComboBox,BEGIN
+	Rect,136,152,184,168,
+	TagName,ALARM_TAG.TO_MONTH,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectText,BEGIN
+	Rect,184,152,232,168,
+	TextColor,0,0,0,255,
+	String,Month,
+	TextAlign,0,2,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,9,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectText,BEGIN
+	Rect,280,152,312,168,
+	TextColor,0,0,0,255,
+	String,Day,
+	TextAlign,0,2,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,9,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectControlComboBox,BEGIN
+	Rect,232,152,280,168,
+	TagName,ALARM_TAG.TO_DAY,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ListData,13,
+	ListData,14,
+	ListData,15,
+	ListData,16,
+	ListData,17,
+	ListData,18,
+	ListData,19,
+	ListData,20,
+	ListData,21,
+	ListData,22,
+	ListData,23,
+	ListData,24,
+	ListData,25,
+	ListData,26,
+	ListData,27,
+	ListData,28,
+	ListData,29,
+	ListData,30,
+	ListData,31,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectText,BEGIN
+	Rect,360,152,400,168,
+	TextColor,0,0,0,255,
+	String,Hour,
+	TextAlign,0,2,
+	StringOption,False,False,
+	LogFont,나눔스퀘어_ac ExtraBold,9,0,0,0,0,
+	ClassName,Text1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectText,END
+ObjectControlComboBox,BEGIN
+	Rect,312,152,360,168,
+	TagName,ALARM_TAG.TO_HOUR,
+	TextColor,0,0,0,255,
+	BackColor,255,255,255,255,1,
+
+	LogFont,나눔스퀘어_ac ExtraBold,10,0,0,0,0,
+	WindowStyle,00000003,
+	StringOption,0,
+	ListData,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ListData,13,
+	ListData,14,
+	ListData,15,
+	ListData,16,
+	ListData,17,
+	ListData,18,
+	ListData,19,
+	ListData,20,
+	ListData,21,
+	ListData,22,
+	ListData,23,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,

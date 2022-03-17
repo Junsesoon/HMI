@@ -1,0 +1,447 @@
+Resolution,460,350
+DefaultLocation,0,0,0
+ModuleOptic,0
+ModuleWindowStyle,1,False,100,0,False
+ModuleWindowStyleFlag,13107200,0
+BackGroundColor,255,255,255,255
+Version, 10,3,5,9,
+ObjectGroup,BEGIN,
+	GroupRect,0,0,459,349,
+	GroupSize,460,350,
+ObjectControlComboBox,BEGIN
+	Rect,50,90,160,120,
+	TagName,REPORT.YEAR,
+	TextColor,255,255,255,255,
+	BackColor,0,0,0,255,1,
+
+	LogFont,굴림,18,1,0,0,0,
+	WindowStyle,00000002,
+	StringOption,0,
+	ListData,2021,
+	ListData,2022,
+	ListData,2023,
+	ListData,2024,
+	ListData,2025,
+	ListData,2026,
+	ListData,2027,
+	ListData,2028,
+	ListData,2029,
+	ListData,2030,
+	ListData,2031,
+	ListData,2032,
+	ListData,2033,
+	ListData,2034,
+	ListData,2035,
+	ListData,2036,
+	ListData,2037,
+	ListData,2038,
+	ListData,2039,
+	ListData,2040,
+	ListData,2041,
+	ListData,2042,
+	ListData,2043,
+	ListData,2044,
+	ListData,2045,
+	ListData,2046,
+	ListData,2047,
+	ListData,2048,
+	ListData,2049,
+	ListData,2050,
+	ListData,2051,
+	ListData,2052,
+	ListData,2053,
+	ListData,2054,
+	ListData,2055,
+	ListData,2056,
+	ListData,2057,
+	ListData,2058,
+	ListData,2059,
+	ListData,2060,
+	ListData,2061,
+	ListData,2062,
+	ListData,2063,
+	ListData,2064,
+	ListData,2065,
+	ListData,2066,
+	ListData,2067,
+	ListData,2068,
+	ListData,2069,
+	ListData,2070,
+	ListData,2071,
+	ListData,2072,
+	ListData,2073,
+	ListData,2074,
+	ListData,2075,
+	ListData,2076,
+	ListData,2077,
+	ListData,2078,
+	ListData,2079,
+	ListData,2080,
+	ListData,2081,
+	ListData,2082,
+	ListData,2083,
+	ListData,2084,
+	ListData,2085,
+	ListData,2086,
+	ListData,2087,
+	ListData,2088,
+	ListData,2089,
+	ListData,2090,
+	ListData,2091,
+	ListData,2092,
+	ListData,2093,
+	ListData,2094,
+	ListData,2095,
+	ListData,2096,
+	ListData,2097,
+	ListData,2098,
+	ListData,2099,
+	ListData,2100,
+	ListData,2101,
+	ListData,2102,
+	ListData,2103,
+	ListData,2104,
+	ListData,2105,
+	ListData,2106,
+	ListData,2107,
+	ListData,2108,
+	ListData,2109,
+	ListData,2110,
+	ListData,2111,
+	ListData,2112,
+	ListData,2113,
+	ListData,2114,
+	ListData,2115,
+	ListData,2116,
+	ListData,2117,
+	ListData,2118,
+	ListData,2119,
+	ListData,2120,
+	ListData,2121,
+	ListData,2122,
+	ListData,2123,
+	ListData,2124,
+	ListData,2125,
+	ListData,2126,
+	ListData,2127,
+	ListData,2128,
+	ListData,2129,
+	ListData,2130,
+	ListData,2131,
+	ListData,2132,
+	ListData,2133,
+	ListData,2134,
+	ListData,2135,
+	ListData,2136,
+	ListData,2137,
+	ListData,2138,
+	ListData,2139,
+	ListData,2140,
+	ListData,2141,
+	ListData,2142,
+	ListData,2143,
+	ListData,2144,
+	ListData,2145,
+	ListData,2146,
+	ListData,2147,
+	ListData,2148,
+	ListData,2149,
+	ListData,2150,
+	ListData,2151,
+	ListData,2152,
+	ListData,2153,
+	ListData,2154,
+	ListData,2155,
+	ListData,2156,
+	ListData,2157,
+	ListData,2158,
+	ListData,2159,
+	ListData,2160,
+	ListData,2161,
+	ListData,2162,
+	ListData,2163,
+	ListData,2164,
+	ListData,2165,
+	ListData,2166,
+	ListData,2167,
+	ListData,2168,
+	ListData,2169,
+	ListData,2170,
+	ListData,2171,
+	ListData,2172,
+	ListData,2173,
+	ListData,2174,
+	ListData,2175,
+	ListData,2176,
+	ListData,2177,
+	ListData,2178,
+	ListData,2179,
+	ListData,2180,
+	ListData,2181,
+	ListData,2182,
+	ListData,2183,
+	ListData,2184,
+	ListData,2185,
+	ListData,2186,
+	ListData,2187,
+	ListData,2188,
+	ListData,2189,
+	ListData,2190,
+	ListData,2191,
+	ListData,2192,
+	ListData,2193,
+	ListData,2194,
+	ListData,2195,
+	ListData,2196,
+	ListData,2197,
+	ListData,2198,
+	ListData,2199,
+	ListData,2200,
+	ListData,2031,
+	ListData,2032,
+	ListData,2033,
+	ListData,2034,
+	ListData,2035,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectSingleText,BEGIN
+	Rect,170,92,192,117,
+	TextColor,0,0,0,255,
+	String,-,
+	LogFont,굴림,18,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectRectangle,BEGIN
+	Rect,50,30,400,70,
+	LineColor,0,0,0,255,
+	FillColor,48,79,140,255,1,
+
+	LineThick,1,
+	LineOption,1,
+	FillOption,1,
+	StringOption,0,
+	ClassName,Rectangle1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectRectangle,END
+ObjectSingleText,BEGIN
+	Rect,134,39,316,64,
+	TextColor,255,255,255,255,
+	String,Current Report,
+	LogFont,굴림,18,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectControlComboBox,BEGIN
+	Rect,200,90,280,120,
+	TagName,REPORT.MONTH,
+	TextColor,255,255,255,255,
+	BackColor,0,0,0,255,1,
+
+	LogFont,굴림,18,1,0,0,0,
+	WindowStyle,00000002,
+	StringOption,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectSingleText,BEGIN
+	Rect,290,92,312,117,
+	TextColor,0,0,0,255,
+	String,-,
+	LogFont,굴림,18,1,0,0,0,
+	ClassName,SingleText1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectSingleText,END
+ObjectControlComboBox,BEGIN
+	Rect,320,90,400,120,
+	TagName,REPORT.DAY,
+	TextColor,255,255,255,255,
+	BackColor,0,0,0,255,1,
+
+	LogFont,굴림,18,1,0,0,0,
+	WindowStyle,00000002,
+	StringOption,0,
+	ListData,1,
+	ListData,2,
+	ListData,3,
+	ListData,4,
+	ListData,5,
+	ListData,6,
+	ListData,7,
+	ListData,8,
+	ListData,9,
+	ListData,10,
+	ListData,11,
+	ListData,12,
+	ListData,13,
+	ListData,14,
+	ListData,15,
+	ListData,16,
+	ListData,17,
+	ListData,18,
+	ListData,19,
+	ListData,20,
+	ListData,21,
+	ListData,22,
+	ListData,23,
+	ListData,24,
+	ListData,25,
+	ListData,26,
+	ListData,27,
+	ListData,28,
+	ListData,29,
+	ListData,30,
+	ListData,31,
+	ClassName,cmbReportYear,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectControlComboBox,END
+ObjectButtonProgramm,BEGIN
+	Rect,50,260,400,320,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Programm,BEGIN,
+@ModuleCloseName("POP_Daily_Report_GC.modx")
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Close,
+	LogFont,굴림,18,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+ObjectButtonProgramm,BEGIN
+	Rect,50,180,400,240,
+	TextColor,0,0,0,255,
+	BackColor,211,211,211,255,1,
+
+	LineColor,0,0,0,255,
+	LineThick,1,
+	FileName,noname.ctlx,
+		LocalScript,BEGIN
+Description,,
+ScanTime,1,False,False,
+Data,string,buf_date,1,"0,"
+Data,int,i,1,"0,"
+Data,string,ST01,1,"0,"
+Data,string,ST02,1,"0,"
+Data,string,ST03,1,"0,"
+Data,string,ST04,1,"0,"
+Data,string,ST05,1,"0,"
+Data,string,ST06,1,"0,"
+Data,string,ST07,1,"0,"
+Data,string,ST08,1,"0,"
+Data,string,ST09,1,"0,"
+Data,string,ST10,1,"0,"
+Data,string,ST11,1,"0,"
+Data,string,ST12,1,"0,"
+Data,string,ST13,1,"0,"
+Data,string,ST14,1,"0,"
+Programm,BEGIN,
+@sprintf(buf_date, "%04d-%02d-%02d", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+
+@sprintf(ST01, "SELECT MIN(KRISO_F_NRST_MASS) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST02, "SELECT MAX(KRISO_F_NRST_MASS) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+
+@sprintf(ST03, "SELECT AVG(KRISO_U_SCV) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST04, "SELECT AVG(KRISO_U_ICV) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST05, "SELECT AVG(KRISO_U_METHANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST06, "SELECT AVG(KRISO_U_ETHANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST07, "SELECT AVG(KRISO_U_PROPANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST08, "SELECT AVG(KRISO_U_I_BUTANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST09, "SELECT AVG(KRISO_U_N_BUTANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST10, "SELECT AVG(KRISO_U_I_PENTANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST11, "SELECT AVG(KRISO_U_N_PENTANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST12, "SELECT AVG(KRISO_U_HEXANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST13, "SELECT AVG(KRISO_U_NITROGEN) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+@sprintf(ST14, "SELECT AVG(KRISO_U_CO2) from Data WHERE [Data Time] >= #%04d/%02d/%02d 00:00:00# AND [Data Time] <= #%04d/%02d/%02d 00:59:59#", $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY);
+
+for (i = 1; i <= 23; i = i + 1){
+
+@sprintf(ST01, "%s UNION ALL SELECT MIN(KRISO_F_NRST_MASS) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST01, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST02, "%s UNION ALL SELECT MAX(KRISO_F_NRST_MASS) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST02, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+
+@sprintf(ST03, "%s UNION ALL SELECT AVG(KRISO_U_SCV) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST03, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST04, "%s UNION ALL SELECT AVG(KRISO_U_ICV) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST04, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST05, "%s UNION ALL SELECT AVG(KRISO_U_METHANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST05, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST06, "%s UNION ALL SELECT AVG(KRISO_U_ETHANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST06, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST07, "%s UNION ALL SELECT AVG(KRISO_U_PROPANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST07, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST08, "%s UNION ALL SELECT AVG(KRISO_U_I_BUTANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST08, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST09, "%s UNION ALL SELECT AVG(KRISO_U_N_BUTANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST09, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST10, "%s UNION ALL SELECT AVG(KRISO_U_I_PENTANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST10, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST11, "%s UNION ALL SELECT AVG(KRISO_U_N_PENTANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST11, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST12, "%s UNION ALL SELECT AVG(KRISO_U_HEXANE) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST12, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST13, "%s UNION ALL SELECT AVG(KRISO_U_NITROGEN) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST13, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+@sprintf(ST14, "%s UNION ALL SELECT AVG(KRISO_U_CO2) from Data WHERE [Data Time] >= #%04d/%02d/%02d %02d:00:00# AND [Data Time] <= #%04d/%02d/%02d %02d:59:59#", ST14, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, i);
+
+}
+
+@GlobalSetVar("report_date", buf_date);
+
+@GlobalSetVar("val01", ST01);
+@GlobalSetVar("val02", ST02);
+@GlobalSetVar("val03", ST03);
+@GlobalSetVar("val04", ST04);
+@GlobalSetVar("val05", ST05);
+@GlobalSetVar("val06", ST06);
+@GlobalSetVar("val07", ST07);
+@GlobalSetVar("val08", ST08);
+@GlobalSetVar("val09", ST09);
+@GlobalSetVar("val10", ST10);
+@GlobalSetVar("val11", ST11);
+@GlobalSetVar("val12", ST12);
+@GlobalSetVar("val13", ST13);
+@GlobalSetVar("val14", ST14);
+
+@ExcelReportPrepare("E:\\KRISO\\Report_Form\\_03.Daily_Report_GC.xls", "", 0, 1, $REPORT.YEAR, $REPORT.MONTH, $REPORT.DAY, $REPORT.HOUR, 1);
+@ExcelReportRun();
+Programm,END,
+		LocalScript,END
+	StringOption,1,
+	String,Create Report,
+	LogFont,굴림,18,1,0,0,0,
+	ClassName,ButtonProgram1,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectButtonProgramm,END
+	ClassName,NoName,0,,0,,0,1
+	ExpandScript,BEGIN
+		Active,0
+	ExpandScript,END
+ObjectGroup,END,
